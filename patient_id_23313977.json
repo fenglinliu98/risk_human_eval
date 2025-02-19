@@ -1,0 +1,275 @@
+{
+  "patient_id": "23313977",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "3-4",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [4, 97% mortality risk]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "1 question right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Forced gaze palsy: cannot be overcome",
+        "3: Visual fields": "Patient is bilaterally blind",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No movement",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "No movement",
+        "6B: Right leg motor drift": "No movement",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Complete loss: cannot sense being touched at all",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "Profound hemi-inattention (ex: does not recognize own hand)"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [34, severe stroke]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "<70",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [4, very low probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "3948",
+      "tool_name": "EGSYS (Evaluation of Guidelines in SYncope Study) Score for Syncope",
+      "params": {
+        "Abnormal EKG and/or heart disease": "No",
+        "Palpitations before syncope": "No",
+        "Syncope during effort ": "No",
+        "Syncope in supine position": "No",
+        "Autonomic prodromes": "No",
+        "Predisposing and/or precipitating factors": "No"
+      },
+      "tool_summary": "EGSYS Score: [0, low risk of cardiac syncope and 3% mortality at 21-24 months]"
+    },
+    {
+      "tool_id": "1894",
+      "tool_name": "Barnes Jewish Hospital Stroke Dysphagia Screen",
+      "params": {
+        "GCS < 13": "Yes",
+        "Facial asymmetry/weakness present": "No",
+        "Tongue asymmetry/weakness present": "No",
+        "Palatal asymmetry/weakness present": "Yes",
+        "Any signs of aspiration during 3 oz water test": "Yes"
+      },
+      "tool_summary": "Barnes Jewish Hospital Stroke Dysphagia Screen (BJH-SDS): [Positive Screen (Yes to any question), refer to speech pathology; high risk of dysphagia and aspiration]"
+    },
+    {
+      "tool_id": "10487",
+      "tool_name": "SETscore",
+      "params": {
+        "Dysphagia": "Yes",
+        "Observed aspiration": "Yes",
+        "GCS on admission": "<10",
+        "Brainstem": "Yes",
+        "Space-occupying cerebellar": "No",
+        "Ischemic infarct >2/3 MCA territory": "No",
+        "ICH volume >25 mL": "Yes",
+        "Diffuse lesion": "Yes",
+        "Hydrocephalus": "Yes",
+        "(Neuro)surgical intervention": "Yes",
+        "Additional respiratory disease": "No",
+        "PaO2/FiO2 ": "No",
+        "Acute physiology score (APACHE II)": ">20",
+        "Lung injury score": "<=1",
+        "Sepsis": "No"
+      },
+      "tool_summary": "Mini Score (ID: 10487): [31, high risk for prolonged NICU stay, extended ventilation time, and possible need for tracheostomy]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Localizes pain",
+        " Pupil response": "Both pupils unreactive to light"
+      },
+      "tool_summary": "GCS-Pupils Score: [5, 32.57% mortality at 6 months post-injury; 57.75% unfavorable outcome (vegetative state or severe disability) at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10454",
+      "tool_name": "2023 Emergency Medicine Coding Guide",
+      "params": {
+        "Number and Complexity": "5: illness/injury w/life or body threat (b)",
+        "Risk level": "High",
+        "Tests ordered": ">=3",
+        "Tests results reviewed (excluding labs)": ">=3",
+        "Prior external notes reviewed": "2",
+        "Assessment requiring and independent historian": "Yes",
+        "Independent interpretation of tests": "Yes",
+        "Discussed management/test interpretation w/external professional": "Yes"
+      },
+      "tool_summary": "Estimated Level of Service: [5, high risk]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "No",
+        "Ask patient age and current month": "Neither correct",
+        "Ask patient to close eyes and open/close hand": "Follows neither command",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Cannot do"
+      },
+      "tool_summary": "Mini and CP-SSS Medical Tool: [2, high risk of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [Grade IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "10475",
+      "tool_name": "Revised Tokuhashi Scoring System",
+      "params": {
+        "General condition (Karnofsky Performance Status)": "Poor (KPS 10%-40%)",
+        "Number of extraspinal bone metastases foci": "0",
+        "Number of metastases in the vertebral body": "1",
+        "Metastases to the major internal organs": "No metastases",
+        "Primary site of the cancer": "Liver, gallbladder, unidentified",
+        "Spinal cord palsy (Frankel Grade)": "Complete (Frankel A, B)"
+      },
+      "tool_summary": "Revised Tokuhashi Score: [7, mean survival <6 months]"
+    },
+    {
+      "tool_id": "10277",
+      "tool_name": "Rome IV Diagnostic Criteria for Reflux Hypersensitivity",
+      "params": {
+        "Retrosternal symptoms including heartburn and chest pain": "No",
+        "Normal endoscopy and absence of evidence that EoE is the cause for symptoms": "No",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "No",
+        "Evidence of triggering of symptoms by reflux events despite normal acid exposure on pH or pH-impedance monitoring (response to antisecretory therapy does not exclude the diagnosis)": "No"
+      },
+      "tool_summary": "Mini/Rome IV for Reflux Hypersensitivity: [Negative, low risk of reflux hypersensitivity]"
+    },
+    {
+      "tool_id": "10319",
+      "tool_name": "Rome IV Diagnostic Criteria for Biliary Pain",
+      "params": {
+        "Builds up to a steady level and lasting 30 minutes or longer": "No",
+        "Occurs at different intervals (not daily)": "No",
+        "Severe enough to interrupt daily activities or lead to an emergency department visit": "Yes",
+        "Not significantly (<20%) related to bowel movements": "Yes",
+        "Not significantly (<20%) relieved by postural change or acid suppression": "Yes"
+      },
+      "tool_summary": "Rome IV for Biliary Pain: [Negative, low risk of biliary pain as per Rome IV criteria]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": "50 to <100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Moderate increase",
+        "Prolonged PT, seconds": "3 to <6",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [4, possibly non-overt DIC]"
+    },
+    {
+      "tool_id": "1736",
+      "tool_name": "CIWA-Ar for Alcohol Withdrawal",
+      "params": {
+        "Nausea/vomiting": "Constant nausea, frequent dry heaves and vomiting",
+        "Tremor": "No tremor",
+        "Paroxysmal sweats": "Barely perceptible sweating, palms moist",
+        "Anxiety": "No anxiety, at ease",
+        "Agitation": "Normal activity",
+        "Tactile disturbances": "None",
+        "Auditory disturbances": "Not present",
+        "Visual disturbances": "Not present",
+        "Headache/fullness in head": "Not Present",
+        "Orientation/clouding of sensorium": "Disoriented to place or person"
+      },
+      "tool_summary": "CIWA-Ar for Alcohol Withdrawal: [12, may require medication for withdrawal]"
+    },
+    {
+      "tool_id": "1729",
+      "tool_name": "CAGE Questions for Alcohol Use",
+      "params": {
+        "Have you ever felt you needed to Cut down on your drinking?": "Yes",
+        "Have people Annoyed you by criticizing your drinking?": "No",
+        "Have you ever felt Guilty about drinking?": "No",
+        "Have you ever felt you needed a drink first thing in the morning (Eye-opener) to steady your nerves or to get rid of a hangover?": "No"
+      },
+      "tool_summary": "Mini-CAGE Assessment: [1, low risk for alcoholism]"
+    },
+    {
+      "tool_id": "3941",
+      "tool_name": "Rapid Arterial oCclusion Evaluation (RACE) Scale for Stroke",
+      "params": {
+        "Facial palsy": "Absent",
+        "Arm motor impairment": "Severe",
+        "Leg motor impairment": "Severe",
+        "Head and gaze deviation": "Absent",
+        "Hemiparesis": "Left",
+        "Aphasia": "Performs neither task",
+        "Agnosia": "Does not recognize his/her arm nor the impairment"
+      },
+      "tool_summary": "RACE Scale/Score: [6, high risk of LVO and referral to stroke center with endovascular capabilities recommended]"
+    },
+    {
+      "tool_id": "362",
+      "tool_name": "Wells' Criteria for DVT",
+      "params": {
+        "Active cancer": "No",
+        "Bedridden recently >3 days or major surgery within 12 weeks": "Yes",
+        "Calf swelling >3 cm compared to the other leg": "No",
+        "Collateral (nonvaricose) superficial veins present": "No",
+        "Entire leg swollen": "No",
+        "Localized tenderness along the deep venous system": "No",
+        "Pitting edema, confined to symptomatic leg": "No",
+        "Paralysis, paresis, or recent plaster immobilization of the lower extremity": "No",
+        "Previously documented DVT": "No",
+        "Alternative diagnosis to DVT as likely or more likely": "Yes"
+      },
+      "tool_summary": "Wells' Score for DVT: [-1, low risk group for DVT]"
+    },
+    {
+      "tool_id": "10321",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Biliary Sphincter of Oddi Disorder (SOD)",
+      "params": {
+        "Criteria for biliary pain": "No",
+        "Elevated liver enzymes OR dilated bile duct, but not both": "Yes",
+        "Absence of bile duct stones or other structural abnormalities": "Yes"
+      },
+      "tool_summary": "Rome IV for Biliary Sphincter of Oddi Disorder: [Negative, low risk for biliary sphincter of Oddi disorder]"
+    }
+  ]
+}

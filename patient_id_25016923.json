@@ -1,0 +1,285 @@
+{
+  "patient_id": "25016923",
+  "tool_results": [
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "No"
+      },
+      "tool_summary": "ABCD2 Score: [6, high risk of stroke]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Mild-moderate loss: less sharp/more dull ",
+        "9: Language/aphasia": "Normal; no aphasia",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [1, minimal risk of stroke impairment]"
+    },
+    {
+      "tool_id": "3992",
+      "tool_name": "STOP-BANG Score for Obstructive Sleep Apnea",
+      "params": {
+        "Do you snore loudly?": "No",
+        "Do you often feel tired, fatigued, or sleepy during the daytime?": "No",
+        "Has anyone observed you stop breathing during sleep?": "No",
+        "Do you have (or are you being treated for) high blood pressure?": "Yes",
+        "BMI": "<=35 kg/m²",
+        "Age": ">50 years",
+        "Neck circumference": "<=40 cm",
+        "Gender": "Male"
+      },
+      "tool_summary": "STOP-BANG Score: [3, Intermediate risk for moderate to severe OSA]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "No",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [3, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [5, high stroke risk]"
+    },
+    {
+      "tool_id": "10421",
+      "tool_name": "Canadian Transient Ischemic Attack (TIA) Score",
+      "params": {
+        "First TIA in lifetime": "No",
+        "Symptoms >=10 mins": "Yes",
+        "History of carotid stenosis": "Yes",
+        "Already on antiplatelet therapy": "Yes",
+        "History of gait disturbance": "No",
+        "History of unilateral weakness": "Yes",
+        "History of vertigo": "No",
+        "Initial triage diastolic blood pressure >=110 mmHg": "No",
+        "Dysarthria or aphasia (history or examination)": "No",
+        "Atrial fibrillation on ECG": "No",
+        "Infarction (new or old) on CT": "No",
+        "Platelet count >=400x109/L": "No",
+        "Glucose >=15 mmol/L": "No"
+      },
+      "tool_summary": "Mini Stroke Risk Score: [8 points, medium risk of stroke in the next 7 days]; Canadian TIA Score: [8 points, medium risk]; Stroke Risk Percentage: [2%, medium risk]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": "65-69",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": ">60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "Yes",
+        "Diabetes": "No",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "Dual-antiplatelet",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "No",
+        "Liver disease": "No"
+      },
+      "tool_summary": "Mini Score: [7, moderate 1-year major bleeding risk]"
+    },
+    {
+      "tool_id": "3995",
+      "tool_name": "Abbreviated Mental Test 4 (AMT-4)",
+      "params": {
+        "Age": "Correct",
+        "Date of birth": "Correct",
+        "Place": "Correct",
+        "Year": "Correct"
+      },
+      "tool_summary": "AMT-4 Score (Abbreviated Mental Test - 4): [4, normal cognition]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "No",
+        "Q2: Are you able to do the same work as before?": "Yes",
+        "Q3: Are you able to keep up with your hobbies?": "Yes",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "No",
+        "Q6: Do you need help with shopping or traveling close to home?": "No",
+        "Q7: Do you need another person to help you walk?": "No",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "No",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "No"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [0, no symptoms]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria (Tool ID: 10007): [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "No",
+        "History of bleeding": "No",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [1.5, Low Bleeding Risk]"
+    },
+    {
+      "tool_id": "10466",
+      "tool_name": "Edinburgh Postnatal Depression Scale (EPDS)",
+      "params": {
+        "I have been able to laugh and see the funny side of things": "As much as I always could",
+        "I have looked forward with enjoyment to things": "As much as I ever did",
+        "I have blamed myself unnecessarily when things went wrong": "No, never",
+        "I have been anxious or worried for no good reason": "No, not at all",
+        "I have felt scared or panicky for no very good reason": "No, not at all",
+        "Things have been getting on top of me": "No, I have been coping as well as ever",
+        "I have been so unhappy that I have had difficulty sleeping": "No, not at all",
+        "I have felt sad or miserable": "No, not at all",
+        "I have been so unhappy that I have been crying": "No, never",
+        "The thought of harming myself has occurred to me": "Never"
+      },
+      "tool_summary": "EPDS Score: [0, no depression risk]"
+    },
+    {
+      "tool_id": "10040",
+      "tool_name": "Duval/CIBMTR Score for Acute Myelogenous Leukemia (AML) Survival",
+      "params": {
+        "Disease group": "Primary induction failure or duration of first complete remission >6 months",
+        "Cytogenetics prior to HSCT": "Good or intermediate ",
+        " HLA match group": "HLA identical sibling or well matched or partially matched unrelated",
+        "Circulating blasts ": "Absent",
+        "Karnofsky or Lanksy scale": "90-100"
+      },
+      "tool_summary": "Duval Score: [0, 42% 3-year overall survival after transplantation]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks frequently: walks outside room >=2x/day and inside room at least once every 2 hrs during waking hours",
+        "Mobility": "No limitation: makes major and frequent changes in position without assistance",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "No apparent problem: moves in bed/chair independently, has sufficient muscle strength to lift up completely during move, maintains good position in bed/chair "
+      },
+      "tool_summary": "Braden Score: [21, Average risk]"
+    },
+    {
+      "tool_id": "10422",
+      "tool_name": "Penicillin Allergy Decision Rule (PEN-FAST)",
+      "params": {
+        "Five years or less since reaction": "No",
+        "Anaphylaxis or angioedema\r\nOR\r\nSevere cutaneous adverse reaction": "No",
+        "Treatment required for reaction": "No"
+      },
+      "tool_summary": "PEN-FAST Score: [0, very low risk of positive penicillin allergy test]"
+    },
+    {
+      "tool_id": "10084",
+      "tool_name": "RegiSCAR Score for Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+      "params": {
+        "Fever (>=38.5 degC)": "No/Unknown",
+        "Enlarged lymph nodes": "No/Unknown",
+        "Atypical lymphocytes": "No/Unknown",
+        "Eosinophilia": "0-699 cells or <10% (no eosinophilia)",
+        "Skin rash extent >50%": "No/Unknown",
+        "At least two of: edema, infiltration, purpura, scaling": "No",
+        "Biopsy suggesting DRESS": "No",
+        "Internal organ involved": "0",
+        "Resolution in >15 days": "No/Unknown",
+        "Alternative diagnoses excluded (by >=3 biological investigations)": "No/Unknown"
+      },
+      "tool_summary": "RegiSCAR Score for DRESS: [-4, No case]"
+    },
+    {
+      "tool_id": "10053",
+      "tool_name": "Binet Staging System for Chronic Lymphocytic Leukemia (CLL)",
+      "params": {
+        "Areas of lymphadenopathy": "<3",
+        "Anemia": "No",
+        "Thrombocytopenia": "No"
+      },
+      "tool_summary": "Binet Staging for CLL: [Stage A, low risk]"
+    },
+    {
+      "tool_id": "10028",
+      "tool_name": "FOUR (Full Outline of UnResponsiveness) Score",
+      "params": {
+        "Eye response": "Eyelids open or opened, tracking, or blinking to command",
+        "Motor response (upper extremities)": "Thumbs-up, fist, or peace sign",
+        "Brainstem reflexes": "Pupil and corneal reflexes present",
+        "Respiration pattern": "Not intubated, regular breathing pattern"
+      },
+      "tool_summary": "FOUR Score (Full Outline of UnResponsiveness): [16, minimal coma severity]"
+    },
+    {
+      "tool_id": "10024",
+      "tool_name": "ASA Physical Status/ASA Classification",
+      "params": {
+        "Description": "Patient with severe systemic disease",
+        "Emergency surgery": "No"
+      },
+      "tool_summary": "ASA Physical Status Classification (ASA 3): [3, moderate risk]"
+    },
+    {
+      "tool_id": "10078",
+      "tool_name": "Pediatric NEXUS II Head CT Decision Instrument for Blunt Trauma",
+      "params": {
+        "Evidence of skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "Yes",
+        "Abnormal level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Persistent vomiting": "No",
+        "Coagulopathy": "No"
+      },
+      "tool_summary": "Mini/NEXUS CT Head Rule: [High, risk]"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "patient_id": "26189147",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Male",
+        "CHF history": "Yes",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "No",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [5, moderate to high risk of stroke]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "No",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "10-14",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": ">300",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": ">25 (>25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator: [NaN, cannot assess risk]"
+    },
+    {
+      "tool_id": "3992",
+      "tool_name": "STOP-BANG Score for Obstructive Sleep Apnea",
+      "params": {
+        "Do you snore loudly?": "No",
+        "Do you often feel tired, fatigued, or sleepy during the daytime?": "No",
+        "Has anyone observed you stop breathing during sleep?": "No",
+        "Do you have (or are you being treated for) high blood pressure?": "Yes",
+        "BMI": "<=35 kg/m²",
+        "Age": ">50 years",
+        "Neck circumference": "<=40 cm",
+        "Gender": "Male"
+      },
+      "tool_summary": "STOP-BANG Score: [3, Intermediate risk for moderate to severe OSA]"
+    },
+    {
+      "tool_id": "3994",
+      "tool_name": "Ottawa Heart Failure Risk Scale (OHFRS)",
+      "params": {
+        "Stroke or TIA": "No",
+        "Intubation for respiratory distress": "No",
+        "Heart rate on ED arrival >=110": "No",
+        "SaO₂ <90% on arrival": "No",
+        "Heart rate >=110 during 3-minutes walk test (or too ill to perform walk test)": "No",
+        "New ischemic changes on EKG": "No",
+        "Urea >=12 mmol/L (33 mg/dL)": "Yes",
+        "Serum CO₂ >=35 mmol/L (mEq/L)": "No",
+        "Troponin I or T elevated to MI level": "No",
+        "NT-proBNP >=5,000 ng/L (pg/mL)": "No"
+      },
+      "tool_summary": "OHFRS Score: [1, Medium risk of serious adverse event (5.1%)]"
+    },
+    {
+      "tool_id": "1785",
+      "tool_name": "HEMORR₂HAGES Score for Major Bleeding Risk",
+      "params": {
+        "Hepatic or Renal Disease": "Yes",
+        "Ethanol (Alcohol) Abuse": "No",
+        "Malignancy History": "No",
+        "Older (Age >75)": "No",
+        "Reduced Platelet Count or Function": "No",
+        "Rebleeding Risk": "Yes",
+        "Hypertension (Uncontrolled)": "No",
+        "Anemia": "Yes",
+        "Genetic Factors": "No",
+        "Excessive Fall Risk": "Yes",
+        "Stroke History": "No"
+      },
+      "tool_summary": "HEMORR2HAGES Score: [5, moderate risk of bleeding]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks frequently: walks outside room >=2x/day and inside room at least once every 2 hrs during waking hours",
+        "Mobility": "No limitation: makes major and frequent changes in position without assistance",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "No apparent problem: moves in bed/chair independently, has sufficient muscle strength to lift up completely during move, maintains good position in bed/chair "
+      },
+      "tool_summary": "Braden Score: [22, Average risk]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [4, low risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "Yes",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "Yes",
+        "Vein graft stent": "Yes"
+      },
+      "tool_summary": "DAPT Score: [5, high risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "Yes",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [7, elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "70-74",
+        "Neurologically intact or with minimal deficits at admission ": "Yes",
+        "Major trauma": "Yes",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "Yes",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [12, average risk]"
+    },
+    {
+      "tool_id": "1729",
+      "tool_name": "CAGE Questions for Alcohol Use",
+      "params": {
+        "Have you ever felt you needed to Cut down on your drinking?": "No",
+        "Have people Annoyed you by criticizing your drinking?": "No",
+        "Have you ever felt Guilty about drinking?": "No",
+        "Have you ever felt you needed a drink first thing in the morning (Eye-opener) to steady your nerves or to get rid of a hangover?": "No"
+      },
+      "tool_summary": "CAGE Questionnaire for Alcohol Use: [0, low risk of alcohol dependency]"
+    },
+    {
+      "tool_id": "10024",
+      "tool_name": "ASA Physical Status/ASA Classification",
+      "params": {
+        "Description": "Patient with severe systemic disease",
+        "Emergency surgery": "No"
+      },
+      "tool_summary": "ASA Physical Status Classification (ASA 3): [3, moderate risk]"
+    },
+    {
+      "tool_id": "10078",
+      "tool_name": "Pediatric NEXUS II Head CT Decision Instrument for Blunt Trauma",
+      "params": {
+        "Evidence of skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "No",
+        "Abnormal level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Persistent vomiting": "No",
+        "Coagulopathy": "Yes"
+      },
+      "tool_summary": "Mini/NEXUS CT Head Rule: [High, risk]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "No",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "1 lineage",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": ">250 (>2.5)",
+        "AST, U/L": "<30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [0, <1% probability of hemophagocytic syndrome]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Male",
+        "Renal function (GFR), mL/min/m2": "<30",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "No",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "Yes",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [9, high risk of bleeding]"
+    },
+    {
+      "tool_id": "10184",
+      "tool_name": "HINTS for Stroke in Acute Vestibular Syndrome",
+      "params": {
+        "Horizontal head impulse test (h-HIT)": "Normal/untestable ",
+        "Observation of nystagmus": "Direction-changing horizontal/untestable nystagmus",
+        "Test of skew": "Present/untestable skew deviation"
+      },
+      "tool_summary": "HINTS exam/Score: [Typically dangerous, high risk for stroke or serious vestibular conditions]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "Yes",
+        "Have you dropped many of your activities and interests?": "No",
+        "Do you feel that your life is empty?": "No",
+        "Do you often get bored?": "No",
+        "Are you in good spirits most of the time?": "Yes",
+        "Are you afraid that something bad is going to happen to you?": "No",
+        "Do you feel happy most of the time?": "Yes",
+        "Do you often feel helpless?": "No",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "No",
+        "Do you feel you have more problems with memory than most?": "No",
+        "Do you think it is wonderful to be alive now?": "Yes",
+        "Do you feel pretty worthless the way you are now?": "No",
+        "Do you feel full of energy?": "Yes",
+        "Do you feel that your situation is hopeless?": "No",
+        "Do you think that most people are better off than you are?": "No"
+      },
+      "tool_summary": "Geriatric Depression Scale (GDS-15): [0, Absence of clinically significant depressive symptoms]"
+    }
+  ]
+}

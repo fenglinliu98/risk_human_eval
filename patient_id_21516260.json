@@ -1,0 +1,265 @@
+{
+  "patient_id": "21516260",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "No injury",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "Moderate",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "No injury"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [4, minor injury]"
+    },
+    {
+      "tool_id": "4037",
+      "tool_name": "Focused Assessment with Sonography for Trauma (FAST)",
+      "params": {
+        "Pericardial fluid": "Absent",
+        "Right upper quadrant (Morison’s pouch) fluid": "Absent",
+        "Left upper quadrant (splenorenal recess) fluid": "Absent",
+        "Suprapubic fluid": "Absent"
+      },
+      "tool_summary": "FAST (Focused Assessment with Sonography for Trauma): [Negative FAST, low immediate risk of pericardial or intra-abdominal fluid; further evaluation needed]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "Yes",
+        "Respiratory rate >20 breaths/min": "No",
+        "Numeric pain score >=5": "Yes",
+        "Cough inadequate to clear respiratory secretions": "Yes"
+      },
+      "tool_summary": "SCARF Score: [3, high risk of ≥1 adverse outcome]"
+    },
+    {
+      "tool_id": "10022",
+      "tool_name": "ARISCAT Score for Postoperative Pulmonary Complications",
+      "params": {
+        "Age, years": "51-80",
+        "Preoperative SpO₂": ">=96%",
+        "Respiratory infection in the last month": "No",
+        "Preoperative anemia (Hgb <=10 g/dL)": "No",
+        "Surgical incision": "Peripheral",
+        "Duration of surgery": "<2 hrs",
+        "Emergency procedure": "No"
+      },
+      "tool_summary": "ARISCAT Score for Post-Operative Pulmonary Complications: [3, low risk, 1.6% risk of complications]"
+    },
+    {
+      "tool_id": "10540",
+      "tool_name": "FRACTURE Index",
+      "params": {
+        "Age": "65-69",
+        "History of any fracture after age 50": "Yes",
+        "Mother's history of a hip fracture after age 50": "No/don’t know",
+        "Weight": ">125 lb (>56.7 kg)",
+        "Current smoker": "No",
+        "Need to use arms to assist themself in standing up from a chair": "No/don’t know",
+        "BMD results: total hip T-score": ">=-1"
+      },
+      "tool_summary": "FRACTURE Index: [2 points, 0.4% 5-year risk of hip fracture]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "<70",
+        "Neurologically intact or with minimal deficits at admission ": "Yes",
+        "Major trauma": "No",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "No",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "No",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [-15, above average survival]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Needs minimal aid to stand or to stabilize",
+        "Standing unsupported": "Needs several tries to stand 30 seconds unsupported",
+        "Sitting with back unsupported": "Able to sit safely and securely for 2 minutes",
+        "Standing to sitting": "Controls descent by using hands",
+        "Transfers": "Needs one person assist",
+        "Standing unsupported with eyes closed": "Unable to keep eyes closed 3 seconds but stays safely",
+        "Standing unsupported with feet together": "Needs help to attain position but able to stand 15 seconds feet together",
+        "Reaching forward with outstretched arm while standing": "Reaches forward but needs supervision",
+        "Pick up object from the floor from a standing position": "Unable to pick up and needs supervision while trying ",
+        "Turning to look behind over left and right shoulders": "Needs supervision when turning",
+        "Turn 360 degrees": "Needs close supervision or verbal cueing",
+        "Placing alternate foot on step or stool while standing unsupported": "Able to complete >2 steps, needs minimal assist ",
+        "Standing unsupported one foot in front": "Needs help to step but can hold 15 seconds",
+        "Standing on one leg": "Unable to try or needs assist to prevent fall"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [18, increased fall risk]"
+    },
+    {
+      "tool_id": "10545",
+      "tool_name": "The Face, Legs, Activity, Cry, and Consolability (FLACC) Scale",
+      "params": {
+        "Face": "Occasional grimace or frown, withdrawn, disinterested",
+        "Legs": "Normal position or relaxed",
+        "Activity": "Squirming, shifting back and forth, tense",
+        "Cry": "Moans or whimpers, occasional complaint",
+        "Consolability": "Reassured by occasional touching, hugging or being talked to, distractible"
+      },
+      "tool_summary": "FLACC Pain Scale: [4, moderate pain]"
+    },
+    {
+      "tool_id": "10554",
+      "tool_name": "Spanish Network on Mastocytosis (REMA) Score",
+      "params": {
+        "Gender": "Female",
+        "Urticaria and/or angioedema": "No",
+        "Presyncope and/or syncope": "No",
+        "Tryptase": "<15 ng/mL"
+      },
+      "tool_summary": "10554_REMA_score_result: [-1, Low Probability of Clonal MCAD]"
+    },
+    {
+      "tool_id": "10184",
+      "tool_name": "HINTS for Stroke in Acute Vestibular Syndrome",
+      "params": {
+        "Horizontal head impulse test (h-HIT)": "Normal/untestable ",
+        "Observation of nystagmus": "Direction-changing horizontal/untestable nystagmus",
+        "Test of skew": "Absent skew deviation"
+      },
+      "tool_summary": "HINTS Exam/Score: [Typically dangerous, high risk of stroke or serious neurological condition]"
+    },
+    {
+      "tool_id": "362",
+      "tool_name": "Wells' Criteria for DVT",
+      "params": {
+        "Active cancer": "No",
+        "Bedridden recently >3 days or major surgery within 12 weeks": "No",
+        "Calf swelling >3 cm compared to the other leg": "No",
+        "Collateral (nonvaricose) superficial veins present": "No",
+        "Entire leg swollen": "No",
+        "Localized tenderness along the deep venous system": "No",
+        "Pitting edema, confined to symptomatic leg": "No",
+        "Paralysis, paresis, or recent plaster immobilization of the lower extremity": "No",
+        "Previously documented DVT": "No",
+        "Alternative diagnosis to DVT as likely or more likely": "Yes"
+      },
+      "tool_summary": "Wells' Score for DVT: [-2, low risk group for DVT]"
+    },
+    {
+      "tool_id": "10295",
+      "tool_name": "Rome IV Diagnostic Criteria for Belching Disorders",
+      "params": {
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the esophagus more than 3 days a week": "No",
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the stomach  more than 3 days a week": "No"
+      },
+      "tool_summary": "Excessive Supragastric and Gastric Belching Assessment: [Negative, low risk]"
+    },
+    {
+      "tool_id": "10462",
+      "tool_name": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+      "params": {
+        "Incomplete emptying: How often have you had the sensation of not emptying your bladder?": "Not at all",
+        "Frequency: How often have you had to urinate less than every two hours?": "Not at all",
+        "Intermittency: How often have you found you stopped and started again several times when you urinated?": "Not at all",
+        "Urgency: How often have you found it difficult to postpone urination?": "Not at all",
+        "Weak stream: How often have you had a weak urinary stream?": "Not at all",
+        "Straining: How often have you had to strain to start urination?": "Not at all",
+        "Nocturia: How many times do you typically get up at night to urinate?": "None",
+        "If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?": "Delighted"
+      },
+      "tool_summary": "AUA-SI/IPSS Score: [0, mild BPH symptom severity]"
+    },
+    {
+      "tool_id": "104",
+      "tool_name": "Centor Score (Modified/McIsaac) for Strep Pharyngitis",
+      "params": {
+        "Age": "15-44 years",
+        "Exudate or swelling on tonsils": "No",
+        "Tender/swollen anterior cervical lymph nodes": "No",
+        "Temp >38degC (100.4degF)": "No",
+        "Cough": "Cough absent"
+      },
+      "tool_summary": "Centor Score: [1, 5% - 10% likelihood of strep pharyngitis]"
+    },
+    {
+      "tool_id": "2048",
+      "tool_name": "Gleason Score for Prostate Cancer",
+      "params": {
+        "Primary grade": "Closely resembles normal prostate. Glands are small, well-formed, closely packed.",
+        "Secondary grade": "Closely resembles normal prostate. Glands are small, well-formed, closely packed.",
+        "Tertiary grade": "Closely resembles normal prostate. Glands are small, well-formed, closely packed."
+      },
+      "tool_summary": "Gleason Score: [2, unlikely severe cancer]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [18, average risk]"
+    },
+    {
+      "tool_id": "10548",
+      "tool_name": "Spinal Instability Neoplastic Scale (SINS) Score",
+      "params": {
+        "Spine location": "Junctional (occiput-C2, C7-T2, T11-L1, L5-S1)",
+        "Presence of mechanical pain": "No (occasional pain but not mechanical)",
+        "Bone lesion quality": "Blastic",
+        "Radiographic spinal alignment ": "Normal alignment",
+        "Vertebral body collapse": "None of the following",
+        "Posterolateral involvement of spinal elements": "None of the following"
+      },
+      "tool_summary": "SINS Score: [4, Stable]"
+    },
+    {
+      "tool_id": "10347",
+      "tool_name": "RCVS<sub>2</sub> Score for Reversible Cerebral Vasoconstriction Syndrome",
+      "params": {
+        "Recurrent or single thunderclap headache": "Absent",
+        "Intracranial carotid artery involvement": "Not affected",
+        "Vasoconstrictive trigger identified": "No",
+        "Sex": "Female",
+        "Subarachnoid hemorrhage present on imaging": "Absent"
+      },
+      "tool_summary": "RCVS2 Score: [1, low risk for RCVS]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "Yes",
+        "Have you dropped many of your activities and interests?": "No",
+        "Do you feel that your life is empty?": "No",
+        "Do you often get bored?": "No",
+        "Are you in good spirits most of the time?": "Yes",
+        "Are you afraid that something bad is going to happen to you?": "No",
+        "Do you feel happy most of the time?": "Yes",
+        "Do you often feel helpless?": "No",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "No",
+        "Do you feel you have more problems with memory than most?": "No",
+        "Do you think it is wonderful to be alive now?": "Yes",
+        "Do you feel pretty worthless the way you are now?": "No",
+        "Do you feel full of energy?": "Yes",
+        "Do you feel that your situation is hopeless?": "No",
+        "Do you think that most people are better off than you are?": "No"
+      },
+      "tool_summary": "GDS-15 (Geriatric Depression Scale): [0 points, absence of clinically significant depressive symptoms]"
+    }
+  ]
+}

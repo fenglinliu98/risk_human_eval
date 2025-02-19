@@ -1,0 +1,223 @@
+{
+  "patient_id": "22344821",
+  "tool_results": [
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": "50 to <100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Severe increase",
+        "Prolonged PT, seconds": ">=6",
+        "Fibrinogen level, g/L": "<1"
+      },
+      "tool_summary": "Mini/SOFA Score: [7, high risk of mortality]; DIC Score: [7, compatible with overt disseminated intravascular coagulation (DIC)]."
+    },
+    {
+      "tool_id": "1236",
+      "tool_name": "TASH Score (Trauma Associated Severe Hemorrhage)",
+      "params": {
+        "Sex": "Female",
+        "Hemoglobin": "< 9 g/dL",
+        "Base Excess": "< -10 mmol/L",
+        "Systolic Blood Pressure": "< 100 mm Hg",
+        "Heart Rate": "<= 120 bpm",
+        "Positive FAST for Intra-Abdominal Fluid": "Yes",
+        "Clinically Unstable Pelvic Fracture": "No",
+        "Open or Dislocated Femur Fracture": "No"
+      },
+      "tool_summary": "TASH Score: [17, 43% predicted need for massive transfusion]"
+    },
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "No injury",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "Critical",
+        "Abdomen worst injury?": "Critical",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "Severe"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [66, critical risk of mortality]"
+    },
+    {
+      "tool_id": "3996",
+      "tool_name": "Murray Score for Acute Lung Injury",
+      "params": {
+        "Consolidation on CXR": "Unknown",
+        "PaO₂/FiO₂ ratio": "<100",
+        "PEEP, cm H₂O": "Unknown",
+        "Compliance, ml/cm H₂O": "Unknown"
+      },
+      "tool_summary": "Murray Score for Lung Injury: [4.0, severe lung injury]"
+    },
+    {
+      "tool_id": "10301",
+      "tool_name": "Sepsis-Induced Coagulopathy (SIC) Score",
+      "params": {
+        "INR": ">1.4",
+        "Platelet count, cells x 109/L": "<100",
+        "Total SOFA score": ">=2"
+      },
+      "tool_summary": "Mini Score: [6 points, SIC likely]; Score for Diagnosis: [SIC likely, diagnosis confirmed]; 28-day Mortality Score: [6 points, 46% risk of mortality]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "<70",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "Yes",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "Yes",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "Yes",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [32, very low survival]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [1 point, Unlikely RA]"
+    },
+    {
+      "tool_id": "10193",
+      "tool_name": "Gupta Postoperative Respiratory Failure Risk",
+      "params": {
+        "Functional status": "Totally dependent",
+        "ASA class": "4: severe systemic disease that is a constant threat to life (i.e., patient could die acutely without intervention)",
+        "Sepsis": "Preoperative systemic inflammatory response syndrome",
+        "Emergency case": "Yes",
+        "Type of procedure": "Other abdominal"
+      },
+      "tool_summary": "Mini Score: [53.5%, moderate risk of mechanical ventilation >48 hrs postop or reintubation ≤30 days] / Gupta Score: [53.5%, moderate risk of mechanical ventilation >48 hrs after surgery or unplanned intub"
+    },
+    {
+      "tool_id": "3315",
+      "tool_name": "Khorana Risk Score for Venous Thromboembolism in Cancer Patients",
+      "params": {
+        "Cancer type": "Other",
+        "Pre-chemotherapy platelet count >=350x10⁹/L": "No",
+        "Hemoglobin level <10 g/dL or using RBC growth factors": "Yes",
+        "Pre-chemotherapy leukocyte count >11x10⁹/L": "No",
+        "BMI >=35 kg/m²": "No"
+      },
+      "tool_summary": "Khorana Risk Score for Venous Thromboembolism (VTE): [1, intermediate risk]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "33-46",
+        "Gender": "Female",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [12, very low risk]"
+    },
+    {
+      "tool_id": "10309",
+      "tool_name": "Rome IV Diagnostic Criteria for Infant Regurgitation",
+      "params": {
+        "Regurgitation >=2 times per day for >=3 weeks": "No",
+        "No retching, hematemesis, aspiration, apnea, failure to thrive, feeding or swallowing difficulties, or abnormal posturing": "No"
+      },
+      "tool_summary": "Rome IV for Infant Regurgitation: [Negative, low risk for clinically significant regurgitation]"
+    },
+    {
+      "tool_id": "10088",
+      "tool_name": "Cumulative Illness Rating Scale-Geriatric (CIRS-G)",
+      "params": {
+        "Heart": "Marked activity restriction secondary to cardiac status (i.e., unstable angina or intractable CHF)",
+        "Vascular": "Previous vascular surgery, aortic aneurysm >=4 cm ",
+        "Hematopoietic": "Hemoglobin: females <8 g/dL, males <10 g/dL, total WBC <2,000",
+        "Respiratory": "Requires supplemental oxygen, >=1 episode of respiratory failure requiring assisted ventilation, any lung cancer ",
+        "Eyes, ears, nose, throat, and larynx": "No problem",
+        "Upper GI  ": "Needs daily H₂ blocker or antacid, documented gastric or duodenal ulcer within 5 years",
+        "Lower GI": "Hematochezia from lower GI source, currently impacted, diverticulitis flare up, status post bowel obstruction, bowel carcinoma",
+        "Liver, pancreas, and biliary ": "Clinical or lab evidence of biliary obstruction, any biliary tree carcinoma, cholecystitis, pancreatitis, active hepatitis",
+        "Renal ": "No problem",
+        "Genitourinary": "No problem",
+        "Musculoskeletal and skin": "No problem",
+        "Neurologic": "Frequent headaches requiring meds as needed without interference with daily activities, history of TIA phenomena (at least one)",
+        "Endocrine and breast ": "No problem",
+        "Psychiatric illness": "Currently meets DSM criteria for major depression or two or more episodes of major depression in the past 10 years, moderate dementia, current usage of daily anti-anxiety medication, currently meets DSM criteria for substance abuse or dependency, requires daily antipsychotic medication"
+      },
+      "tool_summary": "Mini/Scores: [29, moderate to high severity]"
+    },
+    {
+      "tool_id": "10287",
+      "tool_name": "Modified Sequential Organ Failure Assessment (mSOFA) Score",
+      "params": {
+        "SpO₂/FiO₂": "<=150",
+        "Scleral icterus or jaundice present": "No",
+        "Hypotension": "DOPamine >15, EPINEPHrine >0.1, or norEPINEPHrine >0.1",
+        "Glasgow Coma Scale": "<6",
+        "Creatinine, mg/dL": "<1.2"
+      },
+      "tool_summary": "mSOFA Score: [12, 58% 30-day mortality]"
+    },
+    {
+      "tool_id": "1739",
+      "tool_name": "Revised Cardiac Risk Index for Pre-Operative Risk",
+      "params": {
+        "Elevated-risk surgery": "Yes",
+        "History of ischemic heart disease": "Yes",
+        "History of congestive heart failure": "No",
+        "History of cerebrovascular disease": "No",
+        "Pre-operative treatment with insulin": "No",
+        "Pre-operative creatinine >2 mg/dL / 176.8 µmol/L": "No"
+      },
+      "tool_summary": "Revised Cardiac Risk Index (RCRI): [2, 10.1% risk of major cardiac event]"
+    },
+    {
+      "tool_id": "10084",
+      "tool_name": "RegiSCAR Score for Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+      "params": {
+        "Fever (>=38.5 degC)": "No/Unknown",
+        "Enlarged lymph nodes": "No/Unknown",
+        "Atypical lymphocytes": "No/Unknown",
+        "Eosinophilia": "0-699 cells or <10% (no eosinophilia)",
+        "Skin rash extent >50%": "No/Unknown",
+        "At least two of: edema, infiltration, purpura, scaling": "No",
+        "Biopsy suggesting DRESS": "Yes/Unknown",
+        "Internal organ involved": ">=2",
+        "Resolution in >15 days": "No/Unknown",
+        "Alternative diagnoses excluded (by >=3 biological investigations)": "No/Unknown"
+      },
+      "tool_summary": "RegiSCAR for DRESS: [-1, No case]"
+    },
+    {
+      "tool_id": "10245",
+      "tool_name": "Immune-Related Adverse Events for GI Toxicity - Colitis",
+      "params": {
+        "CTCAE for diarrhea": "Life-threatening consequences; urgent intervention indicated"
+      },
+      "tool_summary": "Colitis Grade/Score (G4): [G4, high risk of severe colitis requiring immediate and comprehensive medical intervention]"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "patient_id": "22422521",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Severe",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "Serious",
+        "Abdomen worst injury?": "Serious",
+        "Extremity (including pelvis) worst injury?": "Moderate",
+        "External worst injury?": "Moderate"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [34, severe injury]"
+    },
+    {
+      "tool_id": "4037",
+      "tool_name": "Focused Assessment with Sonography for Trauma (FAST)",
+      "params": {
+        "Pericardial fluid": "Absent",
+        "Right upper quadrant (Morison’s pouch) fluid": "Present",
+        "Left upper quadrant (splenorenal recess) fluid": "Absent",
+        "Suprapubic fluid": "Absent"
+      },
+      "tool_summary": "Positive FAST (Focused Assessment with Sonography for Trauma): [Positive, high risk of hemoperitoneum requiring emergent exploratory laparotomy in unstable patients]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Localized clot and/or vertical layer within the subarachnoid space > 1mm thick"
+      },
+      "tool_summary": "Fisher Grading Scale (3836): [Grade III, low to high risk of vasospasm (range 23-96%)]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " Eyes open spontaneously",
+        "Verbal response": "Oriented",
+        " Motor response": "Obeys commands",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "Mini-Score: [15 points, 2.54% mortality at 6 months post-injury]; GCS-Pupils Score: [15 points]; Mortality Risk at 6 months post-injury: [2.54%, mortality"
+    },
+    {
+      "tool_id": "3952",
+      "tool_name": "CHIP (CT in Head Injury Patients) Prediction Rule",
+      "params": {
+        "Age": "40-60 years",
+        "GCS <15": "No",
+        "GCS deterioration at 1 hr after presentation": "None",
+        "Skull injury": "None",
+        "Post-traumatic amnesia": "None",
+        "Pedestrian or cyclist versus vehicle": "No",
+        "Ejected from vehicle": "No",
+        "Vomiting": "No",
+        "Use of anticoagulants": "No",
+        "Post-traumatic seizure": "No",
+        "Fall from any elevation": "No",
+        "Persistent anterograde amnesia": "No",
+        "Neurologic deficit": "Yes",
+        "Loss of consciousness": "Yes"
+      },
+      "tool_summary": "3952_CHIP Prediction Rule Interpretation: [Not Low, High Risk]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "No",
+        "Respiratory rate >20 breaths/min": "No",
+        "Numeric pain score >=5": "Yes",
+        "Cough inadequate to clear respiratory secretions": "Yes"
+      },
+      "tool_summary": "SCARF Score: [2, intermediate risk of ≥1 adverse outcome]"
+    },
+    {
+      "tool_id": "115",
+      "tool_name": "Wells' Criteria for Pulmonary Embolism",
+      "params": {
+        "Clinical signs and symptoms of DVT": "No",
+        "PE is #1 diagnosis OR equally likely": "No",
+        "Heart rate > 100": "No",
+        "Immobilization at least 3 days OR surgery in the previous 4 weeks": "Yes",
+        "Previous, objectively diagnosed PE or DVT": "No",
+        "Hemoptysis": "No",
+        "Malignancy w/ treatment within 6 months or palliative": "No"
+      },
+      "tool_summary": "Wells' Score for Pulmonary Embolism (PE): [1.5, low risk group: 1.3% chance of PE in an ED population; ≤ 4 as “PE Unlikely” with a 3% incidence"
+    },
+    {
+      "tool_id": "1236",
+      "tool_name": "TASH Score (Trauma Associated Severe Hemorrhage)",
+      "params": {
+        "Sex": "Male",
+        "Hemoglobin": ">= 12 g/dL",
+        "Base Excess": ">= -2 mmol/L",
+        "Systolic Blood Pressure": ">= 120 mm Hg",
+        "Heart Rate": "<= 120 bpm",
+        "Positive FAST for Intra-Abdominal Fluid": "No",
+        "Clinically Unstable Pelvic Fracture": "No",
+        "Open or Dislocated Femur Fracture": "No"
+      },
+      "tool_summary": "TASH Score: [1, <5% predicted need for massive transfusion]"
+    },
+    {
+      "tool_id": "10485",
+      "tool_name": "RibScore",
+      "params": {
+        ">=6 fractures": "No",
+        "Bilateral fractures": "No",
+        "Flail chest": "No",
+        ">=3 severely (bicortical) displaced fractures": "No",
+        "First rib fracture": "No",
+        ">=1 fracture in all three anatomic areas (anterior, lateral, and posterior)": "Yes"
+      },
+      "tool_summary": "RibScore: [1, low risk of pneumonia, respiratory failure, and tracheostomy]"
+    },
+    {
+      "tool_id": "10126",
+      "tool_name": "Thoracolumbar Injury Classification and Severity Scale (TLICS)",
+      "params": {
+        "Morphology": "None of the above",
+        "Neurologic involvement": "Intact",
+        "Posterior ligamentous complex": "Intact"
+      },
+      "tool_summary": "TLICS (Thoracolumbar Injury Classification and Severity Score): [0, non-operative]"
+    },
+    {
+      "tool_id": "1729",
+      "tool_name": "CAGE Questions for Alcohol Use",
+      "params": {
+        "Have you ever felt you needed to Cut down on your drinking?": "No",
+        "Have people Annoyed you by criticizing your drinking?": "No",
+        "Have you ever felt Guilty about drinking?": "No",
+        "Have you ever felt you needed a drink first thing in the morning (Eye-opener) to steady your nerves or to get rid of a hangover?": "No"
+      },
+      "tool_summary": "CAGE Questionnaire: [0, low risk for alcoholism]"
+    },
+    {
+      "tool_id": "10084",
+      "tool_name": "RegiSCAR Score for Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+      "params": {
+        "Fever (>=38.5 degC)": "No/Unknown",
+        "Enlarged lymph nodes": "No/Unknown",
+        "Atypical lymphocytes": "No/Unknown",
+        "Eosinophilia": "0-699 cells or <10% (no eosinophilia)",
+        "Skin rash extent >50%": "No/Unknown",
+        "At least two of: edema, infiltration, purpura, scaling": "Unknown",
+        "Biopsy suggesting DRESS": "No",
+        "Internal organ involved": ">=2",
+        "Resolution in >15 days": "No/Unknown",
+        "Alternative diagnoses excluded (by >=3 biological investigations)": "No/Unknown"
+      },
+      "tool_summary": "RegiSCAR for DRESS: [-1, No case]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [16, mild risk]"
+    },
+    {
+      "tool_id": "4019",
+      "tool_name": "BAP-65 Score for Acute Exacerbation of COPD",
+      "params": {
+        "BUN >=25 mg/dL (8.9 mmol/L)": "No",
+        "Altered mental status": "No",
+        "Pulse >=109 beats/min": "No",
+        "Age, years": "41-64"
+      },
+      "tool_summary": "BAP-65 Score for COPD Exacerbation: [0.3, low risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "Yes",
+        "Anemia": "No",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "No"
+      },
+      "tool_summary": "VTE-BLEED Score: [2.5, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "<5%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "MUST Score: [2, High risk of malnutrition]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [3, Low Risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Needs help",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Needs help",
+        "Bowel control": "Continent",
+        "Bladder control": "Continent",
+        "Toilet use": "Needs help",
+        "Transfers (bed to chair and back)": "Needs major help (1-2 people, physical), can sit",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [40, Partially dependent]"
+    }
+  ]
+}

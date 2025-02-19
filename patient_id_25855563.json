@@ -1,0 +1,275 @@
+{
+  "patient_id": "25855563",
+  "tool_results": [
+    {
+      "tool_id": "10235",
+      "tool_name": "Truelove and Witts Severity Index for Ulcerative Colitis",
+      "params": {
+        "Bowel movements per day": ">=6",
+        "Blood in stool": "Visible blood",
+        "Pyrexia": "Yes",
+        "Pulse >90 bpm": "No",
+        "Anemia": "No",
+        "Erythrocyte sedimentation rate, mm/hr": "<=30"
+      },
+      "tool_summary": "Truelove/Witts Severity Index for Ulcerative Colitis: [Severe, severe ulcerative colitis]"
+    },
+    {
+      "tool_id": "3675",
+      "tool_name": "Mayo Score/Disease Activity Index (DAI) for Ulcerative Colitis",
+      "params": {
+        "Stool frequency": ">4 stools/day more than normal",
+        "Rectal bleeding": "Visible blood with stool half of the time or more",
+        "Mucosal appearance at endoscopy": "Moderate disease (marked erythema, absent vascular pattern, friability, erosions)",
+        "Physician rating of disease activity": "Moderate"
+      },
+      "tool_summary": "Mini Ulcerative Colitis Score (ID: 3675): [9, severe ulcerative colitis]"
+    },
+    {
+      "tool_id": "10395",
+      "tool_name": "Ulcerative Colitis Endoscopic Index of Severity (UCEIS)",
+      "params": {
+        "Vascular pattern": "Obliterated",
+        "Bleeding": "Luminal moderate or severe",
+        "Erosions and ulcers": "Erosions"
+      },
+      "tool_summary": "UCEIS Score: [6, moderate ulcerative colitis severity]"
+    },
+    {
+      "tool_id": "10512",
+      "tool_name": "Travis Criteria",
+      "params": {
+        "Number of stools": ">8",
+        "CRP >45 mg/L (>428 nmol/L)": "No"
+      },
+      "tool_summary": "Medical Tool ID 10512 - Colectomy Risk Assessment: [High, risk of needing a colectomy]"
+    },
+    {
+      "tool_id": "3287",
+      "tool_name": "Glasgow-Imrie Criteria for Severity of Acute Pancreatitis",
+      "params": {
+        "PaO₂ <59.3 mmHg (7.9 kPa)": "No",
+        "Age >55 years": "No",
+        "WBC >15 x 10³/µL (10⁹/L)": "No",
+        "Calcium <8 mg/dL (2 mmol/L)": "No",
+        "BUN >44.8 mg/dL (serum urea >16 mmol/L)": "No",
+        "LDH >600 IU/L": "No",
+        "Albumin <3.2 g/dL (32 g/L)": "No",
+        "Glucose >180 mg/dL (10 mmol/L)": "No"
+      },
+      "tool_summary": "Glasgow-Imrie Pancreatitis Score: [0, low risk for severe pancreatitis]"
+    },
+    {
+      "tool_id": "1735",
+      "tool_name": "BISAP Score for Pancreatitis Mortality",
+      "params": {
+        "BUN >25 mg/dL (8.92 mmol/L)": "No",
+        "Impaired mental status": "No",
+        ">=2 SIRS Criteria": "Yes",
+        "Age >60 years": "No",
+        "Pleural effusion present": "No"
+      },
+      "tool_summary": "BISAP Score: [1, low risk of mortality]"
+    },
+    {
+      "tool_id": "89",
+      "tool_name": "Ranson's Criteria for Pancreatitis Mortality",
+      "params": {
+        "WBC >16k": "No",
+        "Age >55 years": "No",
+        "Glucose >200 mg/dL (>11.1 mmol/L)": "No",
+        "AST >250": "No",
+        "LDH >350": "No",
+        "Hct drop >10% from admission": "No",
+        "BUN increase >5 mg/dL (>1.79 mmol/L) from admission": "No",
+        "Ca ": "No",
+        "Arterial pO2 ": "No",
+        "Base deficit (24 - HCO3) >4 mg/dL within 48 hours": "No",
+        "Fluid needs >6 L within 48 hours": "No"
+      },
+      "tool_summary": "Ranson's Criteria (On Admission and Cumulative): [0, low risk for severe pancreatitis and 1% predicted mortality]"
+    },
+    {
+      "tool_id": "3643",
+      "tool_name": "Rockall Score for Upper GI Bleeding (Pre-Endoscopy)",
+      "params": {
+        "Age": "<60 years",
+        "Shock": "Hypotension (SBP <100)",
+        "Comorbidities": "No major comorbidity"
+      },
+      "tool_summary": "Rockall Score (Pre-Endoscopy): [2, 5.6% mortality risk prior to endoscopy]"
+    },
+    {
+      "tool_id": "3801",
+      "tool_name": "AIMS65 Score for Upper GI Bleeding Mortality",
+      "params": {
+        "Albumin <3 g/dL (30 g/L)": "No",
+        "INR >1.5": "No",
+        "Alteration in mental status": "No",
+        "sBP <=90 mm Hg": "Yes",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "AIMS65 Score: [1, low risk of in-hospital mortality]"
+    },
+    {
+      "tool_id": "10042",
+      "tool_name": "Oakland Score for Safe Discharge After Lower GI Bleed",
+      "params": {
+        "Age, years": "40-69",
+        "Sex": "Male",
+        "Previous lower GI bleeding admission": "No",
+        "DRE findings": "No blood",
+        "Heart rate, bpm": "70-89",
+        "Systolic blood pressure, mmHg": "90-119",
+        "Hemoglobin, g/L (g/dL)": "130-159 (13-15.9)"
+      },
+      "tool_summary": "Oakland Score: [11, high risk of adverse outcomes]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "5-10%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "No"
+      },
+      "tool_summary": "MUST Score: [1, medium malnutrition risk]"
+    },
+    {
+      "tool_id": "10511",
+      "tool_name": "Ho Index",
+      "params": {
+        "Mean stool frequency, stools/24 hrs": ">9",
+        "Colonic dilatation": "Absent",
+        "Hypoalbuminemia": "No"
+      },
+      "tool_summary": "Ho Index for Medical Therapy Success: [4 points, 85% high risk of failure]"
+    },
+    {
+      "tool_id": "10098",
+      "tool_name": "Danger Assessment Tool for Domestic Abuse",
+      "params": {
+        "Has the physical violence increased in frequency or severity over the past 6 months?": "No",
+        "Have they ever used a weapon or threatened you with a weapon?": "No",
+        "Do you believe they are capable of killing you?": "No",
+        "Have you ever been beaten by them while you were pregnant?": "No",
+        "Are they violently and constantly jealous of you?": "No"
+      },
+      "tool_summary": "Mini/Danger Assessment Score/Risk1: [0, Low risk of lethal or potentially lethal assault by IP]"
+    },
+    {
+      "tool_id": "10084",
+      "tool_name": "RegiSCAR Score for Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+      "params": {
+        "Fever (>=38.5 degC)": "No/Unknown",
+        "Enlarged lymph nodes": "No/Unknown",
+        "Atypical lymphocytes": "No/Unknown",
+        "Eosinophilia": "0-699 cells or <10% (no eosinophilia)",
+        "Skin rash extent >50%": "No/Unknown",
+        "At least two of: edema, infiltration, purpura, scaling": "No",
+        "Biopsy suggesting DRESS": "No",
+        "Internal organ involved": ">=2",
+        "Resolution in >15 days": "No/Unknown",
+        "Alternative diagnoses excluded (by >=3 biological investigations)": "Yes"
+      },
+      "tool_summary": "RegiSCAR for DRESS: [-1, No case]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "45-49",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "HCC Risk at 10 years: [0.7%, very low risk], REACH-B Score: [6, moderate risk of HBV-related HCC], 10-year risk of HCC: [0.7%, very low risk"
+    },
+    {
+      "tool_id": "10306",
+      "tool_name": "Coronavirus Anxiety Scale (CAS)",
+      "params": {
+        "I felt dizzy, lightheaded, or faint when I read or listened to news about the coronavirus": "Not at all",
+        "I had trouble falling or staying asleep because I was thinking about the coronavirus": "Not at all",
+        "I felt paralyzed or frozen when I thought about or was exposed to information about the coronavirus": "Not at all",
+        "I lost interest in eating when I thought about or was exposed to information about the coronavirus": "Not at all",
+        "I felt nauseous or had stomach problems when I thought about or was exposed to information about the coronavirus": "Not at all"
+      },
+      "tool_summary": "Coronavirus Anxiety Scale (CAS): [0, no anxiety associated with COVID-19]"
+    },
+    {
+      "tool_id": "10270",
+      "tool_name": "Pediatric NIH Stroke Scale (NIHSS)",
+      "params": {
+        "1A. Level of consciousness": "Alert; keenly responsive",
+        "1B. Ask age and to point out family member": "Answers both questions correctly",
+        "1C. Command to blink eyes and touch nose": "Performs both tasks correctly",
+        "2. Horizontal extraocular movements": "Normal",
+        "3. Visual fields": "No visual loss",
+        "4. Facial palsy": "Normal symmetrical movement",
+        "5A. Left arm motor drift": "No drift, limb holds 90 (or 45) degrees for full 10 seconds",
+        "5B. Right arm motor drift": "No drift, limb holds 90 (or 45) degrees for full 10 seconds",
+        "6A. Left leg motor drift": "No drift, leg holds 30 degrees position for full 5 seconds",
+        "6B. Right leg motor drift": "No drift, leg holds 30 degrees position for full 5 seconds",
+        "7. Limb ataxia": "Absent",
+        "8: Sensation": "Normal; no sensory loss",
+        "9. Best language": "No aphasia, normal",
+        "10. Dysarthria": "Normal",
+        "11. Extinction and inattention": "No abnormality"
+      },
+      "tool_summary": "Pediatric NIH Stroke Scale (PedNIHSS): [0, no stroke symptoms]"
+    },
+    {
+      "tool_id": "10526",
+      "tool_name": "Drug Abuse Screening Test-10 (DAST-10)",
+      "params": {
+        "Have you used drugs other than those required for medical reasons?": "No",
+        "Do you abuse more than one drug at a time?": "No",
+        "Are you always able to stop using drugs when you want to?": "Yes",
+        "Have you had \"blackouts\" or \"flashbacks\" as a result of drug use?": "No",
+        "Do you ever feel bad or guilty because of your use of drugs?": "No",
+        "Do your spouse or parents ever complain about your involvement with drugs?": "No",
+        "Have you neglected your family because of your use of drugs?": "No",
+        "Have you engaged in illegal activities in order to obtain drugs?\n": "No",
+        "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?": "No",
+        "Have you had medical problems as a result of your drug use?": "No"
+      },
+      "tool_summary": "DAST-10 Score: [0, no risk of drug abuse]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Able to stand without using hands, stabilizes independently",
+        "Standing unsupported": "Able to stand safely for 2 minutes",
+        "Sitting with back unsupported": "Able to sit safely and securely for 2 minutes",
+        "Standing to sitting": "Sits safely with minimal use of hands",
+        "Transfers": "Able to transfer safely with minor use of hands",
+        "Standing unsupported with eyes closed": "Able to stand 10 seconds safely",
+        "Standing unsupported with feet together": "Able to place feet together independently and stand 1 minute safely",
+        "Reaching forward with outstretched arm while standing": "Can reach forward confidently 25 cm (10 inches)",
+        "Pick up object from the floor from a standing position": "Able to pick up slipper safely and easily",
+        "Turning to look behind over left and right shoulders": "Looks behind from both sides and weight shifts well",
+        "Turn 360 degrees": "Able to turn 360 degrees safely in 4 seconds or less",
+        "Placing alternate foot on step or stool while standing unsupported": "Able to stand independently and safely, and complete 8 steps in 20 seconds",
+        "Standing unsupported one foot in front": "Able to place foot tandem independently and hold 30 seconds",
+        "Standing on one leg": "Able to lift leg independently and hold >10 seconds"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [56, Not increased fall risk]"
+    },
+    {
+      "tool_id": "10185",
+      "tool_name": "Pediatric Trauma Score (PTS)",
+      "params": {
+        "Weight": ">20 kg (>44 lbs)",
+        "Airway status": "Normal",
+        "Systolic BP": ">90 mmHg (or pulse palpable at wrist)",
+        "Central nervous system": "Awake",
+        "Skeletal injury": "None",
+        "Cutaneous wounds": "None"
+      },
+      "tool_summary": "Mini-Score: [12, very low mortality risk]"
+    }
+  ]
+}

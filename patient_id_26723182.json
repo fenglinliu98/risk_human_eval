@@ -1,0 +1,273 @@
+{
+  "patient_id": "26723182",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [3, 72% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "70-79",
+        "ICH location": "Lobar",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "3883_FUNC Score: [3, no probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "1 question right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Forced gaze palsy: cannot be overcome",
+        "3: Visual fields": "Patient is bilaterally blind",
+        "4: Facial palsy": "Unilateral complete paralysis (upper/lower face)",
+        "5A: Left arm motor drift": "No movement",
+        "5B: Right arm motor drift": "No effort against gravity",
+        "6A: Left leg motor drift": "No effort against gravity",
+        "6B: Right leg motor drift": "No effort against gravity",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Mild-moderate loss: less sharp/more dull ",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "Profound hemi-inattention (ex: does not recognize own hand)"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [33, severe stroke]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "0 questions correct",
+        "1C: Level of consciousness commands": "0 tasks correct",
+        "2: Test horizontal extra-ocular movements": "Total gaze palsy",
+        "3: Test visual fields": "Bilateral hemianopia",
+        "5A: Test left arm motor drift": "No movement",
+        "5B: Test right arm motor drift": "No effort against gravity",
+        "6A: Test left leg motor drift": "No effort against gravity",
+        "6B: Test right leg motor drift": "No effort against gravity",
+        "8: Test sensation": "Abnormal; sensory loss",
+        "9: Test language/aphasia": "Mute/global aphasia",
+        "11: Test extinction/inattention/neglect": "Severe"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [28, severe stroke risk]"
+    },
+    {
+      "tool_id": "3941",
+      "tool_name": "Rapid Arterial oCclusion Evaluation (RACE) Scale for Stroke",
+      "params": {
+        "Facial palsy": "Moderate to severe",
+        "Arm motor impairment": "Severe",
+        "Leg motor impairment": "Severe",
+        "Head and gaze deviation": "Absent",
+        "Hemiparesis": "Left",
+        "Aphasia": "Performs neither task",
+        "Agnosia": "Does not recognize his/her arm nor the impairment"
+      },
+      "tool_summary": "RACE Scale/Score: [8, high risk of LVO; recommend referral to stroke center with endovascular capabilities]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "Yes",
+        "Ask patient age and current month": "Neither correct",
+        "Ask patient to close eyes and open/close hand": "Follows neither command",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Cannot do"
+      },
+      "tool_summary": "Mini Stroke Tool ID: 4009: [4, high risk of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "ABCD2 Score: [7, High Risk]"
+    },
+    {
+      "tool_id": "3966",
+      "tool_name": "Modified SOAR Score for Stroke",
+      "params": {
+        "Stroke type": "Hemorrhage",
+        "Oxfordshire Community Stroke Project classification": "TACS",
+        "Age": "66-85",
+        "Pre-stroke disability (mRS Score)": "3-4",
+        "NIHSS Score": ">=11"
+      },
+      "tool_summary": "mSOAR Score: [7, 49.2% inpatient mortality]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [Grade IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "1894",
+      "tool_name": "Barnes Jewish Hospital Stroke Dysphagia Screen",
+      "params": {
+        "GCS < 13": "Yes",
+        "Facial asymmetry/weakness present": "Yes",
+        "Tongue asymmetry/weakness present": "No",
+        "Palatal asymmetry/weakness present": "No",
+        "Any signs of aspiration during 3 oz water test": "No"
+      },
+      "tool_summary": "Barnes Jewish Hospital Stroke Dysphagia Screen result: [Positive, high risk for dysphagia and aspiration]"
+    },
+    {
+      "tool_id": "3315",
+      "tool_name": "Khorana Risk Score for Venous Thromboembolism in Cancer Patients",
+      "params": {
+        "Cancer type": "Other",
+        "Pre-chemotherapy platelet count >=350x10⁹/L": "No",
+        "Hemoglobin level <10 g/dL or using RBC growth factors": "Yes",
+        "Pre-chemotherapy leukocyte count >11x10⁹/L": "Yes",
+        "BMI >=35 kg/m²": "No"
+      },
+      "tool_summary": "Khorana Risk Score for Venous Thromboembolism (VTE): [2, Intermediate Risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "No",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "807_HAS-BLED Score: [4, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "1785",
+      "tool_name": "HEMORR₂HAGES Score for Major Bleeding Risk",
+      "params": {
+        "Hepatic or Renal Disease": "Yes",
+        "Ethanol (Alcohol) Abuse": "No",
+        "Malignancy History": "Yes",
+        "Older (Age >75)": "No",
+        "Reduced Platelet Count or Function": "No",
+        "Rebleeding Risk": "Yes",
+        "Hypertension (Uncontrolled)": "Yes",
+        "Anemia": "Yes",
+        "Genetic Factors": "Yes",
+        "Excessive Fall Risk": "Yes",
+        "Stroke History": "Yes"
+      },
+      "tool_summary": "HEMORR2HAGES Score: [9, high risk of bleeding]"
+    },
+    {
+      "tool_id": "2046",
+      "tool_name": "UCSF-CAPRA Score for Prostate Cancer Risk",
+      "params": {
+        "Age": ">= 50 years",
+        "PSA at diagnosis (ng/mL)": "<6",
+        "Gleason Score pattern (primary or secondary)": "No 4 or 5 pattern present",
+        "Clinical stage": "T1 or T2",
+        "Percent biopsy cores positive for cancer": "<34%"
+      },
+      "tool_summary": "UCSF-CAPRA Score: [1, low risk]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "30-34",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": "2.6-30 (26-30)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "23-25 (23-25)",
+        "Serum calcium, mg/dL (mmol/L)": "<=8.5 (<=2.12)"
+      },
+      "tool_summary": "5-year risk of kidney failure (ID: 10045): [NaN, cannot assess risk]"
+    },
+    {
+      "tool_id": "10082",
+      "tool_name": "WPSS (WHO classification-based Prognostic Scoring System) for Myelodysplastic Syndrome",
+      "params": {
+        "WHO category": "Refractory anemia (RA), refractory anemia with ringed sideroblasts (RARS), or myelodysplastic syndrome with isolated del (5q)",
+        "Karyotype": "Good",
+        "Transfusion requirement": "None"
+      },
+      "tool_summary": "WPSS for MDS: [0, Very low risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "Yes",
+        "Male patient with uncontrolled hypertension": "Yes",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [9, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "60-65",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "HCC risk at 10 yrs: [3.2%, moderate risk], REACH-B Score: [9, high risk], 10-year risk of HCC: [3.2%, moderate risk]"
+    }
+  ]
+}

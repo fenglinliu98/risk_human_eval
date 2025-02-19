@@ -1,0 +1,260 @@
+{
+  "patient_id": "21842449",
+  "tool_results": [
+    {
+      "tool_id": "111",
+      "tool_name": "TIMI Risk Score for UA/NSTEMI",
+      "params": {
+        "Age >=65": "No",
+        ">=3 CAD risk factors": "Yes",
+        "Known CAD (stenosis >=50%)": "Yes",
+        "ASA use in past 7 days": "Yes",
+        "Severe angina (>=2 episodes in 24 hrs)": "No",
+        "EKG ST changes >=0.5mm": "No",
+        "Positive cardiac marker": "Yes"
+      },
+      "tool_summary": "TIMI Score for UA/NSTEMI: [4, 20% risk at 14 days of all-cause mortality, new or recurrent MI, or severe recurrent ischemia requiring urgent revascularization]"
+    },
+    {
+      "tool_id": "99",
+      "tool_name": "TIMI Risk Score for STEMI",
+      "params": {
+        "Age": "65-74",
+        "Diabetes, Hypertension or Angina": "Yes",
+        "Systolic BP < 100 mmHg": "No",
+        "Heart rate > 100": "No",
+        "Killip Class II-IV": "Yes",
+        "Weight < 67kg (147.7 lbs)": "No",
+        "Anterior ST Elevation or LBBB": "No",
+        "Time to treatment > 4 hours": "Yes"
+      },
+      "tool_summary": "TIMI STEMI Score: [6, high risk of 30-day mortality]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "Yes",
+        "Prior PCI or prior MI": "Yes",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [2, high risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "55-59",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "<3.5 (<1.13)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "23-25 (23-25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator: [NaN, unable to determine risk level]"
+    },
+    {
+      "tool_id": "3828",
+      "tool_name": "Acute Decompensated Heart Failure National Registry (ADHERE) Algorithm",
+      "params": {
+        "BUN >=43 mg/dL (15.35 mmol/L)": "Yes",
+        "sBP ": "Yes",
+        "Creatinine >=2.75 mg/dl (243.1 mmol/L)": "No"
+      },
+      "tool_summary": "3828_ADHERE Algorithm_result: [5.5-13.2% Mortality Risk, Intermediate Risk from ADHF]"
+    },
+    {
+      "tool_id": "3990",
+      "tool_name": "Killip Classification for Heart Failure",
+      "params": {
+        "Classification": "S3 and basal rales on auscultation"
+      },
+      "tool_summary": "Killip Class II (for myocardial infarction): [5-12%, moderate risk of 30-day mortality]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [4, low risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "2023",
+      "tool_name": "Padua Prediction Score for Risk of VTE",
+      "params": {
+        "Active cancer": "No",
+        "Previous VTE": "No",
+        "Reduced mobility": "No",
+        "Already known thrombophilic condition": "No",
+        "Recent (<=1 month) trauma and/or surgery": "Yes",
+        "Elderly age (>=70 years)": "No",
+        "Heart and/or respiratory failure": "Yes",
+        "Acute MI and/or ischemic stroke": "Yes",
+        "Acute infection and/or rheumatologic disorder": "No",
+        "Obesity (BMI >=30)": "Yes",
+        "Ongoing hormonal treatment": "No"
+      },
+      "tool_summary": "2023 Padua Prediction Score: [5, high risk for venous thromboembolism]"
+    },
+    {
+      "tool_id": "10053",
+      "tool_name": "Binet Staging System for Chronic Lymphocytic Leukemia (CLL)",
+      "params": {
+        "Areas of lymphadenopathy": "<3",
+        "Anemia": "Yes",
+        "Thrombocytopenia": "No"
+      },
+      "tool_summary": "Binet Staging for CLL (Chronic Lymphocytic Leukemia): [Stage C, High Risk]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Male",
+        "Renal function (GFR), mL/min/m2": "30-59",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "No",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "Yes",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [7.5, increased risk of bleeding]"
+    },
+    {
+      "tool_id": "2157",
+      "tool_name": "GAP Index for Idiopathic Pulmonary Fibrosis (IPF) Mortality",
+      "params": {
+        "Gender": "Male",
+        "Age": ">65 years",
+        "Predicted Forced Vital Capacity (FVC)": ">75%",
+        "Predicted Diffusing Capacity of the Lung for Carbon Monoxide (DLCO)": ">55%"
+      },
+      "tool_summary": "2157_GAP Index for IPF_result: [3, Stage I IPF with 5.6% mortality at 1 year]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Score: [0, low risk of eating disorder]"
+    },
+    {
+      "tool_id": "10084",
+      "tool_name": "RegiSCAR Score for Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+      "params": {
+        "Fever (>=38.5 degC)": "No/Unknown",
+        "Enlarged lymph nodes": "No/Unknown",
+        "Atypical lymphocytes": "No/Unknown",
+        "Eosinophilia": "0-699 cells or <10% (no eosinophilia)",
+        "Skin rash extent >50%": "No/Unknown",
+        "At least two of: edema, infiltration, purpura, scaling": "Unknown",
+        "Biopsy suggesting DRESS": "No",
+        "Internal organ involved": ">=2",
+        "Resolution in >15 days": "No/Unknown",
+        "Alternative diagnoses excluded (by >=3 biological investigations)": "No/Unknown"
+      },
+      "tool_summary": "RegiSCAR Score for DRESS: [-1, No case]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "No",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10110",
+      "tool_name": "STONE Score for Uncomplicated Ureteral Stone",
+      "params": {
+        "Sex": "Male",
+        "Duration of pain prior to presentation": "<6 hours",
+        "Nausea and vomiting": "None",
+        "Hematuria on urine dipstick": "Absent",
+        "Race": "Caucasian"
+      },
+      "tool_summary": "10110_STONE Score (Pre-Ultrasound, Ureteral): [null, undefined% likelihood of ureteral stone]"
+    },
+    {
+      "tool_id": "1750",
+      "tool_name": "Geneva Score (Revised) for Pulmonary Embolism",
+      "params": {
+        "Age >65": "No",
+        "Previous DVT or PE": "No",
+        "Surgery (under general anesthesia) or lower limb fracture in past month": "No",
+        "Active malignant condition": "No",
+        "Unilateral lower limb pain": "No",
+        "Hemoptysis": "No",
+        "Heart rate": "75-94",
+        "Pain on lower limb palpation and unilateral edema": "No"
+      },
+      "tool_summary": "Geneva Score (Revised): [3, low risk group: 7-9% incidence of PE]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "No",
+        "Respiratory rate >20 breaths/min": "No",
+        "Numeric pain score >=5": "No",
+        "Cough inadequate to clear respiratory secretions": "No"
+      },
+      "tool_summary": "SCARF Score: [0, low risk of ≥1 adverse outcome]"
+    },
+    {
+      "tool_id": "10287",
+      "tool_name": "Modified Sequential Organ Failure Assessment (mSOFA) Score",
+      "params": {
+        "SpO₂/FiO₂": " >400",
+        "Scleral icterus or jaundice present": "No",
+        "Hypotension": "No hypotension",
+        "Glasgow Coma Scale": "15",
+        "Creatinine, mg/dL": "1.2-1.9"
+      },
+      "tool_summary": "mSOFA Score: [1, 4% 30-day mortality]"
+    }
+  ]
+}

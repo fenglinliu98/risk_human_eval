@@ -1,0 +1,298 @@
+{
+  "patient_id": "23626810",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Female",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "No",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [4, moderate to high stroke risk]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "Yes",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [5, high risk of hemorrhage (5.8% annual risk)]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": ">=85",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "Yes",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "Yes",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [36, very low survival]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "30-34",
+        "Sex": "Female",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": "3.1-3.5 (31-35)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "23-25 (23-25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator (ID: 10045): [NaN, Unable to determine risk level]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Occasionally moist: requiring extra linen change approximately once a day",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [16, Mild risk]"
+    },
+    {
+      "tool_id": "10277",
+      "tool_name": "Rome IV Diagnostic Criteria for Reflux Hypersensitivity",
+      "params": {
+        "Retrosternal symptoms including heartburn and chest pain": "No",
+        "Normal endoscopy and absence of evidence that EoE is the cause for symptoms": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes",
+        "Evidence of triggering of symptoms by reflux events despite normal acid exposure on pH or pH-impedance monitoring (response to antisecretory therapy does not exclude the diagnosis)": "No"
+      },
+      "tool_summary": "Mini and Rome IV for Reflux Hypersensitivity: [Negative, low risk for reflux hypersensitivity]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Normal CRP and normal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis (ID: 10092): [0 points, Unlikely RA]"
+    },
+    {
+      "tool_id": "10071",
+      "tool_name": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)",
+      "params": {
+        "WHO group 1 subgroup": "Other",
+        "eGFR 2 or renal insufficiency": "Yes",
+        "Male age >60 years": "No",
+        "NYHA/WHO functional class": "III",
+        "Systolic BP, mmHg": ">=110 mmHg",
+        "Heart rate, bpm": ">96 bpm",
+        "Any hospitalizations within 6 months": "Yes",
+        "6-minute walk test": "165 to <320 m",
+        "BNP, pg/mL": "50 to <200 pg/mL",
+        "Pericardial effusion on echocardiogram": "No",
+        "DLCO on pulmonary function test": ">=40%",
+        "Mean right atrial pressure >20 mmHg within 1 year on right heart catheterization": "No",
+        "Pulmonary vascular resistance ": "No"
+      },
+      "tool_summary": "REVEAL Score 2.0 for PAH: [10, High risk]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "Yes",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "1 lineage",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": ">250 (>2.5)",
+        "AST, U/L": ">=30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [37, <1% probability]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": ">=100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Moderate increase",
+        "Prolonged PT, seconds": "3 to <6",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [3, potential non-overt DIC; monitor and reassess]"
+    },
+    {
+      "tool_id": "10040",
+      "tool_name": "Duval/CIBMTR Score for Acute Myelogenous Leukemia (AML) Survival",
+      "params": {
+        "Disease group": "Primary induction failure or duration of first complete remission >6 months",
+        "Cytogenetics prior to HSCT": "Good or intermediate ",
+        " HLA match group": "HLA identical sibling or well matched or partially matched unrelated",
+        "Circulating blasts ": "Absent",
+        "Karnofsky or Lanksy scale": "<90"
+      },
+      "tool_summary": "Duval Score: [1, associated with 28% 3-year overall survival after transplantation]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "No",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [4.5, elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": "30-60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "No",
+        "Diabetes": "No",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "No",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "Yes",
+        "Bleeding history": "Yes",
+        "Liver disease": "Yes"
+      },
+      "tool_summary": "Mini Score: [10, very high 1-year major bleeding risk]"
+    },
+    {
+      "tool_id": "10195",
+      "tool_name": "DSM-5 Criteria for Major Depressive Disorder",
+      "params": {
+        "Depressed mood": "No",
+        "Loss of interest/pleasure": "No",
+        "Weight loss or gain": "No",
+        "Insomnia or hypersomnia": "No",
+        "Psychomotor agitation or retardation": "No",
+        "Fatigue": "No",
+        "Feeling worthless or excessive/inappropriate guilt": "No",
+        "Decreased concentration": "Yes",
+        "Thoughts of death/suicide": "No",
+        "Symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning": "No",
+        "Episode not attributable to physiological effects of a substance or another medical condition": "No",
+        "Episode not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified and unspecified schizophrenia spectrum and other psychotic disorders": "Yes",
+        "No history of manic or hypomanic episode": "Yes"
+      },
+      "tool_summary": "DSM-5 Criteria for Major Depressive Disorder (MDD): [Not positive, low risk of MDD]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "2",
+        "Phlegm": "1",
+        "Chest tightness": "2",
+        "Breathlessness": "3",
+        "Activities": "4",
+        "Confidence": "3",
+        "Sleep": "3",
+        "Energy": "4"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [22, high health impact]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "Yes",
+        "Altered level of alertness": "Yes",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "Yes",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "Yes"
+      },
+      "tool_summary": "Mini/Value: [High, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "3978",
+      "tool_name": "Webster Rating Scale for Parkinson’s Disease",
+      "params": {
+        "Bradykinesia of hands": "None",
+        "Rigidity": "Non-detectable",
+        "Posture": "Normal posture; head flexed forward <4”",
+        "Upper extremity swing": "Swings both arm well",
+        "Gait": "Steps out will with 18-30” stride, turns about effortlessly",
+        "Tremor": "Normal; full animation; no stare",
+        "Seborrhea": "None",
+        "Speech": "Clear, loud, resonant, easily understood",
+        "Self-care": "Requires help in certain critical areas; very slow in performing most activities but manages by taking much time"
+      },
+      "tool_summary": "Webster Rating Scale: [2, early illness]"
+    },
+    {
+      "tool_id": "10245",
+      "tool_name": "Immune-Related Adverse Events for GI Toxicity - Colitis",
+      "params": {
+        "CTCAE for diarrhea": "Increase of <4 stools per day over baseline; mild increase in ostomy output compared with baseline"
+      },
+      "tool_summary": "Colitis Grade/Score (G1): [G1, mild colitis]"
+    },
+    {
+      "tool_id": "10308",
+      "tool_name": "Rome IV Diagnostic Criteria for Centrally Mediated Abdominal Pain Syndrome (CAPS)",
+      "params": {
+        "Continuous or nearly continuous abdominal pain": "No",
+        "No or only occasional relationship of pain with physiological events (e.g. eating, defecation, or menses)": "No",
+        "Pain limits some aspect of daily functioning": "No",
+        "The pain is not feigned": "Yes",
+        "Pain is not explained by another structural or functional gastrointestinal disorder, or other medical condition": "Yes"
+      },
+      "tool_summary": "Rome IV for CAPS: [Negative, low risk for centrally mediated abdominal pain syndrome]"
+    },
+    {
+      "tool_id": "10410",
+      "tool_name": "Utah COVID-19 Risk Score",
+      "params": {
+        "Age, years": "81-90",
+        "Diabetes mellitus": "No",
+        "Obesity (BMI >30 kg/m2)": "No",
+        "Active cancer": "No",
+        "Other immunosuppressive therapies and conditions": "No",
+        "Hypertension": "Yes",
+        "Coronary artery disease": "No",
+        "Cardiac arrhythmia": "Yes",
+        "Congestive heart failure": "No",
+        "Chronic kidney disease": "Yes",
+        "Chronic pulmonary disease": "No",
+        "Chronic liver disease": "No",
+        "Cerebrovascular disease": "No",
+        "Chronic neurologic disease": "No",
+        "New shortness of breath": "No"
+      },
+      "tool_summary": "Utah COVID-19 Risk Score: [7.5, points]"
+    }
+  ]
+}

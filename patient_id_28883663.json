@@ -1,0 +1,278 @@
+{
+  "patient_id": "28883663",
+  "tool_results": [
+    {
+      "tool_id": "3948",
+      "tool_name": "EGSYS (Evaluation of Guidelines in SYncope Study) Score for Syncope",
+      "params": {
+        "Abnormal EKG and/or heart disease": "Yes",
+        "Palpitations before syncope": "No",
+        "Syncope during effort ": "No",
+        "Syncope in supine position": "No",
+        "Autonomic prodromes": "No",
+        "Predisposing and/or precipitating factors": "No"
+      },
+      "tool_summary": "EGSYS Score: [3, high risk of cardiac syncope with 17% mortality at 21-24 months]"
+    },
+    {
+      "tool_id": "3951",
+      "tool_name": "Canadian Syncope Risk Score",
+      "params": {
+        "Predisposition to vasovagal symptoms": "No",
+        "Heart disease history": "Yes",
+        "sBP 180 mmHg": "No",
+        "Elevated troponin": "No",
+        "Abnormal QRS axis": "Yes",
+        "QRS duration >130 ms": "No",
+        "Corrected QT interval >480 ms": "No",
+        "ED diagnosis": "Cardiac syncope"
+      },
+      "tool_summary": "Canadian Syncope Risk Score: [4, high risk]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [4, moderate to high stroke risk]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "1718_ATRIA Bleeding Risk Score: [2, low risk - 0.76% annual risk of hemorrhage, reasonable to start warfarin]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality risk]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": "<30",
+        "Age": "<70",
+        "ICH location": "Lobar",
+        "GCS score": ">=9",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "Mini Functional Independence Measure (mini-FIM): [11, high probability of functional independence]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "Yes",
+        "Altered level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "Yes",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "Mini/Value: [High, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mild-moderate aphasia: some obvious changes, without significant limitation",
+        "10: Dysarthria": "Mild-moderate dysarthria: slurring but can be understood",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [2, minor stroke]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [4, high risk for major bleeding]"
+    },
+    {
+      "tool_id": "3949",
+      "tool_name": "ROSE (Risk Stratification of Syncope in the Emergency Department) Rule",
+      "params": {
+        "BNP Level >=300 pg/ml": "No",
+        "Bradycardia ": "Yes",
+        "Rectal examination showing fecal occult blood": "No",
+        "Anemia": "No",
+        "Chest pain": "No",
+        "ECG showing Q wave": "No",
+        "Saturation <=94% on room air": "No"
+      },
+      "tool_summary": "Medical tool ID 3949: [High risk, strongly consider admitting patient]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "Yes",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [4, low risk]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Male",
+        "Renal function (GFR), mL/min/m2": ">=60",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "No",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "Yes",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [6.5, No increased risk of bleeding]"
+    },
+    {
+      "tool_id": "3950",
+      "tool_name": "OESIL Score for Syncope",
+      "params": {
+        "Age >65 years": "No",
+        "Cardiovascular disease in clinical history": "Yes",
+        "Syncope without prodrome": "Yes",
+        "Abnormal EKG": "Yes"
+      },
+      "tool_summary": "OESIL Score: [3, 34.7% 12-month all-cause mortality]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10462",
+      "tool_name": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+      "params": {
+        "Incomplete emptying: How often have you had the sensation of not emptying your bladder?": "Less than 1 in 5 times",
+        "Frequency: How often have you had to urinate less than every two hours?": "Less than 1 in 5 times",
+        "Intermittency: How often have you found you stopped and started again several times when you urinated?": "Less than 1 in 5 times",
+        "Urgency: How often have you found it difficult to postpone urination?": "Less than 1 in 5 times",
+        "Weak stream: How often have you had a weak urinary stream?": "Less than 1 in 5 times",
+        "Straining: How often have you had to strain to start urination?": "Less than 1 in 5 times",
+        "Nocturia: How many times do you typically get up at night to urinate?": "2 times",
+        "If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?": "Mixed"
+      },
+      "tool_summary": "AUA-SI/IPSS Score: [8, moderate BPH symptom severity]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "55-59",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "<3.5 (<1.13)",
+        "Serum bicarbonate, mEq/L (mmol/L)": ">25 (>25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator: [NaN, unable to assess risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "Slightly limited: makes frequent though slight changes in body or extremity position independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [19, average risk]"
+    },
+    {
+      "tool_id": "3946",
+      "tool_name": "Mirels’ Criteria for Prophylactic Fixation",
+      "params": {
+        "Site of lesion": "Lower limb",
+        "Size of lesion": "Less than 1/3 of bone diameter",
+        "Nature of lesion": "Blastic",
+        "Pain": "Moderate"
+      },
+      "tool_summary": "Mirels' Criteria for Prophylactic Fixation of Metastatic Bone Lesions: [6, minimal risk of fracture (0-4%)]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "75-79",
+        "Neurologically intact or with minimal deficits at admission ": "Yes",
+        "Major trauma": "Yes",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "No",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "No",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [0, Average survival]"
+    }
+  ]
+}

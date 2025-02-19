@@ -1,0 +1,222 @@
+{
+  "patient_id": "29086991",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [3, 72% mortality]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [Grade IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Stuporous, More Severe Focal Deficit"
+      },
+      "tool_summary": "Hunt & Hess Classification/Score: [4, very high risk of mortality (approx 80%)]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "70-79",
+        "ICH location": "Lobar",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "3883_FUNC Score_result: [3, extremely low probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "No motor response",
+        " Pupil response": "Both pupils unreactive to light"
+      },
+      "tool_summary": "GCS-Pupils Score: [1, 74.45% mortality and 89.59% unfavorable outcome at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10459",
+      "tool_name": "PHASES Score",
+      "params": {
+        "Population": "North American, European (other than Finnish)",
+        "Hypertension": "Yes",
+        "Age": "<70 years",
+        "Size of aneurysm": "10.0-19.9 mm",
+        "Earlier SAH from another aneurysm": "No",
+        "Site of aneurysm": "Middle cerebral artery (MCA)"
+      },
+      "tool_summary": "PHASES Score: [9, 4.3% 5-year risk of aneurysm rupture]"
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": "55-69"
+      },
+      "tool_summary": "Mini-CART Score: [4, low risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Constantly moist: skin is kept moist almost constantly by perspiration, urine, etc; dampness detected every time patient is moved/turned",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [6, high risk]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "<5%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "Malnutrition Universal Screening Tool (MUST) Score: [2, high malnutrition risk]"
+    },
+    {
+      "tool_id": "104",
+      "tool_name": "Centor Score (Modified/McIsaac) for Strep Pharyngitis",
+      "params": {
+        "Age": ">=45 years",
+        "Exudate or swelling on tonsils": "No",
+        "Tender/swollen anterior cervical lymph nodes": "No",
+        "Temp >38degC (100.4degF)": "Yes",
+        "Cough": "Cough absent"
+      },
+      "tool_summary": "Centor Score for Strep Pharyngitis: [1, 5% - 10% likelihood of strep]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Female",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [0, very low risk]"
+    },
+    {
+      "tool_id": "2049",
+      "tool_name": "D'Amico Risk Classification for Prostate Cancer",
+      "params": {
+        "PSA level": "<10 ng/mL",
+        "Gleason Score": "<=6",
+        "Clinical stage": "T1-T2a"
+      },
+      "tool_summary": "D'Amico Classification for Prostate Cancer: [Low, <25% failure at 5 years post treatment]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "No",
+        "Have you dropped many of your activities and interests?": "Yes",
+        "Do you feel that your life is empty?": "Yes",
+        "Do you often get bored?": "Yes",
+        "Are you in good spirits most of the time?": "No",
+        "Are you afraid that something bad is going to happen to you?": "Yes",
+        "Do you feel happy most of the time?": "No",
+        "Do you often feel helpless?": "Yes",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "Yes",
+        "Do you feel you have more problems with memory than most?": "Yes",
+        "Do you think it is wonderful to be alive now?": "No",
+        "Do you feel pretty worthless the way you are now?": "Yes",
+        "Do you feel full of energy?": "No",
+        "Do you feel that your situation is hopeless?": "Yes",
+        "Do you think that most people are better off than you are?": "Yes"
+      },
+      "tool_summary": "Geriatric Depression Scale (GDS-15): [15, suggests severe depression]"
+    },
+    {
+      "tool_id": "10104",
+      "tool_name": "Apfel Score for Postoperative Nausea and Vomiting",
+      "params": {
+        "Gender": "Female",
+        "Smoking status": "Nonsmoker",
+        "History of motion sickness or PONV": "No",
+        "Use of postoperative opioids": "Yes"
+      },
+      "tool_summary": "Apfel Score: [3, 61% 24-hour risk of PONV]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "<70",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "Yes",
+        "Acute stroke": "No",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "No",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [14, Low survival risk]"
+    },
+    {
+      "tool_id": "10163",
+      "tool_name": "RAPID Score for Acetabular Chondrolabral Disruption",
+      "params": {
+        "Sex": "Female",
+        "Tönnis classification": "Grade 0: No signs of osteoarthritis",
+        "Cam morphology": "Not present"
+      },
+      "tool_summary": "Mini-Score: [0 points, 10.5% risk of high-grade delamination]"
+    },
+    {
+      "tool_id": "10025",
+      "tool_name": "Ocular Hypertension Treatment Study (OHTS) Calculator",
+      "params": {
+        "Age, years": ">=75",
+        "Mean intraocular pressure, mmHg": "<22",
+        "Mean central corneal thickness, µm": "526-550",
+        "Mean vertical cup-to-disc ratio by contour": "<0.3",
+        "Mean pattern standard deviation, dB": "<1.8"
+      },
+      "tool_summary": "OHTS Score: [7, 10% 5-year risk of developing primary open angle glaucoma]"
+    },
+    {
+      "tool_id": "10284",
+      "tool_name": "Rome IV Diagnostic Criteria for Globus",
+      "params": {
+        "Persistent or intermittent, nonpainful, sensation of a lump or foreign body in the throat with no structural lesion identified on physical examination, laryngoscopy, or endoscopy": "No",
+        "Absence of evidence that gastroesophageal reflux or EoE is the cause of the symptom": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes"
+      },
+      "tool_summary": "Globus Diagnosis Mini Tool and Rome IV Criteria: [Negative, low risk of globus]"
+    }
+  ]
+}

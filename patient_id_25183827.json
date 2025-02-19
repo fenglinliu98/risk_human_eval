@@ -1,0 +1,262 @@
+{
+  "patient_id": "25183827",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "3-4",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [4, 97% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": ">=80",
+        "ICH location": "Lobar",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [3, very low probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "No",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": "10-59 minutes",
+        "History of diabetes": "No"
+      },
+      "tool_summary": "ABCD2 Score: [4, Moderate Risk; 2-Day Stroke Risk: 4.1%, 7-Day Stroke Risk: 5.9%, 90-Day Stroke Risk: 9.8%]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [4, moderate to high stroke risk]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "Yes",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "1718_ATRIA Bleeding Risk Score: [5, High Risk (>4 Points), 5.8% Annual Risk of Hemorrhage]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "1785",
+      "tool_name": "HEMORR₂HAGES Score for Major Bleeding Risk",
+      "params": {
+        "Hepatic or Renal Disease": "No",
+        "Ethanol (Alcohol) Abuse": "No",
+        "Malignancy History": "Yes",
+        "Older (Age >75)": "No",
+        "Reduced Platelet Count or Function": "Yes",
+        "Rebleeding Risk": "Yes",
+        "Hypertension (Uncontrolled)": "No",
+        "Anemia": "Yes",
+        "Genetic Factors": "No",
+        "Excessive Fall Risk": "Yes",
+        "Stroke History": "Yes"
+      },
+      "tool_summary": "HEMORR2HAGES Score: [7, 12.3% risk of bleeding per 100 patient-years of warfarin]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "Yes",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [6.5, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "1787",
+      "tool_name": "4Ts Score for Heparin-Induced Thrombocytopenia",
+      "params": {
+        "Thrombocytopenia": "Platelet count fall <30% OR platelet nadir <10",
+        "Timing of platelet count fall": "Platelet count fall <4 days without recent exposure",
+        "Thrombosis or other sequelae": "None",
+        "Other causes for thrombocytopenia": "Possible"
+      },
+      "tool_summary": "4Ts Score for Heparin-Induced Thrombocytopenia (HIT): [1, Low Probability of HIT (<5%)]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "1 question right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "Patient is bilaterally blind",
+        "4: Facial palsy": "Unilateral complete paralysis (upper/lower face)",
+        "5A: Left arm motor drift": "No movement",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "No effort against gravity",
+        "6B: Right leg motor drift": "No effort against gravity",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Complete loss: cannot sense being touched at all",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [31, severe stroke]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Extension to pain",
+        " Pupil response": "One pupil unreactive to light"
+      },
+      "tool_summary": "GCS-Pupils Score: [3, 40.92% mortality, 65.53% unfavorable outcome at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "No",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "2 lineages",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": "<=250 (<=2.5)",
+        "AST, U/L": ">=30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [73, <1% probability of hemophagocytic syndrome]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Very moist: skin is often but not always moist; linen must be changed at least once a shift",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [7, high risk]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": "<80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [3 points, 20% risk of delirium]; AWOL Score: [3 points, unspecified risk level]; Hospitalization Delirium Risk: [20%, moderate risk of delirium during hospitalization]."
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": ">69"
+      },
+      "tool_summary": "Mini Score: [9, low risk], CART Score: [9, points], Risk of Cardiac Arrest: [Low, risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": ">=85",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "No",
+        "Acute stroke": "Yes",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "No",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [30, very low survival]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "No",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "No",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [-1, low risk]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": ">60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "Yes",
+        "Diabetes": "No",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "Aspirin",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "Yes",
+        "Liver disease": "No"
+      },
+      "tool_summary": "DOAC Score: [10, very high 1-year major bleeding risk]"
+    }
+  ]
+}

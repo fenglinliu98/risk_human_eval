@@ -1,0 +1,282 @@
+{
+  "patient_id": "26618403",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mild-moderate aphasia: some obvious changes, without significant limitation",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [5, mild stroke]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "No",
+        "Clinical features of the TIA": "Other symptoms",
+        "Duration of symptoms": "<10 minutes",
+        "History of diabetes": "No"
+      },
+      "tool_summary": "ABCD2 Score: [1, low risk]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "No",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [4, moderate to high risk of stroke]"
+    },
+    {
+      "tool_id": "1842",
+      "tool_name": "ATRIA Stroke Risk Score",
+      "params": {
+        "History of stroke": "Yes",
+        "Age": "75-84 years",
+        "Female": "No",
+        "History of diabetes mellitus": "No",
+        "History of congestive heart failure": "No",
+        "History of hypertension": "Yes",
+        "Proteinuria": "No",
+        "eGFR ": "No"
+      },
+      "tool_summary": "ATRIA Stroke Risk Score: [8, high risk (>6 points), ≥2% annual risk of ischemic stroke]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "Yes",
+        "Any Prior Hemorrhage Diagnosis": "No",
+        "Hypertension History": "No"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [2, Low Risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "No",
+        "History of bleeding": "No",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [1.5, Low bleeding risk]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "No",
+        "Have you dropped many of your activities and interests?": "Yes",
+        "Do you feel that your life is empty?": "Yes",
+        "Do you often get bored?": "Yes",
+        "Are you in good spirits most of the time?": "No",
+        "Are you afraid that something bad is going to happen to you?": "No",
+        "Do you feel happy most of the time?": "No",
+        "Do you often feel helpless?": "Yes",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "Yes",
+        "Do you feel you have more problems with memory than most?": "Yes",
+        "Do you think it is wonderful to be alive now?": "No",
+        "Do you feel pretty worthless the way you are now?": "Yes",
+        "Do you feel full of energy?": "No",
+        "Do you feel that your situation is hopeless?": "No",
+        "Do you think that most people are better off than you are?": "Yes"
+      },
+      "tool_summary": "GDS-15 (Geriatric Depression Scale - 15 items): [13, suggests severe depression]"
+    },
+    {
+      "tool_id": "10160",
+      "tool_name": "Clinical Dementia Rating (CDR) Scale",
+      "params": {
+        "Memory (M)": "Moderate memory loss; more marked for recent events; interferes with everyday activities (1)",
+        "Orientation (O)": "Moderate difficulty with time relationships; oriented for place and person at examination but may have geographic disorientation (1)",
+        "Judgment and problem solving (JPS)": "Moderate difficulty in handling complex problems; social judgment usually maintained (1)",
+        "Community affairs (CA)": "No pretense of independent function outside home; appears well enough to be taken to functions outside a family home (2)",
+        "Home and hobbies (HH)": "Mild but definite impairment of function at home; more difficult chores abandoned; more complicated hobbies and interests abandoned (1)",
+        "Personal care (PC)": "Fully capable of self-care (0)"
+      },
+      "tool_summary": "Clinical Dementia Rating (CDR) Scale: [1, mild dementia]"
+    },
+    {
+      "tool_id": "3627",
+      "tool_name": "Abbey Pain Scale for Dementia Patients",
+      "params": {
+        "Vocalization": "Mild",
+        "Facial expression": "Mild",
+        "Body language": "Mild",
+        "Physiological changes": "Moderate",
+        "Physical changes": "Mild",
+        "Type of pain": "Acute on chronic"
+      },
+      "tool_summary": "Abbey Pain Scale: [6, mild acute on chronic pain]"
+    },
+    {
+      "tool_id": "1894",
+      "tool_name": "Barnes Jewish Hospital Stroke Dysphagia Screen",
+      "params": {
+        "GCS < 13": "No",
+        "Facial asymmetry/weakness present": "No",
+        "Tongue asymmetry/weakness present": "No",
+        "Palatal asymmetry/weakness present": "No",
+        "Any signs of aspiration during 3 oz water test": "Yes"
+      },
+      "tool_summary": "Barnes Jewish Hospital Stroke Dysphagia Screen (BJH-SDS) result: [Fail, high risk of dysphagia and aspiration]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Fulfillment: [Positive, Further evaluation required]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Screening Tool: [0, low risk of eating disorder]"
+    },
+    {
+      "tool_id": "10321",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Biliary Sphincter of Oddi Disorder (SOD)",
+      "params": {
+        "Criteria for biliary pain": "No",
+        "Elevated liver enzymes OR dilated bile duct, but not both": "No",
+        "Absence of bile duct stones or other structural abnormalities": "Yes"
+      },
+      "tool_summary": "Mini and Rome IV for Biliary Sphincter of Oddi Disorder: [Negative, low risk for disorder]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks frequently: walks outside room >=2x/day and inside room at least once every 2 hrs during waking hours",
+        "Mobility": "No limitation: makes major and frequent changes in position without assistance",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [20, Average risk]"
+    },
+    {
+      "tool_id": "3995",
+      "tool_name": "Abbreviated Mental Test 4 (AMT-4)",
+      "params": {
+        "Age": "Correct",
+        "Date of birth": "Correct",
+        "Place": "Incorrect",
+        "Year": "Incorrect"
+      },
+      "tool_summary": "AMT-4 Score: [2, Abnormal cognition]"
+    },
+    {
+      "tool_id": "362",
+      "tool_name": "Wells' Criteria for DVT",
+      "params": {
+        "Active cancer": "No",
+        "Bedridden recently >3 days or major surgery within 12 weeks": "No",
+        "Calf swelling >3 cm compared to the other leg": "No",
+        "Collateral (nonvaricose) superficial veins present": "No",
+        "Entire leg swollen": "No",
+        "Localized tenderness along the deep venous system": "No",
+        "Pitting edema, confined to symptomatic leg": "No",
+        "Paralysis, paresis, or recent plaster immobilization of the lower extremity": "No",
+        "Previously documented DVT": "No",
+        "Alternative diagnosis to DVT as likely or more likely": "Yes"
+      },
+      "tool_summary": "Wells' Score for DVT: [-2, low risk group for DVT, \"unlikely\"]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini Score: [4 points, 64% risk of delirium]; AWOL Score: [4 points, unspecified risk level]; Risk of Delirium during Hospitalization: [64%, high risk]"
+    },
+    {
+      "tool_id": "10350",
+      "tool_name": "IMPROVEDD Risk Score for Venous Thromboembolism (VTE)",
+      "params": {
+        "Previous VTE": "No",
+        "Known thrombophilia": "No",
+        "Current lower-limb paralysis": "No",
+        "Current cancer": "No",
+        "Immobilized >=7 days": "No",
+        "ICU/CCU stay": "No",
+        "Age >60 years": "Yes",
+        "D-dimer >=2x ULN": "No"
+      },
+      "tool_summary": "IMPROVEDD Score: [1, low risk of VTE at 0.6% over 42 days and 0.7% over 77 days]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Needs help",
+        "Bathing": "Independent",
+        "Grooming": "Independent",
+        "Dressing": "Needs help",
+        "Bowel control": "Continent",
+        "Bladder control": "Occasional accident",
+        "Toilet use": "Needs help",
+        "Transfers (bed to chair and back)": "Independent",
+        "Mobility on level surfaces": "Independent (but may use any aid, e.g. stick) >50 yards",
+        "Stairs": "Needs help (verbal, physical, carrying aid)"
+      },
+      "tool_summary": "Barthel Index: [75, minimally dependent]"
+    },
+    {
+      "tool_id": "3701",
+      "tool_name": "Pain Assessment in Advanced Dementia Scale (PAINAD)",
+      "params": {
+        "Breathing (independent of vocalization)": "Normal",
+        "Negative vocalization": "None",
+        "Facial expression": "Sad/frightened/frown",
+        "Body language": "Relaxed",
+        "Consolability": "Distracted or reassured by voice/touch"
+      },
+      "tool_summary": "PAINAD Tool (for assessing pain in dementia patients): [2, mild pain]"
+    }
+  ]
+}

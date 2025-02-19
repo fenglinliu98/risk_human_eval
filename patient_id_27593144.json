@@ -1,0 +1,251 @@
+{
+  "patient_id": "27593144",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Male",
+        "CHF history": "Yes",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "No",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [4, moderate to high stroke risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "Yes",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [6, very high risk of major bleeding]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "Yes",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [3, 72% mortality]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Critical",
+        "Face worst injury?": "Moderate",
+        "Chest worst injury?": "Serious",
+        "Abdomen worst injury?": "Minor",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "Serious"
+      },
+      "tool_summary": "Injury Severity Score: [43, high risk of morbidity and mortality]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [4 points, 64% risk of delirium]; AWOL Score: [4 points, AWOL Score]; Risk of Delirium During Hospitalization: [64%, high risk]."
+    },
+    {
+      "tool_id": "10160",
+      "tool_name": "Clinical Dementia Rating (CDR) Scale",
+      "params": {
+        "Memory (M)": "Severe memory loss; only highly learned material retained; new material rapidly lost (2)",
+        "Orientation (O)": "Moderate difficulty with time relationships; oriented for place and person at examination but may have geographic disorientation (1)",
+        "Judgment and problem solving (JPS)": "Severely impaired in handling problems, similarities, and differences; social judgment usually impaired (2)",
+        "Community affairs (CA)": "No pretense of independent function outside home; appears too ill to be taken to functions outside a family home (3)",
+        "Home and hobbies (HH)": "No significant function in home (3)",
+        "Personal care (PC)": "Requires much help with personal care; frequent incontinence (3)"
+      },
+      "tool_summary": "Clinical Dementia Rating (CDR) Scale: [3, severe dementia]"
+    },
+    {
+      "tool_id": "3627",
+      "tool_name": "Abbey Pain Scale for Dementia Patients",
+      "params": {
+        "Vocalization": "Mild",
+        "Facial expression": "Moderate",
+        "Body language": "Moderate",
+        "Physiological changes": "Severe",
+        "Physical changes": "Severe",
+        "Type of pain": "Acute on chronic"
+      },
+      "tool_summary": "Abbey Pain Scale: [11, moderate acute on chronic pain]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Very limited: responds only to pain, cannot communicate discomfort except by moaning or restlessness, OR has sensory impairment limiting ability to feel pain/discomfort over half of body",
+        "Moisture": "Constantly moist: skin is kept moist almost constantly by perspiration, urine, etc; dampness detected every time patient is moved/turned",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [7, high risk]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": ">=85",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "Yes",
+        "Acute stroke": "Yes",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "Yes",
+        "Renal insufficiency or dialysis": "No",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "Yes"
+      },
+      "tool_summary": "GO-FAR Score: [46, very low survival]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "Yes",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "Yes",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [7, high risk - alternatives to warfarin should be strongly considered, 5.8% annual risk of hemorrhage]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "Yes",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [5.5, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Male",
+        "Congestive heart failure": "Yes",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "No",
+        "Previous cardiac surgery": "Yes",
+        "Emergency surgery": "No",
+        "Surgery type": "Valve only",
+        "Preoperative creatinine, mg/dL": "<1.2"
+      },
+      "tool_summary": "Mini score: [3 points, 1.8% risk of ARF]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": ">=6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [2 points, Unlikely RA]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": "<18.5",
+        "Unplanned weight loss in past 3-6 months": ">10%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "Malnutrition Universal Screening Tool (MUST): [6, high risk]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [0, totally dependent]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "No",
+        "Respiratory rate >20 breaths/min": "Yes",
+        "Numeric pain score >=5": "No",
+        "Cough inadequate to clear respiratory secretions": "Yes"
+      },
+      "tool_summary": "SCARF Score: [2, Intermediate risk of ≥1 adverse outcome]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "2-5",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [6, intermediate risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Lethargy or Confusion, Mild Focal Neurological Deficits"
+      },
+      "tool_summary": "Hunt & Hess Classification: [3, Grade III - approximately 50% mortality]"
+    }
+  ]
+}

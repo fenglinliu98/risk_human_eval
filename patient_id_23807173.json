@@ -1,0 +1,207 @@
+{
+  "patient_id": "23807173",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Critical",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "Serious",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "Moderate",
+        "External worst injury?": "Serious"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [43, severe injury]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [3, 72% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "<70",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [4, extremely high risk of dependency at 90 days]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Localizes pain",
+        " Pupil response": "Both pupils unreactive to light"
+      },
+      "tool_summary": "GCS-Pupils Score: [5, 32.57% mortality at 6 months, 57.75% risk of unfavorable outcome]"
+    },
+    {
+      "tool_id": "10177",
+      "tool_name": "Recurrent Instability of the Patella (RIP) Score",
+      "params": {
+        "Age <25 years": "No",
+        "Skeletal immaturity": "No",
+        "Dejour A-D dysplasia": "No",
+        "TT-TG/PL >=0.5": "No"
+      },
+      "tool_summary": "Mini Score: [0, low risk], RIP Score: [0, low risk], Risk Group: [Low, low risk], Risk of Recurrent Instability at 5 years: [0%, low risk]"
+    },
+    {
+      "tool_id": "10022",
+      "tool_name": "ARISCAT Score for Postoperative Pulmonary Complications",
+      "params": {
+        "Age, years": "51-80",
+        "Preoperative SpO₂": ">=96%",
+        "Respiratory infection in the last month": "Yes",
+        "Preoperative anemia (Hgb <=10 g/dL)": "No",
+        "Surgical incision": "Peripheral",
+        "Duration of surgery": ">3 hrs",
+        "Emergency procedure": "Yes"
+      },
+      "tool_summary": "ARISCAT Score: [51, high risk of in-hospital post-op pulmonary complications (42.1%)]"
+    },
+    {
+      "tool_id": "10096",
+      "tool_name": "PROMISE Score for Malignant Pleural Effusion",
+      "params": {
+        "Previous chemotherapy": "No",
+        "Previous radiotherapy": "No",
+        "Hemoglobin, g/dL": "<10",
+        "Serum WBC count, 10⁹ cells/L": ">=15.8",
+        "C-reactive protein, IU/L": "32 to <100",
+        "ECOG performance status": "2-4",
+        "Cancer type": "All other types of cancer",
+        "TIMP1, ng/mg protein": "Unknown"
+      },
+      "tool_summary": "Mini Score: [33 points, 50 to <75% risk of mortality at 3 months]"
+    },
+    {
+      "tool_id": "3278",
+      "tool_name": "Clinical Pulmonary Infection Score (CPIS) for Ventilator-Associated Pneumonia (VAP)",
+      "params": {
+        "Temperature (degC)": "38.5-38.9",
+        "White blood cell count": "Either 11 plus band forms >=500",
+        "Tracheal secretions": ">=14+ plus purulent secretions",
+        "Oxygenation, PaO₂/FiO₂ mm Hg": "<=240 and no ARDS",
+        "Pulmonary radiography": "Localized infiltrate",
+        "Culture of tracheal aspirate specimen": "Pathogenic bacteria cultured >1+ plus same pathogenic bacteria on gram stain >1+"
+      },
+      "tool_summary": "3278 CPIS for VAP Score: [11, high risk of ventilator-associated pneumonia]"
+    },
+    {
+      "tool_id": "10301",
+      "tool_name": "Sepsis-Induced Coagulopathy (SIC) Score",
+      "params": {
+        "INR": ">1.4",
+        "Platelet count, cells x 109/L": "<100",
+        "Total SOFA score": ">=2"
+      },
+      "tool_summary": "Mini/SIC Score: [6 points, Diagnosis of SIC with 46% approximate 28-day mortality]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": "50 to <100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Severe increase",
+        "Prolonged PT, seconds": ">=6",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score (mini/Score): [6, high risk for overt DIC]"
+    },
+    {
+      "tool_id": "10349",
+      "tool_name": "IMPROVE Risk Score for Venous Thromboembolism (VTE)",
+      "params": {
+        "Previous VTE": "No",
+        "Known thrombophilia": "No",
+        "Current lower-limb paralysis": "Yes",
+        "Current cancer": "No",
+        "Immobilized >=7 days": "Yes",
+        "ICU/CCU stay": "Yes",
+        "Age >60 years": "No"
+      },
+      "tool_summary": "IMPROVE Score: [4, moderate risk]; 3-month risk of VTE: [2.9%, low to moderate risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Very moist: skin is often but not always moist; linen must be changed at least once a shift",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [7, high risk]"
+    },
+    {
+      "tool_id": "4011",
+      "tool_name": "Nutrition Risk in the Critically Ill (NUTRIC) Score",
+      "params": {
+        "Age, years": "50-74",
+        "APACHE II": ">=28",
+        "SOFA Score": ">=10",
+        "Number of comorbidities": ">=2",
+        "Days in hospital to ICU admit": "0",
+        "IL-6, µ/mL": "0-399"
+      },
+      "tool_summary": "NUTRIC Score: [7, high risk]"
+    },
+    {
+      "tool_id": "10554",
+      "tool_name": "Spanish Network on Mastocytosis (REMA) Score",
+      "params": {
+        "Gender": "Male",
+        "Urticaria and/or angioedema": "No",
+        "Presyncope and/or syncope": "No",
+        "Tryptase": "<15 ng/mL"
+      },
+      "tool_summary": "REMA Score: [1, low probability of clonal MCAD]"
+    },
+    {
+      "tool_id": "10527",
+      "tool_name": "The Car, Relax, Alone, Forget, Friends, Trouble (CRAFFT) Questionnaire",
+      "params": {
+        "Drink more than a few sips of beer, wine, or any drink containing alcohol?": "0",
+        "Use any marijuana (cannabis, weed, oil, wax, or hash, by smoking, vaping, dabbing, or in edibles) or \"synthetic marijuana\" (like \"K2,\" \"Spice\")?": "0",
+        "Use anything else to get high (like other illegal drugs, pills, prescription or over-the-counter medications, and things that you sniff, huff, vape, or inject)?": "0",
+        "Have you ever ridden in a CAR driven by someone (including yourself) who was \"high\" or had been using alcohol or drugs?": "No",
+        "Do you ever use alcohol or drugs to RELAX, feel better about yourself, or fit in?": "No",
+        "Do you ever use alcohol or drugs while you are by yourself, ALONE?": "No",
+        "Do you ever FORGET things you did while using alcohol or drugs?": "No",
+        "Do your family or FRIENDS ever tell you that you should cut down on your drinking or drug use?": "No",
+        "Have you ever gotten into TROUBLE while you were using alcohol or drugs?": "No"
+      },
+      "tool_summary": "CRAFFT Screening Tool: [0, low risk of substance use]"
+    },
+    {
+      "tool_id": "4003",
+      "tool_name": "Diabetic Ketoacidosis Mortality Prediction Model (DKA MPM) Score",
+      "params": {
+        "Severe comorbidities": "Yes",
+        "pH <7.0": "No",
+        ">50 units regular insulin required over 12 hr": "No",
+        "Serum glucose >300 mg/dL (16.7 mmol/L) after 12 hr": "No",
+        "Depressed mental state": "Yes",
+        "Fever": "Yes"
+      },
+      "tool_summary": "DKA MPM Score: [13, low risk of in-hospital mortality (0.86%)]"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "patient_id": "22846888",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "Yes",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "Yes"
+      },
+      "tool_summary": "ICH Score: [4, 97% mortality]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale: [Grade IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " Eyes open spontaneously",
+        "Verbal response": "Confused",
+        " Motor response": "Obeys commands",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [14, 5.64% mortality and 14.39% unfavorable outcome at 6 months post-injury]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [5, high risk of stroke]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": "<30",
+        "Age": ">=80",
+        "ICH location": "Infratentorial",
+        "GCS score": ">=9",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "Mini Functional Independence Measure (Mini-FIM): [6, low probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "Yes",
+        "Neurologic deficit": "Yes",
+        "Altered level of alertness": "Yes",
+        "Abnormal behavior": "Yes",
+        "Coagulopathy": "Yes",
+        "Persistent vomiting": "Yes",
+        "Age >=65 years": "Yes"
+      },
+      "tool_summary": "Mini/Value: [High, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": ">=100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Severe increase",
+        "Prolonged PT, seconds": "<3",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score (ID: 10203): [3, Not suggestive of overt DIC, may be non-overt DIC]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Lethargy or Confusion, Mild Focal Neurological Deficits"
+      },
+      "tool_summary": "Hunt & Hess Classification: [3, Patients with Grade III have an approximate 50% mortality]"
+    },
+    {
+      "tool_id": "2157",
+      "tool_name": "GAP Index for Idiopathic Pulmonary Fibrosis (IPF) Mortality",
+      "params": {
+        "Gender": "Male",
+        "Age": ">65 years",
+        "Predicted Forced Vital Capacity (FVC)": "<50%",
+        "Predicted Diffusing Capacity of the Lung for Carbon Monoxide (DLCO)": "Unable to perform"
+      },
+      "tool_summary": "GAP Index for IPF: [8, high risk of mortality]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "Yes",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [3, 20% risk of delirium]; AWOL Score: [3, moderate risk]; Risk of Delirium during Hospitalization: [20%, moderate risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Occasionally moist: requiring extra linen change approximately once a day",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Probably inadequate: rarely eats complete meal and generally eats only about ½ of any food offered; protein intake includes only 3 servings of meat or dairy products daily; occasionally will take dietary supplement; or receives less than optimum amount of",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [12, high risk]"
+    },
+    {
+      "tool_id": "3627",
+      "tool_name": "Abbey Pain Scale for Dementia Patients",
+      "params": {
+        "Vocalization": "Moderate",
+        "Facial expression": "Moderate",
+        "Body language": "Mild",
+        "Physiological changes": "Severe",
+        "Physical changes": "Severe",
+        "Type of pain": "Acute"
+      },
+      "tool_summary": "Abbey Pain Scale: [11, moderate acute pain]"
+    },
+    {
+      "tool_id": "10160",
+      "tool_name": "Clinical Dementia Rating (CDR) Scale",
+      "params": {
+        "Memory (M)": "Severe memory loss; only highly learned material retained; new material rapidly lost (2)",
+        "Orientation (O)": "Moderate difficulty with time relationships; oriented for place and person at examination but may have geographic disorientation (1)",
+        "Judgment and problem solving (JPS)": "Severely impaired in handling problems, similarities, and differences; social judgment usually impaired (2)",
+        "Community affairs (CA)": "No pretense of independent function outside home; appears well enough to be taken to functions outside a family home (2)",
+        "Home and hobbies (HH)": "Only simple chores preserved; very restricted interests, poorly maintained (2)",
+        "Personal care (PC)": "Requires assistance in dressing, hygiene, keeping of personal effects (2)"
+      },
+      "tool_summary": "Clinical Dementia Rating (CDR) Scale: [2, moderate dementia]"
+    },
+    {
+      "tool_id": "3701",
+      "tool_name": "Pain Assessment in Advanced Dementia Scale (PAINAD)",
+      "params": {
+        "Breathing (independent of vocalization)": "Normal",
+        "Negative vocalization": "None",
+        "Facial expression": "Sad/frightened/frown",
+        "Body language": "Tense, distressed pacing/fidgeting",
+        "Consolability": "Unable to console, distract or reassure"
+      },
+      "tool_summary": "PAINAD Scale: [4, moderate pain]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Needs moderate or maximal assist to stand",
+        "Standing unsupported": "Unable to stand 30 seconds unsupported",
+        "Sitting with back unsupported": "Unable to sit without support for 10 seconds",
+        "Standing to sitting": "Needs assistance to sit ",
+        "Transfers": "Needs two person assistance or supervision for safety",
+        "Standing unsupported with eyes closed": "Needs help to keep from falling",
+        "Standing unsupported with feet together": "Needs help to attain position and unable to hold 15 seconds",
+        "Reaching forward with outstretched arm while standing": "Loses balance while trying/requires external support",
+        "Pick up object from the floor from a standing position": "Unable to try/needs assist to keep from losing balance or falling",
+        "Turning to look behind over left and right shoulders": "Needs assist to keep from losing balance or falling",
+        "Turn 360 degrees": "Needs assistance while turning",
+        "Placing alternate foot on step or stool while standing unsupported": "Needs assistance to keep from falling/unable to try",
+        "Standing unsupported one foot in front": "Loses balance while stepping or standing",
+        "Standing on one leg": "Unable to try or needs assist to prevent fall"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [0, Increased fall risk]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [1 point, Unlikely RA]"
+    },
+    {
+      "tool_id": "10184",
+      "tool_name": "HINTS for Stroke in Acute Vestibular Syndrome",
+      "params": {
+        "Horizontal head impulse test (h-HIT)": "Normal/untestable ",
+        "Observation of nystagmus": "Direction-changing horizontal/untestable nystagmus",
+        "Test of skew": "Present/untestable skew deviation"
+      },
+      "tool_summary": "HINTS exam/Score (HINTS): [Typically dangerous, high risk for stroke or serious vestibular conditions]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": ">60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "No",
+        "Diabetes": "No",
+        "Hypertension": "No",
+        "Antiplatelet use": "No",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "Yes",
+        "Liver disease": "No"
+      },
+      "tool_summary": "Mini: [8 points, High 1-year major bleeding risk] | 10551_DOAC_score_result: [8 points, High 1-year major bleeding risk]"
+    }
+  ]
+}

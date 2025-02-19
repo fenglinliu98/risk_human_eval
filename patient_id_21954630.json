@@ -1,0 +1,276 @@
+{
+  "patient_id": "21954630",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [2, 26% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": "<30",
+        "Age": "70-79",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [7, moderate risk of not achieving functional independence at 90 days]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [Grade IV, Low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Comatose, showing signs of severe neurological impairment (ex: posturing)"
+      },
+      "tool_summary": "Hunt & Hess Classification/Grade V: [5, approximately 90% mortality]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "1 question right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No movement",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "No movement",
+        "6B: Right leg motor drift": "No movement",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Complete loss: cannot sense being touched at all",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [27, severe stroke]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "No",
+        "Lumpy or hard stools ": "No",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "No",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Functional Constipation Assessment Tool: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Very limited: responds only to pain, cannot communicate discomfort except by moaning or restlessness, OR has sensory impairment limiting ability to feel pain/discomfort over half of body",
+        "Moisture": "Very moist: skin is often but not always moist; linen must be changed at least once a shift",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [8, high risk]"
+    },
+    {
+      "tool_id": "10059",
+      "tool_name": "PEDIS Score for Diabetic Foot Ulcers",
+      "params": {
+        "Perfusion": "Peripheral arterial disease, no critical limb ischemia",
+        "Extent": "Skin intact",
+        "Depth": "Skin intact",
+        "Infection": "None",
+        "Sensation": "Loss of sensation"
+      },
+      "tool_summary": "PEDIS Score: [2, Low risk]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "<65",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "Yes",
+        "Prior PCI or prior MI": "Yes",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "Yes"
+      },
+      "tool_summary": "DAPT Score: [5, high risk]"
+    },
+    {
+      "tool_id": "324",
+      "tool_name": "CURB-65 Score for Pneumonia Severity",
+      "params": {
+        "Confusion": "Yes",
+        "BUN >19 mg/dL (>7 mmol/L urea)": "Yes",
+        "Respiratory Rate >=30": "No",
+        "Systolic BP ": "No",
+        "Age >=65": "Yes"
+      },
+      "tool_summary": "CURB-65 Score: [3, severe risk group: 14.0% 30-day mortality]"
+    },
+    {
+      "tool_id": "10078",
+      "tool_name": "Pediatric NEXUS II Head CT Decision Instrument for Blunt Trauma",
+      "params": {
+        "Evidence of skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "Yes",
+        "Abnormal level of alertness": "Yes",
+        "Abnormal behavior": "No",
+        "Persistent vomiting": "Yes",
+        "Coagulopathy": "Yes"
+      },
+      "tool_summary": "Mini/NEXUS CT Head Rule: [High, Consider CT]"
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": "55-69"
+      },
+      "tool_summary": "Mini/CART Score: [4, low risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "60-65",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "HCC risk at 10 years: [3.2%, low risk], REACH-B Score: [9, moderate risk], 10-year risk of HCC: [3.2%, low risk]"
+    },
+    {
+      "tool_id": "2046",
+      "tool_name": "UCSF-CAPRA Score for Prostate Cancer Risk",
+      "params": {
+        "Age": ">= 50 years",
+        "PSA at diagnosis (ng/mL)": "<6",
+        "Gleason Score pattern (primary or secondary)": "No 4 or 5 pattern present",
+        "Clinical stage": "T1 or T2",
+        "Percent biopsy cores positive for cancer": "<34%"
+      },
+      "tool_summary": "UCSF-CAPRA Score: [1, low risk - ~85% disease-free survival at 5 years]"
+    },
+    {
+      "tool_id": "10195",
+      "tool_name": "DSM-5 Criteria for Major Depressive Disorder",
+      "params": {
+        "Depressed mood": "No",
+        "Loss of interest/pleasure": "No",
+        "Weight loss or gain": "No",
+        "Insomnia or hypersomnia": "No",
+        "Psychomotor agitation or retardation": "Yes",
+        "Fatigue": "Yes",
+        "Feeling worthless or excessive/inappropriate guilt": "No",
+        "Decreased concentration": "Yes",
+        "Thoughts of death/suicide": "No",
+        "Symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning": "Yes",
+        "Episode not attributable to physiological effects of a substance or another medical condition": "No",
+        "Episode not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified and unspecified schizophrenia spectrum and other psychotic disorders": "Yes",
+        "No history of manic or hypomanic episode": "Yes"
+      },
+      "tool_summary": "DSM-5 Criteria for MDD Diagnosis: [Not positive, low risk of Major Depressive Disorder (MDD)]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "No",
+        "Have you dropped many of your activities and interests?": "Yes",
+        "Do you feel that your life is empty?": "Yes",
+        "Do you often get bored?": "Yes",
+        "Are you in good spirits most of the time?": "No",
+        "Are you afraid that something bad is going to happen to you?": "Yes",
+        "Do you feel happy most of the time?": "No",
+        "Do you often feel helpless?": "Yes",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "Yes",
+        "Do you feel you have more problems with memory than most?": "Yes",
+        "Do you think it is wonderful to be alive now?": "No",
+        "Do you feel pretty worthless the way you are now?": "Yes",
+        "Do you feel full of energy?": "No",
+        "Do you feel that your situation is hopeless?": "Yes",
+        "Do you think that most people are better off than you are?": "Yes"
+      },
+      "tool_summary": "Geriatric Depression Scale (GDS-15): [15, suggests severe depression]"
+    },
+    {
+      "tool_id": "10168",
+      "tool_name": "Withdrawal Assessment Tool (WAT-1) for Pediatric Withdrawal",
+      "params": {
+        "Any loose or watery stools": "No",
+        "Any vomiting, retching, or gagging": "Yes",
+        "Temperature >100.0 degF (37.8degC)": "Yes",
+        "State Behavioral Scale (SBS)": "<=0 OR asleep or awake and calm",
+        "Tremor": "None or mild",
+        "Any sweating": "Yes",
+        "Uncoordinated and/or repetitive movement": "None or mild",
+        "Yawning or sneezing": "0-1 time",
+        "Startle to touch": "None or mild",
+        "Muscle tone": "Normal",
+        "Time to gain calm state (SBS <=0)": "<2 min"
+      },
+      "tool_summary": "WAT-1 Score: [3, extended median duration of opioid or benzodiazepine weaning (10 days)]"
+    },
+    {
+      "tool_id": "10053",
+      "tool_name": "Binet Staging System for Chronic Lymphocytic Leukemia (CLL)",
+      "params": {
+        "Areas of lymphadenopathy": "<3",
+        "Anemia": "Yes",
+        "Thrombocytopenia": "No"
+      },
+      "tool_summary": "Binet Staging for CLL: [Stage C, High risk]"
+    },
+    {
+      "tool_id": "10068",
+      "tool_name": "NAFLD (Non-Alcoholic Fatty Liver Disease) Activity Score",
+      "params": {
+        "Steatosis grade": "5-33%",
+        "Lobular inflammation": "1 focus per 200x field",
+        "Liver cell injury": "Few balloon cells"
+      },
+      "tool_summary": "NAFLD Activity Score: [3, moderate activity]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Male",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [21, low risk]"
+    }
+  ]
+}

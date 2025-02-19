@@ -1,0 +1,259 @@
+{
+  "patient_id": "21611540",
+  "tool_results": [
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Localized clot and/or vertical layer within the subarachnoid space > 1mm thick"
+      },
+      "tool_summary": "Fisher Grading Scale (ID: 3836): [Grade III, low to high risk of vasospasm (range 23-96%)]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Stuporous, More Severe Focal Deficit"
+      },
+      "tool_summary": "Hunt & Hess Classification/Score: [4, approximately 80% mortality]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "3-4",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [3, 72% mortality]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [6, high risk of stroke or TIA/systemic embolism]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [2, Low Risk (<4 Points), 0.76% Annual Risk of Hemorrhage]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [6, very high risk of major bleeding]"
+    },
+    {
+      "tool_id": "1785",
+      "tool_name": "HEMORR₂HAGES Score for Major Bleeding Risk",
+      "params": {
+        "Hepatic or Renal Disease": "Yes",
+        "Ethanol (Alcohol) Abuse": "No",
+        "Malignancy History": "No",
+        "Older (Age >75)": "No",
+        "Reduced Platelet Count or Function": "Yes",
+        "Rebleeding Risk": "Yes",
+        "Hypertension (Uncontrolled)": "Yes",
+        "Anemia": "No",
+        "Genetic Factors": "No",
+        "Excessive Fall Risk": "No",
+        "Stroke History": "No"
+      },
+      "tool_summary": "HEMORR2HAGES Score: [5, 12.3% risk of bleeding per 100 patient-years of warfarin]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "30-34",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "80-89",
+        "Serum albumin, g/dL (g/L)": "2.6-30 (26-30)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": ">25 (>25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "5-year risk of kidney failure: [NaN, cannot assess risk level]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "No",
+        "Lumpy or hard stools ": "No",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "No",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Functional Constipation Assessment: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "10022",
+      "tool_name": "ARISCAT Score for Postoperative Pulmonary Complications",
+      "params": {
+        "Age, years": "51-80",
+        "Preoperative SpO₂": ">=96%",
+        "Respiratory infection in the last month": "Yes",
+        "Preoperative anemia (Hgb <=10 g/dL)": "No",
+        "Surgical incision": "Peripheral",
+        "Duration of surgery": "<2 hrs",
+        "Emergency procedure": "Yes"
+      },
+      "tool_summary": "ARISCAT Score for Post-Op Pulmonary Complications: [28, Intermediate Risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Constantly moist: skin is kept moist almost constantly by perspiration, urine, etc; dampness detected every time patient is moved/turned",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [6, high risk]"
+    },
+    {
+      "tool_id": "10143",
+      "tool_name": "RESP (Respiratory ECMO Survival Prediction) Score",
+      "params": {
+        "Age, years": ">=60",
+        "Immunocompromised status at time of ECMO": "Yes",
+        "Mechanically ventilated before ECMO initiated": "<48 hours",
+        "Diagnosis": "Nonrespiratory or chronic respiratory diagnosis",
+        "History of central nervous system dysfunction": "Yes",
+        "Acute associated nonpulmonary infection": "Yes",
+        "Neuromuscular blockade before ECMO": "Yes",
+        "Nitric oxide before ECMO": "No",
+        "Bicarbonate infusion before ECMO": "No",
+        "Cardiac arrest before ECMO": "No",
+        "PaCO₂ >=75 mmHg (>=10 kPa)": "No",
+        "Peak inspiratory pressure >=42 cm H₂O (>=4.1 kPa)": "No"
+      },
+      "tool_summary": "Mini/Score: [-11, 18% survival], RESP Score/Score: [-11, critical], Risk Class/Score: [Class V, extremely high risk], In-hospital survival/Score: [18%, very low survival chance]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "0 (“I never cough”)",
+        "Phlegm": "0 (“I have no phlegm in my chest at all”)",
+        "Chest tightness": "0 (“My chest does not feel tight at all”)",
+        "Breathlessness": "3",
+        "Activities": "4",
+        "Confidence": "4",
+        "Sleep": "3",
+        "Energy": "5 (“I have no energy at all”)"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [19, medium health impact]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [1, Unlikely RA]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": ">=100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Moderate increase",
+        "Prolonged PT, seconds": ">=6",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [4, not suggestive of overt DIC, possible non-overt DIC]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "0 questions correct",
+        "1C: Level of consciousness commands": "0 tasks correct",
+        "2: Test horizontal extra-ocular movements": "Total gaze palsy",
+        "3: Test visual fields": "Bilateral hemianopia",
+        "5A: Test left arm motor drift": "No movement",
+        "5B: Test right arm motor drift": "No movement",
+        "6A: Test left leg motor drift": "No movement",
+        "6B: Test right leg motor drift": "No movement",
+        "8: Test sensation": "Abnormal; sensory loss",
+        "9: Test language/aphasia": "Mute/global aphasia",
+        "11: Test extinction/inattention/neglect": "Severe"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [31, severe stroke]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Withdrawal from pain",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [6, 24.97% mortality, 46.26% unfavorable outcome at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10287",
+      "tool_name": "Modified Sequential Organ Failure Assessment (mSOFA) Score",
+      "params": {
+        "SpO₂/FiO₂": ">235 to <=315",
+        "Scleral icterus or jaundice present": "No",
+        "Hypotension": "No hypotension",
+        "Glasgow Coma Scale": "<6",
+        "Creatinine, mg/dL": "1.2-1.9"
+      },
+      "tool_summary": "mSOFA Score: [7, 4% 30-day mortality]"
+    },
+    {
+      "tool_id": "10098",
+      "tool_name": "Danger Assessment Tool for Domestic Abuse",
+      "params": {
+        "Has the physical violence increased in frequency or severity over the past 6 months?": "No",
+        "Have they ever used a weapon or threatened you with a weapon?": "No",
+        "Do you believe they are capable of killing you?": "No",
+        "Have you ever been beaten by them while you were pregnant?": "No",
+        "Are they violently and constantly jealous of you?": "No"
+      },
+      "tool_summary": "Danger Assessment Score: [0, low risk of lethal or potentially lethal assault by IP]"
+    }
+  ]
+}

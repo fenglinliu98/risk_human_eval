@@ -1,0 +1,276 @@
+{
+  "patient_id": "21632826",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "Yes"
+      },
+      "tool_summary": "ICH Score: [1, 13% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": "<30",
+        "Age": "<70",
+        "ICH location": "Lobar",
+        "GCS score": ">=9",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [11, high probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "Patient is bilaterally blind",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Normal; no aphasia",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [3, minor stroke]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [Grade IV, Low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Full Nuchal Rigidity, Moderate-Severe Headache, Alert and Oriented, No Neuro Deficit (Besides CN Palsy)"
+      },
+      "tool_summary": "Hunt & Hess Classification/Score: [2, Grade II with approximately 40% mortality]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "Both questions correct",
+        "1C: Level of consciousness commands": "Both tasks correct",
+        "2: Test horizontal extra-ocular movements": "Normal",
+        "3: Test visual fields": "Bilateral hemianopia",
+        "5A: Test left arm motor drift": "No drift",
+        "5B: Test right arm motor drift": "No drift",
+        "6A: Test left leg motor drift": "No drift",
+        "6B: Test right leg motor drift": "No drift",
+        "8: Test sensation": "Normal; no sensory loss",
+        "9: Test language/aphasia": "Normal; no aphasia",
+        "11: Test extinction/inattention/neglect": "Normal"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [3, minor stroke]"
+    },
+    {
+      "tool_id": "1730",
+      "tool_name": "Adult Self-Report Scale (ASRS v1.1) for ADHD",
+      "params": {
+        "How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?": "Never",
+        "How often do you have difficulty getting things in order when you have to do a task that requires organization?": "Never",
+        "How often do you have problems remembering appointments or obligations?": "Never",
+        "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?": "Never",
+        "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?": "Never",
+        "How often do you feel overly active and compelled to do things, like you were driven by a motor?": "Never"
+      },
+      "tool_summary": "1730_Adult Self-Report Scale (ASRS)_result: [0, less likely to be consistent with Adult ADHD]"
+    },
+    {
+      "tool_id": "10071",
+      "tool_name": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)",
+      "params": {
+        "WHO group 1 subgroup": "Other",
+        "eGFR 2 or renal insufficiency": "No",
+        "Male age >60 years": "No",
+        "NYHA/WHO functional class": "I",
+        "Systolic BP, mmHg": ">=110 mmHg",
+        "Heart rate, bpm": "<=96 bpm",
+        "Any hospitalizations within 6 months": "Yes",
+        "6-minute walk test": "165 to <320 m",
+        "BNP, pg/mL": "50 to <200 pg/mL",
+        "Pericardial effusion on echocardiogram": "No",
+        "DLCO on pulmonary function test": ">=40%",
+        "Mean right atrial pressure >20 mmHg within 1 year on right heart catheterization": "No",
+        "Pulmonary vascular resistance ": "No"
+      },
+      "tool_summary": "REVEAL Score 2.0 for PAH: [6, Low risk]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Independent",
+        "Bathing": "Independent",
+        "Grooming": "Independent",
+        "Dressing": "Independent",
+        "Bowel control": "Continent",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Needs help",
+        "Transfers (bed to chair and back)": "Independent",
+        "Mobility on level surfaces": "Independent (but may use any aid, e.g. stick) >50 yards",
+        "Stairs": "Independent"
+      },
+      "tool_summary": "Barthel Index: [85, totally independent]"
+    },
+    {
+      "tool_id": "10462",
+      "tool_name": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+      "params": {
+        "Incomplete emptying: How often have you had the sensation of not emptying your bladder?": "Almost always",
+        "Frequency: How often have you had to urinate less than every two hours?": "Less than half the time",
+        "Intermittency: How often have you found you stopped and started again several times when you urinated?": "Less than half the time",
+        "Urgency: How often have you found it difficult to postpone urination?": "Less than half the time",
+        "Weak stream: How often have you had a weak urinary stream?": "About half the time",
+        "Straining: How often have you had to strain to start urination?": "Less than half the time",
+        "Nocturia: How many times do you typically get up at night to urinate?": "1 time",
+        "If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?": "Mostly dissatisfied"
+      },
+      "tool_summary": "AUA-SI/IPSS Score: [17, moderate BPH symptom severity]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "No"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [1, Low Risk - 0.76% Annual Risk of Hemorrhage]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "Yes",
+        "Lumpy or hard stools ": "Yes",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Mini-Constipation Assessment Tool Score: [Positive, Likely functional constipation]"
+    },
+    {
+      "tool_id": "10169",
+      "tool_name": "Columbia Suicide Severity Rating Scale (C-SSRS Screener)",
+      "params": {
+        "Select most severe in the past month": "0. No reported suicidal ideation",
+        "Select most severe in lifetime": "0. No reported suicidal behavior",
+        "Was this behavior within the past three months?": "No"
+      },
+      "tool_summary": "Mini/Value (No ideation): [No ideation, minimal risk of suicide]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "Yes",
+        "Have you dropped many of your activities and interests?": "No",
+        "Do you feel that your life is empty?": "No",
+        "Do you often get bored?": "No",
+        "Are you in good spirits most of the time?": "Yes",
+        "Are you afraid that something bad is going to happen to you?": "No",
+        "Do you feel happy most of the time?": "Yes",
+        "Do you often feel helpless?": "No",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "No",
+        "Do you feel you have more problems with memory than most?": "No",
+        "Do you think it is wonderful to be alive now?": "Yes",
+        "Do you feel pretty worthless the way you are now?": "No",
+        "Do you feel full of energy?": "No",
+        "Do you feel that your situation is hopeless?": "No",
+        "Do you think that most people are better off than you are?": "No"
+      },
+      "tool_summary": "GDS-15 Score: [1, absence of clinically significant depressive symptoms]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "45-49",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "HCC Risk at 10 yrs: [0.7%, low risk], REACH-B Score: [6, moderate risk], 10-year risk of HCC: [0.7%, low risk]"
+    },
+    {
+      "tool_id": "10517",
+      "tool_name": "International Ovarian Tumor Analysis (IOTA) Simple Rules Risk Assessment",
+      "params": {
+        "B1 (unilocular cyst)": "No",
+        "B2 (solid components present, but ": "No",
+        "B3 (acoustic shadows)": "No",
+        "B4 (smooth multilocular tumor with largest diameter ": "No",
+        "B5 (no blood flow; color score 1)": "No",
+        "M1 (irregular solid tumor)": "No",
+        "M2 (ascites)": "No",
+        "M3 (at least 4 papillary structures)": "No",
+        "M4 (irregular multilocular solid tumor with largest diameter >=100 mm)": "No",
+        "M5 (very strong flow; color score 4)": "No",
+        "Ultrasound examination at oncology center": "No"
+      },
+      "tool_summary": "IOTA Simple Rules Risk Assessment: [27.5%, moderate risk of malignancy in adnexal masses]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "No",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [3, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "3627",
+      "tool_name": "Abbey Pain Scale for Dementia Patients",
+      "params": {
+        "Vocalization": "Absent",
+        "Facial expression": "Absent",
+        "Body language": "Absent",
+        "Physiological changes": "Absent",
+        "Physical changes": "Absent",
+        "Type of pain": "Acute"
+      },
+      "tool_summary": "Abbey Pain Scale: [0, no pain]"
+    },
+    {
+      "tool_id": "10312",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Pancreatic Sphincter of Oddi Disorder (SOD)",
+      "params": {
+        "Documented recurrent episodes of pancreatitis (typical pain with amylase or lipase >3 times normal and/or imaging evidence of acute pancreatitis)": "No",
+        "Other etiologies of pancreatitis excluded": "No",
+        "Negative endoscopic ultrasound": "No",
+        "Abnormal sphincter manometry": "No"
+      },
+      "tool_summary": "Mini Tool for Pancreatic SOD: [Negative, low risk for pancreatic sphincter of Oddi disorder]"
+    }
+  ]
+}

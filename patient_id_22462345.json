@@ -1,0 +1,284 @@
+{
+  "patient_id": "22462345",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "3-4",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "Yes",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [4, 97% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": ">=80",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "Mini Functional Independence Measure (Mini-FIM): [1, no probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Forced gaze palsy: cannot be overcome",
+        "3: Visual fields": "Patient is bilaterally blind",
+        "4: Facial palsy": "Unilateral complete paralysis (upper/lower face)",
+        "5A: Left arm motor drift": "No movement",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "No movement",
+        "6B: Right leg motor drift": "No movement",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Complete loss: cannot sense being touched at all",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "Profound hemi-inattention (ex: does not recognize own hand)"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [38, severe stroke]"
+    },
+    {
+      "tool_id": "1842",
+      "tool_name": "ATRIA Stroke Risk Score",
+      "params": {
+        "History of stroke": "Yes",
+        "Age": "75-84 years",
+        "Female": "No",
+        "History of diabetes mellitus": "No",
+        "History of congestive heart failure": "Yes",
+        "History of hypertension": "Yes",
+        "Proteinuria": "No",
+        "eGFR ": "No"
+      },
+      "tool_summary": "ATRIA Stroke Risk Score: [9, High Risk (>6 Points), ≥2% annual risk of ischemic stroke]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [6, very high risk of major bleeding]"
+    },
+    {
+      "tool_id": "3941",
+      "tool_name": "Rapid Arterial oCclusion Evaluation (RACE) Scale for Stroke",
+      "params": {
+        "Facial palsy": "Moderate to severe",
+        "Arm motor impairment": "Severe",
+        "Leg motor impairment": "Severe",
+        "Head and gaze deviation": "Present",
+        "Hemiparesis": "Left",
+        "Aphasia": "Performs neither task",
+        "Agnosia": "Does not recognize his/her arm nor the impairment"
+      },
+      "tool_summary": "RACE Scale/Score: [9, high risk for LVO and immediate referral to stroke center with endovascular capabilities recommended]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "No motor response",
+        " Pupil response": "Both pupils unreactive to light"
+      },
+      "tool_summary": "GCS-Pupils Score: [1, 74.45% mortality at 6 months post-injury]."
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "0 questions correct",
+        "1C: Level of consciousness commands": "0 tasks correct",
+        "2: Test horizontal extra-ocular movements": "Total gaze palsy",
+        "3: Test visual fields": "Bilateral hemianopia",
+        "5A: Test left arm motor drift": "No movement",
+        "5B: Test right arm motor drift": "No movement",
+        "6A: Test left leg motor drift": "No movement",
+        "6B: Test right leg motor drift": "No movement",
+        "8: Test sensation": "Abnormal; sensory loss",
+        "9: Test language/aphasia": "Mute/global aphasia",
+        "11: Test extinction/inattention/neglect": "Severe"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [31, severe stroke]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "Yes",
+        "Ask patient age and current month": "Neither correct",
+        "Ask patient to close eyes and open/close hand": "Follows neither command",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Cannot do"
+      },
+      "tool_summary": "Mini: [4, high risk of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "4003",
+      "tool_name": "Diabetic Ketoacidosis Mortality Prediction Model (DKA MPM) Score",
+      "params": {
+        "Severe comorbidities": "Yes",
+        "pH <7.0": "No",
+        ">50 units regular insulin required over 12 hr": "No",
+        "Serum glucose >300 mg/dL (16.7 mmol/L) after 12 hr": "No",
+        "Depressed mental state": "Yes",
+        "Fever": "No"
+      },
+      "tool_summary": "DKA MPM Score: [10, 0.86% in-hospital mortality]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "10033",
+      "tool_name": "GO-FAR (Good Outcome Following Attempted Resuscitation) Score",
+      "params": {
+        "Age, years": "80-84",
+        "Neurologically intact or with minimal deficits at admission ": "No",
+        "Major trauma": "No",
+        "Acute stroke": "Yes",
+        "Metastatic or hematologic cancer": "No",
+        "Septicemia": "No",
+        "Medical noncardiac diagnosis on admission": "Yes",
+        "Hepatic insufficiency": "No",
+        "Admit from skilled nursing facility": "No",
+        "Hypotension or hypoperfusion within 4 hrs prior to arrest ": "Yes",
+        "Renal insufficiency or dialysis": "Yes",
+        "Respiratory insufficiency": "Yes",
+        "Pneumonia": "No"
+      },
+      "tool_summary": "GO-FAR Score: [34, very low survival]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Very moist: skin is often but not always moist; linen must be changed at least once a shift",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [7, High risk]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "<5%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "Malnutrition Universal Screening Tool (MUST) Score: [2, High risk]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Needs moderate or maximal assist to stand",
+        "Standing unsupported": "Unable to stand 30 seconds unsupported",
+        "Sitting with back unsupported": "Unable to sit without support for 10 seconds",
+        "Standing to sitting": "Needs assistance to sit ",
+        "Transfers": "Needs two person assistance or supervision for safety",
+        "Standing unsupported with eyes closed": "Needs help to keep from falling",
+        "Standing unsupported with feet together": "Needs help to attain position and unable to hold 15 seconds",
+        "Reaching forward with outstretched arm while standing": "Loses balance while trying/requires external support",
+        "Pick up object from the floor from a standing position": "Unable to try/needs assist to keep from losing balance or falling",
+        "Turning to look behind over left and right shoulders": "Needs assist to keep from losing balance or falling",
+        "Turn 360 degrees": "Needs assistance while turning",
+        "Placing alternate foot on step or stool while standing unsupported": "Needs assistance to keep from falling/unable to try",
+        "Standing unsupported one foot in front": "Loses balance while stepping or standing",
+        "Standing on one leg": "Unable to try or needs assist to prevent fall"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [0, increased fall risk]"
+    },
+    {
+      "tool_id": "10193",
+      "tool_name": "Gupta Postoperative Respiratory Failure Risk",
+      "params": {
+        "Functional status": "Totally dependent",
+        "ASA class": "4: severe systemic disease that is a constant threat to life (i.e., patient could die acutely without intervention)",
+        "Sepsis": "None",
+        "Emergency case": "Yes",
+        "Type of procedure": "Brain"
+      },
+      "tool_summary": "Mini Score: [46.3%, moderate to high risk of mechanical ventilation for >48 hrs postop or reintubation ≤30 days], Gupta Score: [46.3%, moderate to high risk of mechanical ventilation for >48 hrs after surgery"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "Yes",
+        "Altered level of alertness": "Yes",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "Yes",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "Mini/Value: [High, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": "30-60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "Yes",
+        "Diabetes": "No",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "No",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "Yes",
+        "Liver disease": "No"
+      },
+      "tool_summary": "Mini score for major bleeding risk: [10, very high]."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "patient_id": "23469855",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Normal; no aphasia",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [0, no stroke symptoms]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "No",
+        "Q6: Do you need help with shopping or traveling close to home?": "No",
+        "Q7: Do you need another person to help you walk?": "No",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "No",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "No"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [2, slight disability]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "357_ABCD2 Score: [7, high risk]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk for ESUS classification]"
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": "55-69"
+      },
+      "tool_summary": "Mini Score: [4, low risk], CART Score: [4, low risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "3911",
+      "tool_name": "Bacterial Meningitis Score for Children",
+      "params": {
+        "CSF Gram stain positive": "No",
+        "CSF ANC >=1,000 cells/µL": "No",
+        "CSF protein >=80 mg/dL (800 mg/L)": "No",
+        "Peripheral blood ANC >=10,000 cells/µL": "No",
+        "Seizure at (or prior to) initial presentation": "No"
+      },
+      "tool_summary": "Bacterial Meningitis Score: [0, very low risk for bacterial meningitis]"
+    },
+    {
+      "tool_id": "104",
+      "tool_name": "Centor Score (Modified/McIsaac) for Strep Pharyngitis",
+      "params": {
+        "Age": ">=45 years",
+        "Exudate or swelling on tonsils": "No",
+        "Tender/swollen anterior cervical lymph nodes": "No",
+        "Temp >38degC (100.4degF)": "No",
+        "Cough": "Cough absent"
+      },
+      "tool_summary": "Centor Score (Strep Pharyngitis): [0, 1% - 2.5% probability of strep pharyngitis]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "No",
+        "Lumpy or hard stools ": "No",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Mini Functional Constipation Assessment/Value: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "No limitation: makes major and frequent changes in position without assistance",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "No apparent problem: moves in bed/chair independently, has sufficient muscle strength to lift up completely during move, maintains good position in bed/chair "
+      },
+      "tool_summary": "Braden Score: [21, average risk]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Normal CRP and normal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [0, Unlikely RA]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "No",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "No",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "No",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [1, low risk of major bleeding]"
+    },
+    {
+      "tool_id": "10071",
+      "tool_name": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)",
+      "params": {
+        "WHO group 1 subgroup": "Other",
+        "eGFR 2 or renal insufficiency": "No",
+        "Male age >60 years": "No",
+        "NYHA/WHO functional class": "II",
+        "Systolic BP, mmHg": ">=110 mmHg",
+        "Heart rate, bpm": "<=96 bpm",
+        "Any hospitalizations within 6 months": "Yes",
+        "6-minute walk test": "165 to <320 m",
+        "BNP, pg/mL": "50 to <200 pg/mL",
+        "Pericardial effusion on echocardiogram": "No",
+        "DLCO on pulmonary function test": ">=40%",
+        "Mean right atrial pressure >20 mmHg within 1 year on right heart catheterization": "No",
+        "Pulmonary vascular resistance ": "No"
+      },
+      "tool_summary": "REVEAL Score 2.0 for PAH: [7, Intermediate risk]"
+    },
+    {
+      "tool_id": "10042",
+      "tool_name": "Oakland Score for Safe Discharge After Lower GI Bleed",
+      "params": {
+        "Age, years": "40-69",
+        "Sex": "Male",
+        "Previous lower GI bleeding admission": "No",
+        "DRE findings": "No blood",
+        "Heart rate, bpm": "<70",
+        "Systolic blood pressure, mmHg": "130-159",
+        "Hemoglobin, g/L (g/dL)": "130-159 (13-15.9)"
+      },
+      "tool_summary": "Oakland Score: [8, 95% probability of safe discharge]"
+    },
+    {
+      "tool_id": "3992",
+      "tool_name": "STOP-BANG Score for Obstructive Sleep Apnea",
+      "params": {
+        "Do you snore loudly?": "No",
+        "Do you often feel tired, fatigued, or sleepy during the daytime?": "No",
+        "Has anyone observed you stop breathing during sleep?": "No",
+        "Do you have (or are you being treated for) high blood pressure?": "Yes",
+        "BMI": "<=35 kg/m²",
+        "Age": ">50 years",
+        "Neck circumference": "<=40 cm",
+        "Gender": "Male"
+      },
+      "tool_summary": "STOP-BANG Score: [3, Intermediate risk for moderate to severe OSA]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Male",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [21, Low risk]"
+    },
+    {
+      "tool_id": "10283",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Dysphagia",
+      "params": {
+        "Sense of solid and/or liquid foods sticking, lodging, or passing abnormally through the esophagus": "No",
+        "Absence of evidence that esophageal mucosal, or structural abnormality is the cause of the symptom": "Yes",
+        "Absence of evidence that gastroesophageal reflux or EoE is the cause of the symptom": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes"
+      },
+      "tool_summary": "Mini/Rome IV for Functional Dysphagia: [Negative, low risk for functional dysphagia]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "55-59",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "<30",
+        "Age, years": "50-59",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "23-25 (23-25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "5-year risk of kidney failure: [NaN, unable to assess risk]"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "patient_id": "29595456",
+  "tool_results": [
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": "50 to <100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Moderate increase",
+        "Prolonged PT, seconds": "<3",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [3, possible non-overt DIC; monitor and reassess]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Male",
+        "CHF history": "Yes",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [7, high stroke risk]"
+    },
+    {
+      "tool_id": "10277",
+      "tool_name": "Rome IV Diagnostic Criteria for Reflux Hypersensitivity",
+      "params": {
+        "Retrosternal symptoms including heartburn and chest pain": "No",
+        "Normal endoscopy and absence of evidence that EoE is the cause for symptoms": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes",
+        "Evidence of triggering of symptoms by reflux events despite normal acid exposure on pH or pH-impedance monitoring (response to antisecretory therapy does not exclude the diagnosis)": "No"
+      },
+      "tool_summary": "Reflux Hypersensitivity Diagnosis (ID: 10277): [Negative, low risk for reflux hypersensitivity]"
+    },
+    {
+      "tool_id": "3121",
+      "tool_name": "Infective Endocarditis (IE) Mortality Risk Score",
+      "params": {
+        "Age, years": ">70",
+        "History of dialysis": "No",
+        "Nosocomial IE": "No",
+        "Prosthetic IE": "No",
+        "Symptoms >1 month before admission": "No",
+        "Staphylococcus aureus": "Yes",
+        "Viridans group streptococci": "No",
+        "Aortic vegetation": "No",
+        "Mitral vegetation": "No",
+        "NYHA class 3 or 4 heart failure": "Yes",
+        "Stroke": "Yes",
+        "Paravalvular complication": "No",
+        "Persistent bacteremia": "No",
+        "Surgical treatment": "No"
+      },
+      "tool_summary": "3121_IE Risk Score: [14, 50.3% predicted 6-month mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "70-79",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "No"
+      },
+      "tool_summary": "3883_FUNC Score: [3, no functional independence at 90 days]"
+    },
+    {
+      "tool_id": "115",
+      "tool_name": "Wells' Criteria for Pulmonary Embolism",
+      "params": {
+        "Clinical signs and symptoms of DVT": "No",
+        "PE is #1 diagnosis OR equally likely": "No",
+        "Heart rate > 100": "No",
+        "Immobilization at least 3 days OR surgery in the previous 4 weeks": "No",
+        "Previous, objectively diagnosed PE or DVT": "No",
+        "Hemoptysis": "No",
+        "Malignancy w/ treatment within 6 months or palliative": "Yes"
+      },
+      "tool_summary": "Wells' Score for Pulmonary Embolism (PE): [1.0, low risk]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "Yes",
+        "Severe Renal Disease": "Yes",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "1718_ATRIA Bleeding Risk: [8, High Risk (>4 Points), 5.8% Annual Risk of Hemorrhage. Alternatives to warfarin should be strongly considered.]"
+    },
+    {
+      "tool_id": "1842",
+      "tool_name": "ATRIA Stroke Risk Score",
+      "params": {
+        "History of stroke": "No",
+        "Age": "75-84 years",
+        "Female": "No",
+        "History of diabetes mellitus": "No",
+        "History of congestive heart failure": "Yes",
+        "History of hypertension": "Yes",
+        "Proteinuria": "No",
+        "eGFR ": "Yes"
+      },
+      "tool_summary": "ATRIA Stroke Risk Score: [8, High Risk (>6 Points), ≥2% annual risk of ischemic stroke]"
+    },
+    {
+      "tool_id": "1739",
+      "tool_name": "Revised Cardiac Risk Index for Pre-Operative Risk",
+      "params": {
+        "Elevated-risk surgery": "No",
+        "History of ischemic heart disease": "Yes",
+        "History of congestive heart failure": "Yes",
+        "History of cerebrovascular disease": "No",
+        "Pre-operative treatment with insulin": "No",
+        "Pre-operative creatinine >2 mg/dL / 176.8 µmol/L": "Yes"
+      },
+      "tool_summary": "Revised Cardiac Risk Index (RCRI): [3 points, 15.0% risk of major cardiac event]"
+    },
+    {
+      "tool_id": "10022",
+      "tool_name": "ARISCAT Score for Postoperative Pulmonary Complications",
+      "params": {
+        "Age, years": "51-80",
+        "Preoperative SpO₂": "91-95%",
+        "Respiratory infection in the last month": "No",
+        "Preoperative anemia (Hgb <=10 g/dL)": "Yes",
+        "Surgical incision": "Peripheral",
+        "Duration of surgery": "<2 hrs",
+        "Emergency procedure": "No"
+      },
+      "tool_summary": "ARISCAT Score: [22, low risk of in-hospital post-op pulmonary complications (1.6%)]"
+    },
+    {
+      "tool_id": "3315",
+      "tool_name": "Khorana Risk Score for Venous Thromboembolism in Cancer Patients",
+      "params": {
+        "Cancer type": "Lung",
+        "Pre-chemotherapy platelet count >=350x10⁹/L": "No",
+        "Hemoglobin level <10 g/dL or using RBC growth factors": "No",
+        "Pre-chemotherapy leukocyte count >11x10⁹/L": "Yes",
+        "BMI >=35 kg/m²": "No"
+      },
+      "tool_summary": "Khorana Risk Score: [2, Intermediate Risk]"
+    },
+    {
+      "tool_id": "1735",
+      "tool_name": "BISAP Score for Pancreatitis Mortality",
+      "params": {
+        "BUN >25 mg/dL (8.92 mmol/L)": "Yes",
+        "Impaired mental status": "Yes",
+        ">=2 SIRS Criteria": "Yes",
+        "Age >60 years": "Yes",
+        "Pleural effusion present": "No"
+      },
+      "tool_summary": "BISAP Score: [4, high risk of mortality]"
+    },
+    {
+      "tool_id": "10283",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Dysphagia",
+      "params": {
+        "Sense of solid and/or liquid foods sticking, lodging, or passing abnormally through the esophagus": "No",
+        "Absence of evidence that esophageal mucosal, or structural abnormality is the cause of the symptom": "Yes",
+        "Absence of evidence that gastroesophageal reflux or EoE is the cause of the symptom": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes"
+      },
+      "tool_summary": "Mini and Rome IV for Functional Dysphagia: [Negative, low risk for functional dysphagia]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "20-24",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "30-300",
+        "Age, years": "80-89",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "<3.5 (<1.13)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "18-22 (18-22)",
+        "Serum calcium, mg/dL (mmol/L)": "<=8.5 (<=2.12)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator: [NaN, cannot assess risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "Yes",
+        "Male patient with uncontrolled hypertension": "Yes",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [9, elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10552",
+      "tool_name": "PECARN Cervical Spine Injury Prediction Rule",
+      "params": {
+        "Glasgow Coma Score": "3-8",
+        "AVPU": "Unresponsive to any form of stimulus",
+        "Abnormal airway, breathing, or circulation": "Yes",
+        "Focal neurologic deficits": "No",
+        "Other signs of altered mental status": "Yes",
+        "Self-reported neck pain or neck tenderness on examination": "No",
+        "Substantial head or torso injury": "Yes"
+      },
+      "tool_summary": "Cervical Spine Injury Risk Assessment via PECARN Score: [12.1%, moderate risk of c-spine injury]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "60-65",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "REACH-B Score: [9, moderate to high risk of HCC development within 10 years]"
+    },
+    {
+      "tool_id": "10145",
+      "tool_name": "Rapid Emergency Medicine Score (REMS)",
+      "params": {
+        "Age, years": ">74",
+        "Mean arterial pressure, mmHg": "70-109",
+        "Heart rate, beats per minute": "70-109",
+        "Respiratory rate, breaths per minute": "12-24",
+        "Peripheral oxygen saturation": ">89%",
+        "Glasgow Coma Scale": ">13"
+      },
+      "tool_summary": "Mini: [6 points, 3% risk of in-hospital mortality], Score: [6 points, REMS], Risk1: [3%, In-hospital mortality]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Occasionally moist: requiring extra linen change approximately once a day",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [9, high risk]"
+    }
+  ]
+}

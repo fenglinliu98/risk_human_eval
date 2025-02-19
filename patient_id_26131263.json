@@ -1,0 +1,258 @@
+{
+  "patient_id": "26131263",
+  "tool_results": [
+    {
+      "tool_id": "2141",
+      "tool_name": "Kruis Score for Diagnosis of Irritable Bowel Syndrome (IBS)",
+      "params": {
+        "Symptoms of abdominal pain, flatulence, or bowel irregularity": "Yes",
+        "Symptom duration > 2 years": "Yes",
+        "Pain described as burning, cutting, very strong, terrible, feeling of pressure, dull, boring, or 'not so bad'": "Yes",
+        "Alternating constipation and diarrhea": "Yes",
+        "Abnormal physical findings or history pathognomonic of other disease": "No",
+        "ESR > 10 mm/hr": "No",
+        "WBC > 10,000/µL": "No",
+        "Hemoglobin (female < 12 g/dL; male < 14 g/dL)": "No",
+        "History of blood in stool": "No"
+      },
+      "tool_summary": "Kruis Score: [87, high risk of IBS]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "Yes",
+        "Lumpy or hard stools ": "Yes",
+        "Sensation of incomplete evacuation": "Yes",
+        "Sensation of anorectal obstruction/blockage": "Yes",
+        "Manual maneuvers to facilitate defecation": "Yes",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Mini/Result: [Positive, Likely functional constipation]"
+    },
+    {
+      "tool_id": "10308",
+      "tool_name": "Rome IV Diagnostic Criteria for Centrally Mediated Abdominal Pain Syndrome (CAPS)",
+      "params": {
+        "Continuous or nearly continuous abdominal pain": "Yes",
+        "No or only occasional relationship of pain with physiological events (e.g. eating, defecation, or menses)": "Yes",
+        "Pain limits some aspect of daily functioning": "Yes",
+        "The pain is not feigned": "Yes",
+        "Pain is not explained by another structural or functional gastrointestinal disorder, or other medical condition": "No"
+      },
+      "tool_summary": "Centrally Mediated Abdominal Pain Syndrome (CAPS) Diagnosis: [Negative, low risk]"
+    },
+    {
+      "tool_id": "10022",
+      "tool_name": "ARISCAT Score for Postoperative Pulmonary Complications",
+      "params": {
+        "Age, years": "51-80",
+        "Preoperative SpO₂": ">=96%",
+        "Respiratory infection in the last month": "No",
+        "Preoperative anemia (Hgb <=10 g/dL)": "No",
+        "Surgical incision": "Peripheral",
+        "Duration of surgery": "<2 hrs",
+        "Emergency procedure": "No"
+      },
+      "tool_summary": "ARISCAT Score: [3, low risk]"
+    },
+    {
+      "tool_id": "2044",
+      "tool_name": "STONE Nephrolithometry Score for Renal Calculi",
+      "params": {
+        "Stone size in mm²": "0-399",
+        "Tract length (mm)": "<=100",
+        "Obstruction (hydronephrosis)": "No/mild hydronephrosis",
+        "Number of calyces with calculi": "1-2",
+        "Essence (stone density in Hounsfield units)": "<=950"
+      },
+      "tool_summary": "2044_STONE Score (Post-CT, Renal): [5, low risk of residual stones post-procedure]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Normal CRP and normal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [0 points, Unlikely RA]"
+    },
+    {
+      "tool_id": "10064",
+      "tool_name": "Wexner Score for Obstructed Defecation Syndrome (ODS)",
+      "params": {
+        "Incontinence to solid stool": "Never",
+        "Incontinence to liquid stool": "Never",
+        "Incontinence to gas": "Never",
+        "Wears pad": "Never",
+        "Lifestyle alteration": "At least once a day"
+      },
+      "tool_summary": "Incontinence Score: [4, mild incontinence]"
+    },
+    {
+      "tool_id": "10295",
+      "tool_name": "Rome IV Diagnostic Criteria for Belching Disorders",
+      "params": {
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the esophagus more than 3 days a week": "No",
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the stomach  more than 3 days a week": "No"
+      },
+      "tool_summary": "Excessive Belching (Rome IV Criteria): [Negative, low risk for gastroesophageal disorders]"
+    },
+    {
+      "tool_id": "10335",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Defecation Disorders",
+      "params": {
+        "The patient must satisfy diagnostic criteria for functional constipation and/or irritable bowel syndrome with constipation": "Yes",
+        "During repeated attempts to defecate, there must be features of impaired evacuation, as demonstrated by 2 of the following 3 tests:": "No",
+        "Inadequate propulsive forces as measured with manometry with or without inappropriate contraction of the anal sphincter and/or pelvic floor muscles (as defined by age and sex-appropriate normal values for the technique)": "No",
+        "Inappropriate contraction of the pelvic floor as measured with anal surface EMG or manometry with adequate propulsive forces during attempted defecation (as defined by age and sex-appropriate normal values for the technique)": "No"
+      },
+      "tool_summary": "Mini/Rome IV for Functional Defecation Disorders: [Negative, low risk for functional defecation disorders]"
+    },
+    {
+      "tool_id": "3315",
+      "tool_name": "Khorana Risk Score for Venous Thromboembolism in Cancer Patients",
+      "params": {
+        "Cancer type": "Other",
+        "Pre-chemotherapy platelet count >=350x10⁹/L": "No",
+        "Hemoglobin level <10 g/dL or using RBC growth factors": "No",
+        "Pre-chemotherapy leukocyte count >11x10⁹/L": "No",
+        "BMI >=35 kg/m²": "No"
+      },
+      "tool_summary": "Khorana Risk Score: [0, low risk]"
+    },
+    {
+      "tool_id": "10519",
+      "tool_name": "Menza Score",
+      "params": {
+        "Does your patient/client have gonorrhea, chlamydia, or syphilis, or does he have a history of these infections?": "No",
+        "Has your patient/client used methamphetamine or inhaled nitrites (poppers) in the prior 6 months?": "No",
+        "Does your patient/client report unprotected anal intercourse with a partner of positive or unknown HIV status in the prior year?": "No",
+        "Does your patient/client report 10 or more male sexual partners in the prior year?": "No"
+      },
+      "tool_summary": "Menza Score for HIV: [0, <5% 4-year risk of HIV]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "<5%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "MUST (Malnutrition Universal Screening Tool) Score: [2, High risk]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Score: [0, low risk for eating disorder]"
+    },
+    {
+      "tool_id": "10277",
+      "tool_name": "Rome IV Diagnostic Criteria for Reflux Hypersensitivity",
+      "params": {
+        "Retrosternal symptoms including heartburn and chest pain": "No",
+        "Normal endoscopy and absence of evidence that EoE is the cause for symptoms": "Yes",
+        "Absence of major esophageal motor disorders (achalasia/EGJ outflow obstruction, diffuse esophageal spasm, jackhammer esophagus, absent peristalsis)": "Yes",
+        "Evidence of triggering of symptoms by reflux events despite normal acid exposure on pH or pH-impedance monitoring (response to antisecretory therapy does not exclude the diagnosis)": "No"
+      },
+      "tool_summary": "Reflux Hypersensitivity Diagnosis (Mini/Rome IV criteria): [Negative, low risk of reflux hypersensitivity]"
+    },
+    {
+      "tool_id": "10298",
+      "tool_name": "Rome IV Diagnostic Criteria for Cannabinoid Hyperemesis Syndrome (CHS)",
+      "params": {
+        "Stereotypical episodic vomiting resembling cyclic vomiting syndrome (CVS) in terms of onset, duration, and frequency": "No",
+        "Presentation after prolonged excessive cannabis use": "No",
+        "Relief of vomiting episodes by sustained cessation of cannabis use": "No"
+      },
+      "tool_summary": "Cannabinoid Hyperemesis Syndrome (Rome IV criteria): [Negative, low risk]"
+    },
+    {
+      "tool_id": "10279",
+      "tool_name": "MuLBSTA Score for Viral Pneumonia Mortality",
+      "params": {
+        "Multilobe infiltrate": "No",
+        "Absolute Lymphocyte count <=0.8 x 109/L": "No",
+        "Bacterial coinfection": "Yes",
+        "Smoking history": "Non smoker",
+        "History of hyper-Tension": "No",
+        "Age >=60 years": "No"
+      },
+      "tool_summary": "MuLBSTA Score: [4, 1.60% 90-day mortality]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "Yes",
+        "Have you dropped many of your activities and interests?": "No",
+        "Do you feel that your life is empty?": "No",
+        "Do you often get bored?": "No",
+        "Are you in good spirits most of the time?": "Yes",
+        "Are you afraid that something bad is going to happen to you?": "No",
+        "Do you feel happy most of the time?": "Yes",
+        "Do you often feel helpless?": "No",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "No",
+        "Do you feel you have more problems with memory than most?": "No",
+        "Do you think it is wonderful to be alive now?": "Yes",
+        "Do you feel pretty worthless the way you are now?": "No",
+        "Do you feel full of energy?": "Yes",
+        "Do you feel that your situation is hopeless?": "No",
+        "Do you think that most people are better off than you are?": "No"
+      },
+      "tool_summary": "Geriatric Depression Scale (GDS-15): [0, absence of clinically significant depressive symptoms]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": "<5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [1, Low risk of potentially avoidable 30-day readmission (5.8%)]"
+    },
+    {
+      "tool_id": "10511",
+      "tool_name": "Ho Index",
+      "params": {
+        "Mean stool frequency, stools/24 hrs": "<=4",
+        "Colonic dilatation": "Absent",
+        "Hypoalbuminemia": "No"
+      },
+      "tool_summary": "Ho Index/Scores: [0, 11% low risk of medical therapy failure]"
+    },
+    {
+      "tool_id": "10527",
+      "tool_name": "The Car, Relax, Alone, Forget, Friends, Trouble (CRAFFT) Questionnaire",
+      "params": {
+        "Drink more than a few sips of beer, wine, or any drink containing alcohol?": "0",
+        "Use any marijuana (cannabis, weed, oil, wax, or hash, by smoking, vaping, dabbing, or in edibles) or \"synthetic marijuana\" (like \"K2,\" \"Spice\")?": "0",
+        "Use anything else to get high (like other illegal drugs, pills, prescription or over-the-counter medications, and things that you sniff, huff, vape, or inject)?": "0",
+        "Have you ever ridden in a CAR driven by someone (including yourself) who was \"high\" or had been using alcohol or drugs?": "No",
+        "Do you ever use alcohol or drugs to RELAX, feel better about yourself, or fit in?": "No",
+        "Do you ever use alcohol or drugs while you are by yourself, ALONE?": "No",
+        "Do you ever FORGET things you did while using alcohol or drugs?": "No",
+        "Do your family or FRIENDS ever tell you that you should cut down on your drinking or drug use?": "No",
+        "Have you ever gotten into TROUBLE while you were using alcohol or drugs?": "No"
+      },
+      "tool_summary": "CRAFFT Screening Test: [0, Low risk of substance use]"
+    }
+  ]
+}

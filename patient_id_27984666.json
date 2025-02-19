@@ -1,0 +1,257 @@
+{
+  "patient_id": "27984666",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Female",
+        "CHF history": "Yes",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [8, high stroke risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [4, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10160",
+      "tool_name": "Clinical Dementia Rating (CDR) Scale",
+      "params": {
+        "Memory (M)": "Severe memory loss; only highly learned material retained; new material rapidly lost (2)",
+        "Orientation (O)": "Severe difficulty with time relationships; usually disoriented to time, often to place (2)",
+        "Judgment and problem solving (JPS)": "Unable to make judgments or solve problems (3)",
+        "Community affairs (CA)": "No pretense of independent function outside home; appears too ill to be taken to functions outside a family home (3)",
+        "Home and hobbies (HH)": "No significant function in home (3)",
+        "Personal care (PC)": "Requires much help with personal care; frequent incontinence (3)"
+      },
+      "tool_summary": "Clinical Dementia Rating (CDR) Scale: [3, severe dementia]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "No"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [4, moderately severe disability]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "1 question correct",
+        "1C: Level of consciousness commands": "1 task correct",
+        "2: Test horizontal extra-ocular movements": "Normal",
+        "3: Test visual fields": "No visual loss",
+        "5A: Test left arm motor drift": "No drift",
+        "5B: Test right arm motor drift": "No drift",
+        "6A: Test left leg motor drift": "No drift",
+        "6B: Test right leg motor drift": "No drift",
+        "8: Test sensation": "Normal; no sensory loss",
+        "9: Test language/aphasia": "Severe aphasia",
+        "11: Test extinction/inattention/neglect": "Normal"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [4, minor stroke]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": "30-60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "Yes",
+        "Diabetes": "Yes",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "Aspirin",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "Yes",
+        "Liver disease": "No"
+      },
+      "tool_summary": "Mini-DOAC Score: [10, very high 1-year major bleeding risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Occasionally moist: requiring extra linen change approximately once a day",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Probably inadequate: rarely eats complete meal and generally eats only about ½ of any food offered; protein intake includes only 3 servings of meat or dairy products daily; occasionally will take dietary supplement; or receives less than optimum amount of",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [14, moderate risk]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "Yes",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [5, intermediate risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": ">=100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "No increase",
+        "Prolonged PT, seconds": "<3",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [0, Not suggestive of overt DIC, possible non-overt DIC]"
+    },
+    {
+      "tool_id": "10331",
+      "tool_name": "Rome IV Diagnostic Criteria for Child Functional Constipation",
+      "params": {
+        "<=2 defecations in the toilet per week in a child of a developmental age of >=4 years": "No",
+        ">=1 episode of fecal incontinence per week": "No",
+        "History of retentive posturing or excessive volitional stool retention": "No",
+        "History of painful or hard bowel movements": "No",
+        "Presence of a large fecal mass in the rectum": "No",
+        "History of large diameter stools that can obstruct the toilet": "No"
+      },
+      "tool_summary": "Rome IV for Child Constipation: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": "<80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [3 points, 20% risk of delirium]; AWOL Score: [3 points, not specified]; Risk of Delirium during Hospitalization: [20%, moderate risk]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10545",
+      "tool_name": "The Face, Legs, Activity, Cry, and Consolability (FLACC) Scale",
+      "params": {
+        "Face": "Occasional grimace or frown, withdrawn, disinterested",
+        "Legs": "Normal position or relaxed",
+        "Activity": "Lying quietly, normal position, moves easily",
+        "Cry": "No cry (awake or asleep)",
+        "Consolability": "Content, relaxed"
+      },
+      "tool_summary": "FLACC Pain Scale: [1, mild discomfort]"
+    },
+    {
+      "tool_id": "10209",
+      "tool_name": "RiskE Score for Cardiac Surgery in Active Infective Endocarditis",
+      "params": {
+        "Age, years": "64-72",
+        "Prosthetic endocarditis": "No",
+        "Virulent microorganism": "No",
+        "Septic shock": "No",
+        "Thrombocytopenia": "No",
+        "Acute renal insufficiency": "No",
+        "Cardiogenic shock": "No",
+        "Periannular complications": "No"
+      },
+      "tool_summary": "Mini Score: [13, 11.61% predicted in-hospital postoperative mortality]"
+    },
+    {
+      "tool_id": "10474",
+      "tool_name": "2HELPS2B Score",
+      "params": {
+        "B[I]RDs": "No",
+        "Presence of LPDs, LRDA, or BIPDs": "No",
+        "Prior seizure": "No",
+        "Sporadic epileptiform discharges": "Yes",
+        "Frequency >2.0 Hz for any periodic or rhythmic pattern": "No",
+        "Presence of “plus” features ": "No"
+      },
+      "tool_summary": "2HELPS2B Score: [1, 12% risk of seizure]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Normal CRP and normal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [0 points, Unlikely RA]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "No",
+        "Ask patient age and current month": "One correct",
+        "Ask patient to close eyes and open/close hand": "Follows one command",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Can do"
+      },
+      "tool_summary": "Mini-Cog Score: [1, low risk of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "2654",
+      "tool_name": "qSOFA (Quick SOFA) Score for Sepsis",
+      "params": {
+        "Altered mental status": "Yes",
+        "Respiratory rate >=22": "No",
+        "Systolic BP <=100": "No"
+      },
+      "tool_summary": "qSOFA Score: [1, Not high risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [4.5, Elevated bleeding risk]"
+    }
+  ]
+}

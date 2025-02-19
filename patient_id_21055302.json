@@ -1,0 +1,300 @@
+{
+  "patient_id": "21055302",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Minor paralysis (flat nasolabial fold, smile asymmetry)",
+        "5A: Left arm motor drift": "Drift, but doesn't hit bed",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mild-moderate aphasia: some obvious changes, without significant limitation",
+        "10: Dysarthria": "Mild-moderate dysarthria: slurring but can be understood",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [4, minor stroke]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "ABCD2 Stroke Risk Score: [7, High Risk]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "30-34",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": "30-300",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": ">=3.6 (>=36)",
+        "Serum phosphorus, mg/dL (mmol/L)": "<3.5 (<1.13)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "18-22 (18-22)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator: [NaN, risk level cannot be assessed]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "Yes",
+        "Lumpy or hard stools ": "Yes",
+        "Sensation of incomplete evacuation": "Yes",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Functional Constipation Diagnosis Tool: [Positive, Likely functional constipation]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "Yes",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": "<5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [3 points, low risk of potentially avoidable 30-day readmission (5.8%)]"
+    },
+    {
+      "tool_id": "2023",
+      "tool_name": "Padua Prediction Score for Risk of VTE",
+      "params": {
+        "Active cancer": "No",
+        "Previous VTE": "No",
+        "Reduced mobility": "Yes",
+        "Already known thrombophilic condition": "No",
+        "Recent (<=1 month) trauma and/or surgery": "Yes",
+        "Elderly age (>=70 years)": "No",
+        "Heart and/or respiratory failure": "No",
+        "Acute MI and/or ischemic stroke": "Yes",
+        "Acute infection and/or rheumatologic disorder": "No",
+        "Obesity (BMI >=30)": "No",
+        "Ongoing hormonal treatment": "No"
+      },
+      "tool_summary": "2023 Padua Prediction Score: [6, high risk for venous thromboembolism]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Male",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [6, high risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "Yes",
+        "History of bleeding": "No",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [4.5, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "No",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "2 lineages",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": ">250 (>2.5)",
+        "AST, U/L": "<30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [24, <1% probability]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Male",
+        "Congestive heart failure": "No",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "Yes",
+        "Previous cardiac surgery": "No",
+        "Emergency surgery": "No",
+        "Surgery type": "CABG and valve",
+        "Preoperative creatinine, mg/dL": "1.2-2.0"
+      },
+      "tool_summary": "Thakar Score: [5, 1.8% risk of ARF]"
+    },
+    {
+      "tool_id": "10522",
+      "tool_name": "International Diabetes Federation-Diabetes and Ramadan Alliance (IDF-DAR) Fasting Risk Assessment",
+      "params": {
+        "Diabetes type": "Type 2 diabetes",
+        "Years since diabetes diagnosis": ">=10 years",
+        "Presence of hypoglycemia": "No hypoglycemia",
+        "Level of glycemic control": "HbA1c levels 7.5-9% (58.5-75 mmol/mol)",
+        "Type of treatment": "Basal insulin",
+        "Self-monitoring of blood glucose (SMBG)": "Indicated but conducted suboptimally",
+        "Acute complications": "No DKA or HHS",
+        "MVD complications/comorbidities": "Stable MVD",
+        "Renal complications/comorbidities": "eGFR 45-60mL/min",
+        "Pregnancy": "Not pregnant",
+        "Frailty and cognitive function": "No frailty or loss in cognitive function",
+        "Physical labor": "No physical labor",
+        "Previous Ramadan experience": "Positive experience",
+        "Fasting hours": "<16 h"
+      },
+      "tool_summary": "IDF-DAR Score (10522): [8.5, high risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [16, mild risk]"
+    },
+    {
+      "tool_id": "3911",
+      "tool_name": "Bacterial Meningitis Score for Children",
+      "params": {
+        "CSF Gram stain positive": "No",
+        "CSF ANC >=1,000 cells/µL": "No",
+        "CSF protein >=80 mg/dL (800 mg/L)": "No",
+        "Peripheral blood ANC >=10,000 cells/µL": "No",
+        "Seizure at (or prior to) initial presentation": "No"
+      },
+      "tool_summary": "Bacterial Meningitis Score: [0, very low risk for bacterial meningitis]"
+    },
+    {
+      "tool_id": "1985",
+      "tool_name": "COWS Score for Opiate Withdrawal",
+      "params": {
+        "Resting Pulse Rate (BPM)": "<=80",
+        "Sweating": "No report of chills or flushing",
+        "Restlessness observation during assessment": "Able to sit still",
+        "Pupil size": "Pupils pinned or normal size for room light",
+        "Bone or joint aches": "Not present",
+        "Runny nose or tearing": "Not present",
+        "GI Upset": "No GI symptoms",
+        "Tremor observation of outstretched hands": "No tremor",
+        "Yawning observation during assessment": "No yawning",
+        "Anxiety or irritability": "None",
+        "Gooseflesh skin": "Skin is smooth"
+      },
+      "tool_summary": "COWS Score: [0, No active withdrawal]"
+    },
+    {
+      "tool_id": "4004",
+      "tool_name": "Bova Score for Pulmonary Embolism Complications",
+      "params": {
+        "Systolic BP": ">100 mm Hg",
+        "Elevated cardiac troponin": "No",
+        "RV dysfunction": "No",
+        "Heart rate, beats/min": "<110"
+      },
+      "tool_summary": "Bova Score: [0, Stage I - Low risk of PE-related complications (death from PE, hemodynamic collapse, or recurrent nonfatal PE) at 30 days; 4.4% risk]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Male",
+        "Renal function (GFR), mL/min/m2": "30-59",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "No",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "No",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [3.5, No increased risk of bleeding]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Independent",
+        "Bathing": "Independent",
+        "Grooming": "Independent",
+        "Dressing": "Needs help",
+        "Bowel control": "Continent",
+        "Bladder control": "Continent",
+        "Toilet use": "Independent",
+        "Transfers (bed to chair and back)": "Needs minor help (verbal or physical)",
+        "Mobility on level surfaces": "Walks with help of one person (verbal or physical) >50 yards",
+        "Stairs": "Needs help (verbal, physical, carrying aid)"
+      },
+      "tool_summary": "Barthel Index: [80, totally independent]"
+    },
+    {
+      "tool_id": "1739",
+      "tool_name": "Revised Cardiac Risk Index for Pre-Operative Risk",
+      "params": {
+        "Elevated-risk surgery": "No",
+        "History of ischemic heart disease": "No",
+        "History of congestive heart failure": "No",
+        "History of cerebrovascular disease": "Yes",
+        "Pre-operative treatment with insulin": "Yes",
+        "Pre-operative creatinine >2 mg/dL / 176.8 µmol/L": "No"
+      },
+      "tool_summary": "Revised Cardiac Risk Index (RCRI): [2 points, 10.1% risk of major cardiac event]"
+    }
+  ]
+}

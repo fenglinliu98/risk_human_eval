@@ -1,0 +1,228 @@
+{
+  "patient_id": "21569686",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Female",
+        "CHF history": "Yes",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [9, high risk of stroke]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [6, very high risk of major bleeding]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "No",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "ABCD2 Score: [6, high risk]"
+    },
+    {
+      "tool_id": "1096",
+      "tool_name": "SIRS, Sepsis, and Septic Shock Criteria",
+      "params": {
+        "Temp >38degC (100.4degF) or ": "Yes",
+        "Heart rate >90": "Yes",
+        "Respiratory rate >20 or PaCO₂ ": "Yes",
+        "WBC >12,000/mm³, 10% bands": "Yes",
+        "Suspected or present source of infection": "Yes",
+        "Lactic acidosis, SBP ": "No",
+        "Severe sepsis with hypotension, despite adequate fluid resuscitation": "Yes",
+        "Evidence of >=2 organs failing": "Yes"
+      },
+      "tool_summary": "SIRS & Sepsis Criteria Result: [Not provided, high risk of severe sepsis]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": ">=100",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Moderate increase",
+        "Prolonged PT, seconds": "<3",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [2, not suggestive of overt DIC, possible non-overt DIC]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Constantly moist: skin is kept moist almost constantly by perspiration, urine, etc; dampness detected every time patient is moved/turned",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [6, high risk]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "10092 ACR/EULAR Criteria for Rheumatoid Arthritis: [1 point, Unlikely RA]"
+    },
+    {
+      "tool_id": "324",
+      "tool_name": "CURB-65 Score for Pneumonia Severity",
+      "params": {
+        "Confusion": "Yes",
+        "BUN >19 mg/dL (>7 mmol/L urea)": "No",
+        "Respiratory Rate >=30": "Yes",
+        "Systolic BP ": "No",
+        "Age >=65": "Yes"
+      },
+      "tool_summary": "CURB-65 Score: [3, severe risk group: 14.0% 30-day mortality]"
+    },
+    {
+      "tool_id": "10301",
+      "tool_name": "Sepsis-Induced Coagulopathy (SIC) Score",
+      "params": {
+        "INR": "<=1.2",
+        "Platelet count, cells x 109/L": "<100",
+        "Total SOFA score": ">=2"
+      },
+      "tool_summary": "Mini Score: [4 points, SIC not likely], Overall Score: [SIC not likely, Diagnosis of SIC], Mortality Risk Score: [4 points, 30% approximate 28-day mortality]"
+    },
+    {
+      "tool_id": "3997",
+      "tool_name": "Clinical Index of Stable Febrile Neutropenia (CISNE)",
+      "params": {
+        "ECOG Performance Status": ">=2",
+        "Stress-induced hyperglycemia": "Yes",
+        "COPD": "No",
+        "Cardiovascular disease history": "Yes",
+        "NCI mucositis grade >=2": "No",
+        "Monocytes": ">=200/µL"
+      },
+      "tool_summary": "CISNE Score for Neutropenic Patients: [5, high risk]"
+    },
+    {
+      "tool_id": "10350",
+      "tool_name": "IMPROVEDD Risk Score for Venous Thromboembolism (VTE)",
+      "params": {
+        "Previous VTE": "No",
+        "Known thrombophilia": "No",
+        "Current lower-limb paralysis": "No",
+        "Current cancer": "No",
+        "Immobilized >=7 days": "Yes",
+        "ICU/CCU stay": "Yes",
+        "Age >60 years": "Yes",
+        "D-dimer >=2x ULN": "No"
+      },
+      "tool_summary": "IMPROVEDD Score: [3, low 42-day VTE risk 1.2%, low 77-day VTE risk 1.4%]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "No",
+        "Ask patient age and current month": "Neither correct",
+        "Ask patient to close eyes and open/close hand": "Follows neither command",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Cannot do"
+      },
+      "tool_summary": "LVO and NIHSS Risk: [2, high likelihood of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "Yes",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [4, Intermediate Risk (2.6% Annual Risk of Hemorrhage)]"
+    },
+    {
+      "tool_id": "10295",
+      "tool_name": "Rome IV Diagnostic Criteria for Belching Disorders",
+      "params": {
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the esophagus more than 3 days a week": "No",
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the stomach  more than 3 days a week": "No"
+      },
+      "tool_summary": "Belching Assessment using Rome IV Criteria: [Negative, no excessive belching risk]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "Yes",
+        "Lumpy or hard stools ": "Yes",
+        "Sensation of incomplete evacuation": "Yes",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Mini Functional Constipation Diagnosis Tool: [Positive, Likely functional constipation]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Score: [0, low risk of eating disorder]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "3995",
+      "tool_name": "Abbreviated Mental Test 4 (AMT-4)",
+      "params": {
+        "Age": "Correct",
+        "Date of birth": "Incorrect",
+        "Place": "Incorrect",
+        "Year": "Incorrect"
+      },
+      "tool_summary": "AMT-4 Score: [1, Abnormal cognition]"
+    }
+  ]
+}

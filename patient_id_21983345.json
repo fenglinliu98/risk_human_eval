@@ -1,0 +1,231 @@
+{
+  "patient_id": "21983345",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Severe",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "No injury",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "No injury"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [16, moderate injury risk]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "No",
+        "Altered level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "No",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "Mini / Result: [Low, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "10466",
+      "tool_name": "Edinburgh Postnatal Depression Scale (EPDS)",
+      "params": {
+        "I have been able to laugh and see the funny side of things": "As much as I always could",
+        "I have looked forward with enjoyment to things": "As much as I ever did",
+        "I have blamed myself unnecessarily when things went wrong": "No, never",
+        "I have been anxious or worried for no good reason": "No, not at all",
+        "I have felt scared or panicky for no very good reason": "No, not at all",
+        "Things have been getting on top of me": "No, I have been coping as well as ever",
+        "I have been so unhappy that I have had difficulty sleeping": "No, not at all",
+        "I have felt sad or miserable": "No, not at all",
+        "I have been so unhappy that I have been crying": "No, never",
+        "The thought of harming myself has occurred to me": "Never"
+      },
+      "tool_summary": "EPDS Score: [0, no signs of depression in the postnatal period]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " Eyes open spontaneously",
+        "Verbal response": "Oriented",
+        " Motor response": "Obeys commands",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [15, 2.54% mortality at 6 months post-injury; 11.75% risk of unfavorable outcome (vegetative state or severe disability) at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10424",
+      "tool_name": "Cancer and Aging Research Group Chemotherapy Toxicity Tool (CARG-TT)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "<72",
+        "Cancer type": "Other",
+        "Dosage": "Standard dose",
+        "Number of chemotherapy drugs": "1",
+        "Hemoglobin, g/dL": ">=11 g/dL",
+        "Creatinine clearance, mL/min": ">=34 mL/min",
+        "Hearing": "Excellent/good",
+        "Number of falls": ">=1",
+        "Needs help taking meds": "No",
+        "Walking ability": "Not limited",
+        "Social activity": "Not decreased due to health"
+      },
+      "tool_summary": "CARG-TT Score: [5, Low risk of Grade 3 or greater toxicity]"
+    },
+    {
+      "tool_id": "10487",
+      "tool_name": "SETscore",
+      "params": {
+        "Dysphagia": "No",
+        "Observed aspiration": "No",
+        "GCS on admission": ">=10",
+        "Brainstem": "No",
+        "Space-occupying cerebellar": "No",
+        "Ischemic infarct >2/3 MCA territory": "No",
+        "ICH volume >25 mL": "No",
+        "Diffuse lesion": "No",
+        "Hydrocephalus": "No",
+        "(Neuro)surgical intervention": "Yes",
+        "Additional respiratory disease": "No",
+        "PaO2/FiO2 ": "No",
+        "Acute physiology score (APACHE II)": "<=20",
+        "Lung injury score": "<=1",
+        "Sepsis": "No"
+      },
+      "tool_summary": "Mini Tool (ID: 10487): [2, low risk of prolonged NICU stay, ventilation time, or need for tracheostomy]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "10007 ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10454",
+      "tool_name": "2023 Emergency Medicine Coding Guide",
+      "params": {
+        "Number and Complexity": "4: acute, complicated injury (g)",
+        "Risk level": "High",
+        "Tests ordered": "2",
+        "Tests results reviewed (excluding labs)": "1",
+        "Prior external notes reviewed": "1",
+        "Assessment requiring and independent historian": "No",
+        "Independent interpretation of tests": "Yes",
+        "Discussed management/test interpretation w/external professional": "No"
+      },
+      "tool_summary": "Estimated Level of Service: [5, high risk]"
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": "55-69"
+      },
+      "tool_summary": "Mini-Score: [4 points, Low risk], CART Score: [4 points, Low risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "1739",
+      "tool_name": "Revised Cardiac Risk Index for Pre-Operative Risk",
+      "params": {
+        "Elevated-risk surgery": "Yes",
+        "History of ischemic heart disease": "No",
+        "History of congestive heart failure": "No",
+        "History of cerebrovascular disease": "No",
+        "Pre-operative treatment with insulin": "No",
+        "Pre-operative creatinine >2 mg/dL / 176.8 µmol/L": "No"
+      },
+      "tool_summary": "Revised Cardiac Risk Index (RCRI): [1, 6.0% risk of major cardiac event]"
+    },
+    {
+      "tool_id": "10419",
+      "tool_name": "Abuse Assessment Screen (AAS)",
+      "params": {
+        "Have you ever been emotionally or physically abused by your partner or someone important to you?": "No",
+        "Within the last year, have you been hit, slapped, kicked, or otherwise physically hurt by your partner or someone important to you?": "No",
+        "Within the last year, has anyone forced you to have sexual activities?": "No",
+        "Are you afraid of your partner or any one of the following: husband/wife, ex-husband/ex-wife, boyfriend/girlfriend, stranger?": "No",
+        "If pregnant, have you been hit, slapped, kicked, or otherwise physically hurt by your partner or someone important to you during your pregnancy?": "No"
+      },
+      "tool_summary": "Medical Tool ID: 10419 Screening Results: [Negative, low risk]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Male",
+        "Congestive heart failure": "No",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "No",
+        "Previous cardiac surgery": "No",
+        "Emergency surgery": "No",
+        "Surgery type": "None",
+        "Preoperative creatinine, mg/dL": "<1.2"
+      },
+      "tool_summary": "Thakar Score: [0, 0.4% risk of ARF]"
+    },
+    {
+      "tool_id": "10462",
+      "tool_name": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+      "params": {
+        "Incomplete emptying: How often have you had the sensation of not emptying your bladder?": "Less than half the time",
+        "Frequency: How often have you had to urinate less than every two hours?": "Less than half the time",
+        "Intermittency: How often have you found you stopped and started again several times when you urinated?": "Less than half the time",
+        "Urgency: How often have you found it difficult to postpone urination?": "Less than half the time",
+        "Weak stream: How often have you had a weak urinary stream?": "Less than half the time",
+        "Straining: How often have you had to strain to start urination?": "Less than half the time",
+        "Nocturia: How many times do you typically get up at night to urinate?": "2 times",
+        "If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?": "Mixed"
+      },
+      "tool_summary": "AUA-SI/IPSS Score: [14, Moderate BPH symptom severity]"
+    },
+    {
+      "tool_id": "10395",
+      "tool_name": "Ulcerative Colitis Endoscopic Index of Severity (UCEIS)",
+      "params": {
+        "Vascular pattern": "Normal",
+        "Bleeding": "None",
+        "Erosions and ulcers": "None"
+      },
+      "tool_summary": "UCEIS Score: [0, Remission]"
+    },
+    {
+      "tool_id": "10474",
+      "tool_name": "2HELPS2B Score",
+      "params": {
+        "B[I]RDs": "No",
+        "Presence of LPDs, LRDA, or BIPDs": "No",
+        "Prior seizure": "No",
+        "Sporadic epileptiform discharges": "No",
+        "Frequency >2.0 Hz for any periodic or rhythmic pattern": "No",
+        "Presence of “plus” features ": "No"
+      },
+      "tool_summary": "2HELPS2B Score: [0, 5% risk of seizure]"
+    }
+  ]
+}

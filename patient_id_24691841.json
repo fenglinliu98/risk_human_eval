@@ -1,0 +1,246 @@
+{
+  "patient_id": "24691841",
+  "tool_results": [
+    {
+      "tool_id": "3992",
+      "tool_name": "STOP-BANG Score for Obstructive Sleep Apnea",
+      "params": {
+        "Do you snore loudly?": "Yes",
+        "Do you often feel tired, fatigued, or sleepy during the daytime?": "Yes",
+        "Has anyone observed you stop breathing during sleep?": "Yes",
+        "Do you have (or are you being treated for) high blood pressure?": "Yes",
+        "BMI": ">35 kg/m²",
+        "Age": ">50 years",
+        "Neck circumference": ">40 cm",
+        "Gender": "Male"
+      },
+      "tool_summary": "STOP-BANG Score: [8, high risk for moderate to severe OSA]"
+    },
+    {
+      "tool_id": "3990",
+      "tool_name": "Killip Classification for Heart Failure",
+      "params": {
+        "Classification": "S3 and basal rales on auscultation"
+      },
+      "tool_summary": "Killip Class II: [5-12%, moderate risk of 30-day mortality]"
+    },
+    {
+      "tool_id": "10536",
+      "tool_name": "Edmonton Obesity Staging System (EOSS)",
+      "params": {
+        "Obesity-related risk factors": "Significant (risk factors that have led to end-organ damage, such as MI, HF, complications from DM, etc.) ",
+        "Physical symptoms or functional limitations": "Significant (unable to work or complete routine activities)",
+        "Psychological symptoms": "Mild (symptoms of well-being impairment, without impact to quality of life)"
+      },
+      "tool_summary": "EOSS (Edmonton Obesity Staging System): [Stage 3, high risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "No",
+        "Prior major bleeding or predisposition to bleeding": "No",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [4, high risk for major bleeding]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "No",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "No",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [-1, low risk]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": "<12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "Yes",
+        "Index admission type": "Elective",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": "<5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [2 points, Low risk of potentially avoidable 30-day readmission (5.8%)]"
+    },
+    {
+      "tool_id": "2023",
+      "tool_name": "Padua Prediction Score for Risk of VTE",
+      "params": {
+        "Active cancer": "No",
+        "Previous VTE": "No",
+        "Reduced mobility": "Yes",
+        "Already known thrombophilic condition": "No",
+        "Recent (<=1 month) trauma and/or surgery": "Yes",
+        "Elderly age (>=70 years)": "Yes",
+        "Heart and/or respiratory failure": "Yes",
+        "Acute MI and/or ischemic stroke": "No",
+        "Acute infection and/or rheumatologic disorder": "No",
+        "Obesity (BMI >=30)": "Yes",
+        "Ongoing hormonal treatment": "No"
+      },
+      "tool_summary": "2023 Padua Prediction Score: [8, high risk for venous thromboembolism (VTE), pharmacologic prophylaxis indicated]"
+    },
+    {
+      "tool_id": "3994",
+      "tool_name": "Ottawa Heart Failure Risk Scale (OHFRS)",
+      "params": {
+        "Stroke or TIA": "No",
+        "Intubation for respiratory distress": "No",
+        "Heart rate on ED arrival >=110": "No",
+        "SaO₂ <90% on arrival": "No",
+        "Heart rate >=110 during 3-minutes walk test (or too ill to perform walk test)": "Yes",
+        "New ischemic changes on EKG": "No",
+        "Urea >=12 mmol/L (33 mg/dL)": "No",
+        "Serum CO₂ >=35 mmol/L (mEq/L)": "No",
+        "Troponin I or T elevated to MI level": "No",
+        "NT-proBNP >=5,000 ng/L (pg/mL)": "No"
+      },
+      "tool_summary": "OHFRS (Ottawa Heart Failure Risk Scale): [1, medium risk]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Male",
+        "Congestive heart failure": "Yes",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "No",
+        "Previous cardiac surgery": "No",
+        "Emergency surgery": "No",
+        "Surgery type": "Valve only",
+        "Preoperative creatinine, mg/dL": "1.2-2.0"
+      },
+      "tool_summary": "Mini Score: [4 points, 1.8% risk of ARF]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Male",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [21, Low risk]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "Yes",
+        "History of bleeding": "No",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [3, Elevated Bleeding Risk]"
+    },
+    {
+      "tool_id": "10520",
+      "tool_name": "Obesity Surgery Mortality Risk Score (OS-MRS)",
+      "params": {
+        "BMI >=50 kg/m2": "Yes",
+        "Male gender": "Yes",
+        "Hypertension": "Yes",
+        "Risk of PE": "No",
+        "Age >=45 years": "Yes"
+      },
+      "tool_summary": "OS-MRS (Outcome Scale for Mortality Risk): [4 points, 7.56% mortality rate, Class C]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "3916",
+      "tool_name": "BODE Index for COPD Survival",
+      "params": {
+        "FEV₁ (% of predicted)": "50-64%",
+        "6 Minute Walk Distance": "<=149 m (163 yds)",
+        "mMRC Dyspnea Scale": "Too dyspneic to leave house or breathless when dressing",
+        "BMI (kg/m²)": ">21"
+      },
+      "tool_summary": "BODE Index: [7, high mortality risk]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "0 (“I never cough”)",
+        "Phlegm": "0 (“I have no phlegm in my chest at all”)",
+        "Chest tightness": "0 (“My chest does not feel tight at all”)",
+        "Breathlessness": "4",
+        "Activities": "4",
+        "Confidence": "3",
+        "Sleep": "2",
+        "Energy": "4"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [17, Medium health impact]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Slightly limited: makes frequent though slight changes in body or extremity position independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [17, mild risk]"
+    },
+    {
+      "tool_id": "10040",
+      "tool_name": "Duval/CIBMTR Score for Acute Myelogenous Leukemia (AML) Survival",
+      "params": {
+        "Disease group": "Primary induction failure or duration of first complete remission >6 months",
+        "Cytogenetics prior to HSCT": "Good or intermediate ",
+        " HLA match group": "HLA identical sibling or well matched or partially matched unrelated",
+        "Circulating blasts ": "Absent",
+        "Karnofsky or Lanksy scale": "<90"
+      },
+      "tool_summary": "Duval Score: [1, 28% 3-year overall survival after transplantation]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "No",
+        "Respiratory rate >20 breaths/min": "No",
+        "Numeric pain score >=5": "No",
+        "Cough inadequate to clear respiratory secretions": "No"
+      },
+      "tool_summary": "SCARF Score: [0, Low risk of ≥1 adverse outcome]"
+    }
+  ]
+}

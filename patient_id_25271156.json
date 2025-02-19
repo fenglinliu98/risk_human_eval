@@ -1,0 +1,281 @@
+{
+  "patient_id": "25271156",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [2, 26% mortality]"
+    },
+    {
+      "tool_id": "10160",
+      "tool_name": "Clinical Dementia Rating (CDR) Scale",
+      "params": {
+        "Memory (M)": "Severe memory loss; only fragments remain (3)",
+        "Orientation (O)": "Oriented to person only (3)",
+        "Judgment and problem solving (JPS)": "Unable to make judgments or solve problems (3)",
+        "Community affairs (CA)": "No pretense of independent function outside home; appears too ill to be taken to functions outside a family home (3)",
+        "Home and hobbies (HH)": "No significant function in home (3)",
+        "Personal care (PC)": "Requires much help with personal care; frequent incontinence (3)"
+      },
+      "tool_summary": "Clinical Dementia Rating (CDR) Scale: [3, severe dementia]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": "<80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [3 points, 20% risk of delirium]; AWOL Score: [3 points, not specified]; Risk of Delirium during Hospitalization: [20%, moderate risk]"
+    },
+    {
+      "tool_id": "3622",
+      "tool_name": "Behavioral Pain Scale (BPS) for Pain Assessment in Intubated Patients",
+      "params": {
+        "Facial expression": "Relaxed",
+        "Upper limb movements": "Fully bent with finger flexion",
+        "Compliance with mechanical ventilation": "Tolerating movement"
+      },
+      "tool_summary": "Behavioral Pain Scale (BPS): [5, mild pain]"
+    },
+    {
+      "tool_id": "3621",
+      "tool_name": "Nonverbal Pain Scale (NVPS) for Nonverbal Patients",
+      "params": {
+        "Face": "No particular expression or smile",
+        "Activity (movement)": "Lying quietly, normal position",
+        "Guarding": "Lying quietly, no positioning of hands over areas of the body",
+        "Physiology (vital signs)": "Baseline vital signs unchanged",
+        "Respiratory": "Baseline RR/SpO₂ synchronous with ventilator"
+      },
+      "tool_summary": "3621 Nonverbal Pain Scale Result: [0, no pain]"
+    },
+    {
+      "tool_id": "10566",
+      "tool_name": "Geriatric Depression Scale (GDS-15)",
+      "params": {
+        "Are you basically satisfied with your life?": "No",
+        "Have you dropped many of your activities and interests?": "Yes",
+        "Do you feel that your life is empty?": "Yes",
+        "Do you often get bored?": "Yes",
+        "Are you in good spirits most of the time?": "No",
+        "Are you afraid that something bad is going to happen to you?": "Yes",
+        "Do you feel happy most of the time?": "No",
+        "Do you often feel helpless?": "Yes",
+        "Do you prefer to stay at home, rather than going out and doing new things?": "Yes",
+        "Do you feel you have more problems with memory than most?": "Yes",
+        "Do you think it is wonderful to be alive now?": "No",
+        "Do you feel pretty worthless the way you are now?": "Yes",
+        "Do you feel full of energy?": "No",
+        "Do you feel that your situation is hopeless?": "Yes",
+        "Do you think that most people are better off than you are?": "Yes"
+      },
+      "tool_summary": "Geriatric Depression Scale (GDS-15): [15, suggests severe depression]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Needs major help (1-2 people, physical), can sit",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [5, totally dependent]"
+    },
+    {
+      "tool_id": "10565",
+      "tool_name": "International Prognostic Score for Asymptomatic Early-stage CLL (IPS-E)",
+      "params": {
+        "Unmutated IGHV genes": "No",
+        "Absolute lymphocyte count >15x109/L": "No",
+        "Palpable lymph nodes": "No"
+      },
+      "tool_summary": "ID: 10565 Output Risk Assessment: [0, Low risk for treatment need]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Very limited: responds only to pain, cannot communicate discomfort except by moaning or restlessness, OR has sensory impairment limiting ability to feel pain/discomfort over half of body",
+        "Moisture": "Occasionally moist: requiring extra linen change approximately once a day",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Probably inadequate: rarely eats complete meal and generally eats only about ½ of any food offered; protein intake includes only 3 servings of meat or dairy products daily; occasionally will take dietary supplement; or receives less than optimum amount of",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [13, moderate risk]"
+    },
+    {
+      "tool_id": "3913",
+      "tool_name": "MASCC Risk Index for Febrile Neutropenia",
+      "params": {
+        "Burden of illness (symptom severity)": "Moderate",
+        "Hypotension": "Yes",
+        "Active COPD": "No",
+        "Type of cancer": "Solid tumor",
+        "Dehydration requiring IV fluids": "No",
+        "Status at onset of fever": "Inpatient",
+        "Age (years)": ">=60"
+      },
+      "tool_summary": "MASCC Risk Index: [14, high risk for poor outcome]"
+    },
+    {
+      "tool_id": "10104",
+      "tool_name": "Apfel Score for Postoperative Nausea and Vomiting",
+      "params": {
+        "Gender": "Male",
+        "Smoking status": "Nonsmoker",
+        "History of motion sickness or PONV": "No",
+        "Use of postoperative opioids": "No"
+      },
+      "tool_summary": "Apfel Score: [1, 21% 24-hour risk of PONV]"
+    },
+    {
+      "tool_id": "10168",
+      "tool_name": "Withdrawal Assessment Tool (WAT-1) for Pediatric Withdrawal",
+      "params": {
+        "Any loose or watery stools": "Yes",
+        "Any vomiting, retching, or gagging": "No",
+        "Temperature >100.0 degF (37.8degC)": "No",
+        "State Behavioral Scale (SBS)": ">=1 OR awake and distressed",
+        "Tremor": "None or mild",
+        "Any sweating": "No",
+        "Uncoordinated and/or repetitive movement": "None or mild",
+        "Yawning or sneezing": "0-1 time",
+        "Startle to touch": "None or mild",
+        "Muscle tone": "Normal",
+        "Time to gain calm state (SBS <=0)": "<2 min"
+      },
+      "tool_summary": "WAT-1 Score: [2, low risk for prolonged opioid or benzodiazepine weaning]"
+    },
+    {
+      "tool_id": "10208",
+      "tool_name": "Abbreviated Mental Test (AMT-10)",
+      "params": {
+        "Age": "Incorrect",
+        "Time": "Incorrect",
+        "Current year": "Incorrect",
+        "Patient’s home address": "Incorrect",
+        "What jobs do these people do?": "Incorrect",
+        "Date of birth": "Incorrect",
+        "Year World War I started": "Incorrect",
+        "Current president": "Incorrect",
+        "Count backwards from 20 to 1": "Incorrect",
+        "Ask to recall address given earlier": "Incorrect"
+      },
+      "tool_summary": "AMT-10 Cognitive Assessment: [0, severe cognitive impairment]"
+    },
+    {
+      "tool_id": "10536",
+      "tool_name": "Edmonton Obesity Staging System (EOSS)",
+      "params": {
+        "Obesity-related risk factors": "Established (risk factors that require medical intervention, including HTN, DMII, sleep apnea, etc.) ",
+        "Physical symptoms or functional limitations": "Significant (unable to work or complete routine activities)",
+        "Psychological symptoms": "Moderate (depression, anxiety, eating disorders, quality of life is beginning to be impacted due to limitations)"
+      },
+      "tool_summary": "End-Stage Ovarian Cancer Score (EOSS): [Stage 3, high risk]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "Yes",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [4, low risk]"
+    },
+    {
+      "tool_id": "10031",
+      "tool_name": "REACH-B Score for Hepatocellular Carcinoma (HCC)",
+      "params": {
+        "Sex": "Male",
+        "Age, years": "60-65",
+        "ALT, U/L": "15-44",
+        "HBeAg": "Negative",
+        "Hepatitis B virus DNA level, copies/mL": "<300 (undetectable)"
+      },
+      "tool_summary": "REACH-B Score: [9, moderate risk of Hepatocellular Carcinoma (HCC) at 10 years]"
+    },
+    {
+      "tool_id": "10188",
+      "tool_name": "Ottawa COPD Risk Scale",
+      "params": {
+        "Coronary bypass graft": "No",
+        "Intervention for peripheral vascular disease": "No",
+        "Intubation for respiratory distress": "No",
+        "HR >=110/min ": "No",
+        "Too ill to do walk test after treatment in ED": "Yes",
+        "Acute ischemic changes on EKG": "No",
+        "Pulmonary congestion on chest x-ray": "No",
+        "Hemoglobin <10 g/dL (100 g/L)": "No",
+        "Urea >=12 mmol/L (BUN >=34 mg/dL)": "No",
+        "Serum CO2 >=35 mEq/L (35 mmol/L)": "No"
+      },
+      "tool_summary": "COPD Risk Scale: [2, Medium risk, 7.2% risk of adverse event (MI, intubation, etc.)]"
+    },
+    {
+      "tool_id": "10064",
+      "tool_name": "Wexner Score for Obstructed Defecation Syndrome (ODS)",
+      "params": {
+        "Incontinence to solid stool": "Less than once a day but at least once a week",
+        "Incontinence to liquid stool": "Less than once a day but at least once a week",
+        "Incontinence to gas": "Less than once a week but at least once a month",
+        "Wears pad": "Less than once a day but at least once a week",
+        "Lifestyle alteration": "At least once a day"
+      },
+      "tool_summary": "Incontinence Severity Tool/Score: [15, moderate to severe incontinence]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "0 (“I never cough”)",
+        "Phlegm": "0 (“I have no phlegm in my chest at all”)",
+        "Chest tightness": "0 (“My chest does not feel tight at all”)",
+        "Breathlessness": "1",
+        "Activities": "5 (“I am very limited doing any activities at home”)",
+        "Confidence": "3",
+        "Sleep": "3",
+        "Energy": "4"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [16, medium health impact]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "No",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "No",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [-1, low risk]"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "patient_id": "22360796",
+  "tool_results": [
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": "65-74",
+        "Sex": "Female",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "Yes",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [7, high stroke risk]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "ABCD2 Score: [7, high risk]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 1 task",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Unilateral complete paralysis (upper/lower face)",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "Drift, but doesn't hit bed",
+        "6B: Right leg motor drift": "No movement",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Mild-moderate loss: less sharp/more dull ",
+        "9: Language/aphasia": "Mild-moderate aphasia: some obvious changes, without significant limitation",
+        "10: Dysarthria": "Mild-moderate dysarthria: slurring but can be understood",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [16, moderate to severe stroke]"
+    },
+    {
+      "tool_id": "1739",
+      "tool_name": "Revised Cardiac Risk Index for Pre-Operative Risk",
+      "params": {
+        "Elevated-risk surgery": "Yes",
+        "History of ischemic heart disease": "Yes",
+        "History of congestive heart failure": "No",
+        "History of cerebrovascular disease": "Yes",
+        "Pre-operative treatment with insulin": "Yes",
+        "Pre-operative creatinine >2 mg/dL / 176.8 µmol/L": "No"
+      },
+      "tool_summary": "Revised Cardiac Risk Index (RCRI): [4, 15.0% risk of major cardiac event]"
+    },
+    {
+      "tool_id": "10067",
+      "tool_name": "Canadian Cardiovascular Society (CCS) Angina Grade",
+      "params": {
+        "Description": "Ordinary activity slightly limited: angina with walking/climbing stairs rapidly, walking uphill, walking or stair climbing after meals, in cold/wind, under emotional stress, during few hours after awakening, walking >2 blocks on level ground, or climbing >1 flight of stairs at normal pace and normal conditions"
+      },
+      "tool_summary": "CCS Angina Grade: [Grade II, moderate severity]"
+    },
+    {
+      "tool_id": "2023",
+      "tool_name": "Padua Prediction Score for Risk of VTE",
+      "params": {
+        "Active cancer": "No",
+        "Previous VTE": "No",
+        "Reduced mobility": "Yes",
+        "Already known thrombophilic condition": "No",
+        "Recent (<=1 month) trauma and/or surgery": "Yes",
+        "Elderly age (>=70 years)": "No",
+        "Heart and/or respiratory failure": "No",
+        "Acute MI and/or ischemic stroke": "Yes",
+        "Acute infection and/or rheumatologic disorder": "No",
+        "Obesity (BMI >=30)": "Yes",
+        "Ongoing hormonal treatment": "No"
+      },
+      "tool_summary": "2023 Padua Prediction Score: [7, high risk for venous thromboembolism]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Female",
+        "Congestive heart failure": "No",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "Yes",
+        "Previous cardiac surgery": "No",
+        "Emergency surgery": "No",
+        "Surgery type": "None",
+        "Preoperative creatinine, mg/dL": "<1.2"
+      },
+      "tool_summary": "Thakar Score: [2, 0.4% risk of ARF]"
+    },
+    {
+      "tool_id": "1752",
+      "tool_name": "HEART Score for Major Cardiac Events",
+      "params": {
+        "History": "Highly suspicious",
+        "EKG": "Non-specific repolarization disturbance",
+        "Age": ">=65",
+        "Risk factors": ">=3 risk factors or history of atherosclerotic disease",
+        "Initial troponin": "<=normal limit"
+      },
+      "tool_summary": "HEART Score: [7, high risk of major adverse cardiac events (MACE) at 50-65%]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis (ID: 10092): [1 point, Unlikely RA]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Female",
+        "Renal function (GFR), mL/min/m2": ">=60",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "Yes",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "No",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [4, no increased risk of bleeding]"
+    },
+    {
+      "tool_id": "10029",
+      "tool_name": "CART (Cardiac Arrest Risk Triage) Score",
+      "params": {
+        "Respiratory rate, breaths/min": "<21",
+        "Heart rate, beats/min": "<110",
+        "Diastolic BP, mmHg ": ">49",
+        "Age, years": ">69"
+      },
+      "tool_summary": "Mini Score: [9, low risk], CART Score: [Low, risk of cardiac arrest within 48 hours]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "No",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [0, Low risk]"
+    },
+    {
+      "tool_id": "1731",
+      "tool_name": "Duke Criteria for Infective Endocarditis",
+      "params": {
+        "Microorganisms in a vegetation": "No",
+        "Pathologic Lesions": "No",
+        "Blood cultures positive for endocarditis": "No",
+        "Evidence of endocardial involvement": "No",
+        "Predisposing heart condition or injection drug use": "Yes",
+        "Fever": "No",
+        "Vascular phenomena": "Yes",
+        "Immunologic phenomena": "No",
+        "Microbiological evidence": "No"
+      },
+      "tool_summary": "1731 Duke Criteria for Infective Endocarditis (IE) Result: [Rejected, high risk of alternative diagnosis]"
+    },
+    {
+      "tool_id": "10020",
+      "tool_name": "ACTION ICU Score for Intensive Care in NSTEMI",
+      "params": {
+        "Age, years": "<70",
+        "Serum creatinine, mg/dL": "<1.1",
+        "Heart rate, bpm": "85-100",
+        "Systolic blood pressure, mmHg": "125-145",
+        "Ratio of initial troponin to upper limit of normal": "<12",
+        "Signs or symptoms of heart failure": "No",
+        "ST segment depression on EKG": "No",
+        "Prior revascularization": "Yes",
+        "Chronic lung disease": "No"
+      },
+      "tool_summary": "Mini/Score: [2, 4.9% risk], ACTION ICU Score: [2, high risk of complications requiring ICU care]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "No",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "2 lineages",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": ">250 (>2.5)",
+        "AST, U/L": ">=30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [43, <1% probability of hemophagocytic syndrome]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Slightly limited: responds to verbal commands but cannot always communicate discomfort or need to be turned, OR has sensory impairment limiting ability to feel pain/discomfort in 1-2 extremities",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Chairfast: ability to walk severely limited or non-existent; cannot bear own weight and/or must be assisted into chair/wheelchair",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Probably inadequate: rarely eats complete meal and generally eats only about ½ of any food offered; protein intake includes only 3 servings of meat or dairy products daily; occasionally will take dietary supplement; or receives less than optimum amount of",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [15, moderate risk]"
+    },
+    {
+      "tool_id": "10540",
+      "tool_name": "FRACTURE Index",
+      "params": {
+        "Age": "65-69",
+        "History of any fracture after age 50": "No/don’t know",
+        "Mother's history of a hip fracture after age 50": "No/don’t know",
+        "Weight": ">125 lb (>56.7 kg)",
+        "Current smoker": "No",
+        "Need to use arms to assist themself in standing up from a chair": "No/don’t know",
+        "BMD results: total hip T-score": ">=-1"
+      },
+      "tool_summary": "FRACTURE Index Score: [1, 0.4% 5-year risk of hip fracture]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Female",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [0, very low risk]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "Yes"
+      },
+      "tool_summary": "ICH Score: [1, 13% mortality]"
+    }
+  ]
+}

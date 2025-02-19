@@ -1,0 +1,265 @@
+{
+  "patient_id": "21920771",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Critical",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "No injury",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "No injury"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [25, moderate to severe injury]"
+    },
+    {
+      "tool_id": "3952",
+      "tool_name": "CHIP (CT in Head Injury Patients) Prediction Rule",
+      "params": {
+        "Age": ">=60 years",
+        "GCS <15": "No",
+        "GCS deterioration at 1 hr after presentation": "None",
+        "Skull injury": "None",
+        "Post-traumatic amnesia": "None",
+        "Pedestrian or cyclist versus vehicle": "No",
+        "Ejected from vehicle": "No",
+        "Vomiting": "No",
+        "Use of anticoagulants": "No",
+        "Post-traumatic seizure": "No",
+        "Fall from any elevation": "Yes",
+        "Persistent anterograde amnesia": "No",
+        "Neurologic deficit": "No",
+        "Loss of consciousness": "Yes"
+      },
+      "tool_summary": "CHIP Prediction Rule: [Not low, Consider CT risk]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "No",
+        "Altered level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "No",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "Mini/Value: [Low, low risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "4037",
+      "tool_name": "Focused Assessment with Sonography for Trauma (FAST)",
+      "params": {
+        "Pericardial fluid": "Absent",
+        "Right upper quadrant (Morison’s pouch) fluid": "Absent",
+        "Left upper quadrant (splenorenal recess) fluid": "Absent",
+        "Suprapubic fluid": "Absent"
+      },
+      "tool_summary": "FAST (Focused Assessment with Sonography for Trauma) result: [Negative FAST, low risk of pericardial or intra-abdominal fluid]"
+    },
+    {
+      "tool_id": "3948",
+      "tool_name": "EGSYS (Evaluation of Guidelines in SYncope Study) Score for Syncope",
+      "params": {
+        "Abnormal EKG and/or heart disease": "Yes",
+        "Palpitations before syncope": "No",
+        "Syncope during effort ": "No",
+        "Syncope in supine position": "No",
+        "Autonomic prodromes": "No",
+        "Predisposing and/or precipitating factors": "Yes"
+      },
+      "tool_summary": "EGSYS Score: [2, low risk of cardiac syncope with 3% mortality at 21-24 months for EGSYS <3]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "Yes",
+        "Lumpy or hard stools ": "Yes",
+        "Sensation of incomplete evacuation": "Yes",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "Yes",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Functional Constipation Assessment: [Positive, likely functional constipation]"
+    },
+    {
+      "tool_id": "10462",
+      "tool_name": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+      "params": {
+        "Incomplete emptying: How often have you had the sensation of not emptying your bladder?": "Less than half the time",
+        "Frequency: How often have you had to urinate less than every two hours?": "Less than half the time",
+        "Intermittency: How often have you found you stopped and started again several times when you urinated?": "Less than half the time",
+        "Urgency: How often have you found it difficult to postpone urination?": "Less than half the time",
+        "Weak stream: How often have you had a weak urinary stream?": "Less than half the time",
+        "Straining: How often have you had to strain to start urination?": "Less than half the time",
+        "Nocturia: How many times do you typically get up at night to urinate?": "2 times",
+        "If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?": "Mixed"
+      },
+      "tool_summary": "AUA-SI/IPSS Score: [14, moderate BPH symptom severity]"
+    },
+    {
+      "tool_id": "10295",
+      "tool_name": "Rome IV Diagnostic Criteria for Belching Disorders",
+      "params": {
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the esophagus more than 3 days a week": "No",
+        "Bothersome (i.e., severe enough to impact on usual activities) belching from the stomach  more than 3 days a week": "No"
+      },
+      "tool_summary": "Supragastric and Gastric Belching Assessment: [Negative, low risk for belching disorders]"
+    },
+    {
+      "tool_id": "10522",
+      "tool_name": "International Diabetes Federation-Diabetes and Ramadan Alliance (IDF-DAR) Fasting Risk Assessment",
+      "params": {
+        "Diabetes type": "Type 2 diabetes",
+        "Years since diabetes diagnosis": ">=10 years",
+        "Presence of hypoglycemia": "No hypoglycemia",
+        "Level of glycemic control": "HbA1c levels 7.5-9% (58.5-75 mmol/mol)",
+        "Type of treatment": "Other therapy not including SU or insulin",
+        "Self-monitoring of blood glucose (SMBG)": "Indicated but conducted suboptimally",
+        "Acute complications": "No DKA or HHS",
+        "MVD complications/comorbidities": "No MVD",
+        "Renal complications/comorbidities": "eGFR >60mL/min",
+        "Pregnancy": "Not pregnant",
+        "Frailty and cognitive function": "No frailty or loss in cognitive function",
+        "Physical labor": "No physical labor",
+        "Previous Ramadan experience": "Positive experience",
+        "Fasting hours": "<16 h"
+      },
+      "tool_summary": "IDF-Diabetes Atlas Risk Tool (10522): [3, low risk]"
+    },
+    {
+      "tool_id": "10471",
+      "tool_name": "Acute Renal Failure after Cardiac Surgery (Thakar Score)",
+      "params": {
+        "Gender": "Male",
+        "Congestive heart failure": "No",
+        "Left ventricular ejection fraction ": "No",
+        "Preoperative use of IABP": "No",
+        "COPD": "No",
+        "Insulin-requiring diabetes": "No",
+        "Previous cardiac surgery": "No",
+        "Emergency surgery": "No",
+        "Surgery type": "None",
+        "Preoperative creatinine, mg/dL": "<1.2"
+      },
+      "tool_summary": "Thakar Score: [0, 0.4% risk of ARF]"
+    },
+    {
+      "tool_id": "10078",
+      "tool_name": "Pediatric NEXUS II Head CT Decision Instrument for Blunt Trauma",
+      "params": {
+        "Evidence of skull fracture": "No",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "No",
+        "Abnormal level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Persistent vomiting": "No",
+        "Coagulopathy": "No"
+      },
+      "tool_summary": "Mini/NEXUS CT Head Rule: [Low, CT not necessary]"
+    },
+    {
+      "tool_id": "10420",
+      "tool_name": "Humiliation, Afraid, Rape, Kick (HARK)",
+      "params": {
+        "Have you been humiliated or emotionally abused in other ways by your partner or your ex-partner?": "No",
+        "Have you been afraid of your partner or ex-partner?": "No",
+        "Have you been raped or forced to have any kind of sexual activity by your partner or ex-partner?": "No",
+        "Have you been kicked, hit, slapped or otherwise physically hurt by your partner or ex-partner?": "No"
+      },
+      "tool_summary": "Medical Tool ID 10420 Screening Results: [Negative, low risk]"
+    },
+    {
+      "tool_id": "10188",
+      "tool_name": "Ottawa COPD Risk Scale",
+      "params": {
+        "Coronary bypass graft": "No",
+        "Intervention for peripheral vascular disease": "No",
+        "Intubation for respiratory distress": "No",
+        "HR >=110/min ": "No",
+        "Too ill to do walk test after treatment in ED": "No",
+        "Acute ischemic changes on EKG": "No",
+        "Pulmonary congestion on chest x-ray": "No",
+        "Hemoglobin <10 g/dL (100 g/L)": "No",
+        "Urea >=12 mmol/L (BUN >=34 mg/dL)": "No",
+        "Serum CO2 >=35 mEq/L (35 mmol/L)": "No"
+      },
+      "tool_summary": "COPD Risk Scale: [0, low risk]"
+    },
+    {
+      "tool_id": "10046",
+      "tool_name": "Denver HIV Risk Score",
+      "params": {
+        "Age, years ": "<22",
+        "Gender": "Male",
+        "Sexual practices": "None of the above",
+        "Other risk factors": "Neither",
+        "Race/ethnicity": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other"
+      },
+      "tool_summary": "Denver HIV Score: [21, low risk]"
+    },
+    {
+      "tool_id": "10089",
+      "tool_name": "HScore for Reactive Hemophagocytic Syndrome",
+      "params": {
+        "Known underlying immunosuppression": "No",
+        "Temperature, degF (degC)": "<101.1 (<38.4)",
+        "Organomegaly": "No",
+        "Number of cytopenias": "1 lineage",
+        "Ferritin, ng/mL (or ug/L)": "<2,000",
+        "Triglycerides, mg/dL (mmol/L)": "<132.7 (<1.5)",
+        "Fibrinogen, mg/dL (g/L)": ">250 (>2.5)",
+        "AST, U/L": "<30",
+        "Hemophagocytosis features on bone marrow aspirate": "No"
+      },
+      "tool_summary": "HScore for Hemophagocytic Syndrome: [0, <1% probability]"
+    },
+    {
+      "tool_id": "10125",
+      "tool_name": "Villalta Score for Post-thrombotic Syndrome (PTS)",
+      "params": {
+        "Pain": "Mild",
+        "Cramps": "Absent",
+        "Heaviness": "Absent",
+        "Paresthesia": "Absent",
+        "Pruritus": "Absent",
+        "Pretibial edema": "Absent",
+        "Skin induration": "Absent",
+        "Hyperpigmentation": "Absent",
+        "Redness": "Absent",
+        "Venous ectasia": "Absent",
+        "Pain on calf compression": "Absent",
+        "Venous ulcer": "Absent"
+      },
+      "tool_summary": "Villalta Score: [1, PTS absent]"
+    },
+    {
+      "tool_id": "10226",
+      "tool_name": "Urticaria Activity Score (UAS)",
+      "params": {
+        "Wheals": "None",
+        "Pruritus": "None"
+      },
+      "tool_summary": "Urticaria Activity Score (UAS): [0, no activity]"
+    }
+  ]
+}

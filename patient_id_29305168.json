@@ -1,0 +1,288 @@
+{
+  "patient_id": "29305168",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Forced gaze palsy: cannot be overcome",
+        "3: Visual fields": "Complete hemianopia",
+        "4: Facial palsy": "Unilateral complete paralysis (upper/lower face)",
+        "5A: Left arm motor drift": "Drift, but doesn't hit bed",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "Drift, but doesn't hit bed",
+        "6B: Right leg motor drift": "No effort against gravity",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Mild-moderate loss: less sharp/more dull ",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Severe dysarthria: unintelligible slurring or out of proportion to dysphasia",
+        "11: Extinction/inattention": "Visual/tactile/auditory/spatial/personal inattention"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [27, severe stroke]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Female",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "Yes"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [7, high risk of stroke or systemic embolism]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [0, totally dependent]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "No",
+        "Labile INR": "Yes",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [6, very high risk of major bleeding]"
+    },
+    {
+      "tool_id": "3642",
+      "tool_name": "Rockall Score for Upper GI Bleeding (Complete)",
+      "params": {
+        "Age": ">=80 years",
+        "Shock": "No shock (SBP >=100 AND HR <100)",
+        "Comorbidities": "Renal failure, liver failure, and/or disseminated malignancy",
+        "Diagnosis": "All other diagnoses",
+        "Major stigmata of recent hemorrhage": "None"
+      },
+      "tool_summary": "Rockall Score (Complete): [6, High Risk]"
+    },
+    {
+      "tool_id": "2023",
+      "tool_name": "Padua Prediction Score for Risk of VTE",
+      "params": {
+        "Active cancer": "No",
+        "Previous VTE": "No",
+        "Reduced mobility": "Yes",
+        "Already known thrombophilic condition": "No",
+        "Recent (<=1 month) trauma and/or surgery": "Yes",
+        "Elderly age (>=70 years)": "Yes",
+        "Heart and/or respiratory failure": "No",
+        "Acute MI and/or ischemic stroke": "Yes",
+        "Acute infection and/or rheumatologic disorder": "No",
+        "Obesity (BMI >=30)": "No",
+        "Ongoing hormonal treatment": "No"
+      },
+      "tool_summary": "2023 Padua Prediction Score: [7, high risk of venous thromboembolism]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "45-49",
+        "Sex": "Female",
+        "Urine albumin-to-creatinine ratio, mg/g": "30-300",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": "3.1-3.5 (31-35)",
+        "Serum phosphorus, mg/dL (mmol/L)": "<3.5 (<1.13)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "18-22 (18-22)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator (ID: 10045): [NaN, data unavailable]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "No",
+        "History of bleeding": "No",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "Yes",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [3, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "10349",
+      "tool_name": "IMPROVE Risk Score for Venous Thromboembolism (VTE)",
+      "params": {
+        "Previous VTE": "No",
+        "Known thrombophilia": "No",
+        "Current lower-limb paralysis": "Yes",
+        "Current cancer": "No",
+        "Immobilized >=7 days": "Yes",
+        "ICU/CCU stay": "Yes",
+        "Age >60 years": "Yes"
+      },
+      "tool_summary": "IMPROVE Score: [5, moderate risk]; 3-month risk of VTE: [7.2%, moderate risk]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Very limited: responds only to pain, cannot communicate discomfort except by moaning or restlessness, OR has sensory impairment limiting ability to feel pain/discomfort over half of body",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Very limited: makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [13, moderate risk]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [2, low risk]"
+    },
+    {
+      "tool_id": "10071",
+      "tool_name": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)",
+      "params": {
+        "WHO group 1 subgroup": "Other",
+        "eGFR 2 or renal insufficiency": "Yes",
+        "Male age >60 years": "No",
+        "NYHA/WHO functional class": "IV",
+        "Systolic BP, mmHg": ">=110 mmHg",
+        "Heart rate, bpm": "<=96 bpm",
+        "Any hospitalizations within 6 months": "Yes",
+        "6-minute walk test": "<165 m",
+        "BNP, pg/mL": "50 to <200 pg/mL",
+        "Pericardial effusion on echocardiogram": "No",
+        "DLCO on pulmonary function test": ">=40%",
+        "Mean right atrial pressure >20 mmHg within 1 year on right heart catheterization": "No",
+        "Pulmonary vascular resistance ": "No"
+      },
+      "tool_summary": "REVEAL Score 2.0 for PAH: [11, high risk]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "0 (“I never cough”)",
+        "Phlegm": "0 (“I have no phlegm in my chest at all”)",
+        "Chest tightness": "0 (“My chest does not feel tight at all”)",
+        "Breathlessness": "2",
+        "Activities": "5 (“I am very limited doing any activities at home”)",
+        "Confidence": "5 (“I am not at all confident leaving my home because of my lung condition”)",
+        "Sleep": "0 (“I sleep soundly”)",
+        "Energy": "5 (“I have no energy at all”)"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [17, medium health impact]"
+    },
+    {
+      "tool_id": "10486",
+      "tool_name": "Sequential Clinical Assessment of Respiratory Function (SCARF) Score",
+      "params": {
+        "Incentive spirometry ": "No",
+        "Respiratory rate >20 breaths/min": "No",
+        "Numeric pain score >=5": "No",
+        "Cough inadequate to clear respiratory secretions": "No"
+      },
+      "tool_summary": "SCARF Score: [0, low risk]"
+    },
+    {
+      "tool_id": "3995",
+      "tool_name": "Abbreviated Mental Test 4 (AMT-4)",
+      "params": {
+        "Age": "Incorrect",
+        "Date of birth": "Incorrect",
+        "Place": "Incorrect",
+        "Year": "Incorrect"
+      },
+      "tool_summary": "AMT-4 Score: [0, abnormal cognition]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini Score: [4 points, 64% risk of delirium]; AWOL Score: [4 points, unspecified risk]; Hospitalization Delirium Risk: [64%, high risk of delirium]."
+    },
+    {
+      "tool_id": "10270",
+      "tool_name": "Pediatric NIH Stroke Scale (NIHSS)",
+      "params": {
+        "1A. Level of consciousness": "Not alert, requires repeated stimulation, or is obtunded and requires strong/painful stimulation to make movements (not stereotyped)",
+        "1B. Ask age and to point out family member": "Answers neither question correctly",
+        "1C. Command to blink eyes and touch nose": "Performs neither task correctly",
+        "2. Horizontal extraocular movements": "Forced deviation or total gaze paresis not overcome by oculocephalic maneuver",
+        "3. Visual fields": "Partial hemianopia",
+        "4. Facial palsy": "Partial paralysis (total or near total paralysis of lower face)",
+        "5A. Left arm motor drift": "Some effort against gravity, limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity",
+        "5B. Right arm motor drift": "No movement",
+        "6A. Left leg motor drift": "No drift, leg holds 30 degrees position for full 5 seconds",
+        "6B. Right leg motor drift": "Leg falls to bed by 5 seconds, but has some effort against gravity",
+        "7. Limb ataxia": "Absent",
+        "8: Sensation": "Mild to moderate sensory loss; patient feels pinprick is less sharp or dull on the affected side, or there is a loss of superficial pain with pinprick but patient is aware he/she is being touched",
+        "9. Best language": "Mute, global aphasia; no usable speech or auditory comprehension",
+        "10. Dysarthria": "Severe; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric",
+        "11. Extinction and inattention": "Profound hemi-inattention or hemi-inattention to >1 modality; does not recognize own hand or orients to only one side of space"
+      },
+      "tool_summary": "Pediatric NIH Stroke Scale (PedNIHSS): [27, severe stroke risk]"
+    }
+  ]
+}

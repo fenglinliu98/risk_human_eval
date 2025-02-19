@@ -1,0 +1,271 @@
+{
+  "patient_id": "24026458",
+  "tool_results": [
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "No",
+        "Clinical features of the TIA": "Other symptoms",
+        "Duration of symptoms": "<10 minutes",
+        "History of diabetes": "No"
+      },
+      "tool_summary": "ABCD2 Score: [1, low risk]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "Both questions right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No drift for 10 seconds",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Normal; no aphasia",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [0, no stroke]"
+    },
+    {
+      "tool_id": "4037",
+      "tool_name": "Focused Assessment with Sonography for Trauma (FAST)",
+      "params": {
+        "Pericardial fluid": "Absent",
+        "Right upper quadrant (Morison’s pouch) fluid": "Absent",
+        "Left upper quadrant (splenorenal recess) fluid": "Absent",
+        "Suprapubic fluid": "Absent"
+      },
+      "tool_summary": "FAST Ultrasound Result: [Negative FAST, low risk of pericardial or intra-abdominal fluid]"
+    },
+    {
+      "tool_id": "115",
+      "tool_name": "Wells' Criteria for Pulmonary Embolism",
+      "params": {
+        "Clinical signs and symptoms of DVT": "No",
+        "PE is #1 diagnosis OR equally likely": "No",
+        "Heart rate > 100": "No",
+        "Immobilization at least 3 days OR surgery in the previous 4 weeks": "No",
+        "Previous, objectively diagnosed PE or DVT": "No",
+        "Hemoptysis": "No",
+        "Malignancy w/ treatment within 6 months or palliative": "No"
+      },
+      "tool_summary": "Wells' Score for PE: [0.0, low risk]"
+    },
+    {
+      "tool_id": "1236",
+      "tool_name": "TASH Score (Trauma Associated Severe Hemorrhage)",
+      "params": {
+        "Sex": "Male",
+        "Hemoglobin": "< 9 g/dL",
+        "Base Excess": ">= -2 mmol/L",
+        "Systolic Blood Pressure": ">= 120 mm Hg",
+        "Heart Rate": "<= 120 bpm",
+        "Positive FAST for Intra-Abdominal Fluid": "No",
+        "Clinically Unstable Pelvic Fracture": "No",
+        "Open or Dislocated Femur Fracture": "No"
+      },
+      "tool_summary": "TASH Score: [7 points, <5% predicted need for massive transfusion]"
+    },
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "No injury",
+        "Face worst injury?": "No injury",
+        "Chest worst injury?": "No injury",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "Serious",
+        "External worst injury?": "Serious"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [18, moderate injury]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "Yes",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "Yes"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score: [5, High Risk - 5.8% Annual Risk of Hemorrhage]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [4, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10467",
+      "tool_name": "VTE-BLEED Score",
+      "params": {
+        "Active cancer": "No",
+        "Male patient with uncontrolled hypertension": "No",
+        "Anemia": "Yes",
+        "History of bleeding": "Yes",
+        "Renal dysfunction (creatinine clearance 30-60 mL/min)": "No",
+        "Age >=60 years": "Yes"
+      },
+      "tool_summary": "VTE-BLEED Score: [4.5, Elevated bleeding risk]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Independent",
+        "Bathing": "Independent",
+        "Grooming": "Independent",
+        "Dressing": "Needs help",
+        "Bowel control": "Continent",
+        "Bladder control": "Continent",
+        "Toilet use": "Needs help",
+        "Transfers (bed to chair and back)": "Needs minor help (verbal or physical)",
+        "Mobility on level surfaces": "Walks with help of one person (verbal or physical) >50 yards",
+        "Stairs": "Needs help (verbal, physical, carrying aid)"
+      },
+      "tool_summary": "Barthel Index: [75, minimally dependent]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Needs moderate or maximal assist to stand",
+        "Standing unsupported": "Unable to stand 30 seconds unsupported",
+        "Sitting with back unsupported": "Able to sit safely and securely for 2 minutes",
+        "Standing to sitting": "Sits independently but has uncontrolled descent",
+        "Transfers": "Needs one person assist",
+        "Standing unsupported with eyes closed": "Needs help to keep from falling",
+        "Standing unsupported with feet together": "Needs help to attain position and unable to hold 15 seconds",
+        "Reaching forward with outstretched arm while standing": "Loses balance while trying/requires external support",
+        "Pick up object from the floor from a standing position": "Unable to try/needs assist to keep from losing balance or falling",
+        "Turning to look behind over left and right shoulders": "Needs supervision when turning",
+        "Turn 360 degrees": "Needs close supervision or verbal cueing",
+        "Placing alternate foot on step or stool while standing unsupported": "Needs assistance to keep from falling/unable to try",
+        "Standing unsupported one foot in front": "Loses balance while stepping or standing",
+        "Standing on one leg": "Unable to try or needs assist to prevent fall"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [8, increased fall risk]"
+    },
+    {
+      "tool_id": "10522",
+      "tool_name": "International Diabetes Federation-Diabetes and Ramadan Alliance (IDF-DAR) Fasting Risk Assessment",
+      "params": {
+        "Diabetes type": "Type 2 diabetes",
+        "Years since diabetes diagnosis": ">=10 years",
+        "Presence of hypoglycemia": "No hypoglycemia",
+        "Level of glycemic control": "HbA1c levels <7.5% (58.5 mmol/mol)",
+        "Type of treatment": "Other therapy not including SU or insulin",
+        "Self-monitoring of blood glucose (SMBG)": "Indicated but not conducted",
+        "Acute complications": "No DKA or HHS",
+        "MVD complications/comorbidities": "No MVD",
+        "Renal complications/comorbidities": "eGFR >60mL/min",
+        "Pregnancy": "Not pregnant",
+        "Frailty and cognitive function": "No frailty or loss in cognitive function",
+        "Physical labor": "No physical labor",
+        "Previous Ramadan experience": "Positive experience",
+        "Fasting hours": "<16 h"
+      },
+      "tool_summary": "10522_IDF-DAR_result: [3, Low risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "Slightly limited: makes frequent though slight changes in body or extremity position independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [19, Average risk]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Positive, further evaluation required]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "No",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "No"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [4, moderately severe disability]"
+    },
+    {
+      "tool_id": "10562",
+      "tool_name": "BALL Score for Relapsed/Refractory CLL",
+      "params": {
+        "beta2-microglobulin": "<5 mg/dL",
+        "Anemia": "Yes",
+        "LDH": ">Upper limit of normal",
+        "Last therapy": "<24 months"
+      },
+      "tool_summary": "BALL Score: [3, Intermediate risk]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "No",
+        "Ask patient age and current month": "Both correct",
+        "Ask patient to close eyes and open/close hand": "Follows both commands",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Can do"
+      },
+      "tool_summary": "Mini and CP-SSS Tool: [0, LVO and NIHSS ≥15 less likely]"
+    },
+    {
+      "tool_id": "362",
+      "tool_name": "Wells' Criteria for DVT",
+      "params": {
+        "Active cancer": "No",
+        "Bedridden recently >3 days or major surgery within 12 weeks": "No",
+        "Calf swelling >3 cm compared to the other leg": "No",
+        "Collateral (nonvaricose) superficial veins present": "No",
+        "Entire leg swollen": "No",
+        "Localized tenderness along the deep venous system": "No",
+        "Pitting edema, confined to symptomatic leg": "No",
+        "Paralysis, paresis, or recent plaster immobilization of the lower extremity": "No",
+        "Previously documented DVT": "No",
+        "Alternative diagnosis to DVT as likely or more likely": "Yes"
+      },
+      "tool_summary": "Wells' Score for DVT: [-2, low risk group for DVT]"
+    }
+  ]
+}

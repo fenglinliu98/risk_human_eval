@@ -1,0 +1,276 @@
+{
+  "patient_id": "20427638",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "5-12",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "Yes",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [2, 26% mortality]"
+    },
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Requires repeated stimulation to arouse",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "Complete hemianopia",
+        "4: Facial palsy": "Normal symmetry",
+        "5A: Left arm motor drift": "Drift, hits bed",
+        "5B: Right arm motor drift": "No effort against gravity",
+        "6A: Left leg motor drift": "No effort against gravity",
+        "6B: Right leg motor drift": "No effort against gravity",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [22, severe stroke]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": ">60",
+        "Age": "70-79",
+        "ICH location": "Deep",
+        "GCS score": "<=8",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "3883_FUNC Score: [2, extremely low probability of functional independence at 90 days]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Speech disturbance without weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "Yes"
+      },
+      "tool_summary": "ABCD2 Score: [6, High Risk]"
+    },
+    {
+      "tool_id": "1842",
+      "tool_name": "ATRIA Stroke Risk Score",
+      "params": {
+        "History of stroke": "Yes",
+        "Age": "75-84 years",
+        "Female": "No",
+        "History of diabetes mellitus": "Yes",
+        "History of congestive heart failure": "No",
+        "History of hypertension": "Yes",
+        "Proteinuria": "No",
+        "eGFR ": "Yes"
+      },
+      "tool_summary": "ATRIA Stroke Risk Score: [10, High Risk (>6 Points), ≥2% annual annual risk of ischemic stroke]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "Yes",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [5, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "10-14",
+        "Sex": "Male",
+        "Urine albumin-to-creatinine ratio, mg/g": ">300",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": "2.6-30 (26-30)",
+        "Serum phosphorus, mg/dL (mmol/L)": "4.6-5.5 (1.49-1.78)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "<18 (<18)",
+        "Serum calcium, mg/dL (mmol/L)": "<=8.5 (<=2.12)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator (ID: 10045): [NaN, risk level unspecified]"
+    },
+    {
+      "tool_id": "2654",
+      "tool_name": "qSOFA (Quick SOFA) Score for Sepsis",
+      "params": {
+        "Altered mental status": "Yes",
+        "Respiratory rate >=22": "Yes",
+        "Systolic BP <=100": "No"
+      },
+      "tool_summary": "qSOFA Score: [2, High risk]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [4, 64% risk of delirium]; AWOL Score: [4, not specified]; Risk of Delirium During Hospitalization: [64%, high risk of delirium]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [9, high risk]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [0, totally dependent]"
+    },
+    {
+      "tool_id": "3992",
+      "tool_name": "STOP-BANG Score for Obstructive Sleep Apnea",
+      "params": {
+        "Do you snore loudly?": "Yes",
+        "Do you often feel tired, fatigued, or sleepy during the daytime?": "Yes",
+        "Has anyone observed you stop breathing during sleep?": "Yes",
+        "Do you have (or are you being treated for) high blood pressure?": "Yes",
+        "BMI": ">35 kg/m²",
+        "Age": ">50 years",
+        "Neck circumference": ">40 cm",
+        "Gender": "Male"
+      },
+      "tool_summary": "STOP-BANG Score: [8, high risk for moderate to severe OSA]"
+    },
+    {
+      "tool_id": "3996",
+      "tool_name": "Murray Score for Acute Lung Injury",
+      "params": {
+        "Consolidation on CXR": "Unknown",
+        "PaO₂/FiO₂ ratio": "225-299",
+        "PEEP, cm H₂O": "Unknown",
+        "Compliance, ml/cm H₂O": "Unknown"
+      },
+      "tool_summary": "Murray Score: [1.0, mild to moderate lung injury]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "<65",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "No",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "No",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [1, low]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Male",
+        "Renal function (GFR), mL/min/m2": "<30",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "Yes",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "Yes",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [11.5, increased risk of bleeding]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "0 questions correct",
+        "1C: Level of consciousness commands": "0 tasks correct",
+        "2: Test horizontal extra-ocular movements": "Normal",
+        "3: Test visual fields": "Complete hemianopia",
+        "5A: Test left arm motor drift": "Falls before 10 seconds",
+        "5B: Test right arm motor drift": "No effort against gravity",
+        "6A: Test left leg motor drift": "No effort against gravity",
+        "6B: Test right leg motor drift": "No effort against gravity",
+        "8: Test sensation": "Normal; no sensory loss",
+        "9: Test language/aphasia": "Mute/global aphasia",
+        "11: Test extinction/inattention/neglect": "Normal"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [20, severe stroke risk]"
+    },
+    {
+      "tool_id": "10104",
+      "tool_name": "Apfel Score for Postoperative Nausea and Vomiting",
+      "params": {
+        "Gender": "Male",
+        "Smoking status": "Nonsmoker",
+        "History of motion sickness or PONV": "No",
+        "Use of postoperative opioids": "No"
+      },
+      "tool_summary": "Mini Score: [1, 21% 24-hour risk of PONV]; Apfel Score: [1, 21% 24-hour risk of PONV]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Extension to pain",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [4, 39.47% mortality at 6 months post-injury; 68.90% unfavorable outcome at 6 months post-injury]"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "patient_id": "21770096",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Postures or unresponsive",
+        "1B: Ask month and age": "1 question right",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 0 tasks",
+        "2: Horizontal extraocular movements": "Forced gaze palsy: cannot be overcome",
+        "3: Visual fields": "Complete hemianopia",
+        "4: Facial palsy": "Partial paralysis (lower face)",
+        "5A: Left arm motor drift": "No effort against gravity",
+        "5B: Right arm motor drift": "No movement",
+        "6A: Left leg motor drift": "No effort against gravity",
+        "6B: Right leg motor drift": "No movement",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Complete loss: cannot sense being touched at all",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Normal",
+        "11: Extinction/inattention": "Profound hemi-inattention (ex: does not recognize own hand)"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [33, severe stroke]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "0 questions correct",
+        "1C: Level of consciousness commands": "0 tasks correct",
+        "2: Test horizontal extra-ocular movements": "Partial gaze palsy",
+        "3: Test visual fields": "Complete hemianopia",
+        "5A: Test left arm motor drift": "Drift before 10 seconds",
+        "5B: Test right arm motor drift": "No movement",
+        "6A: Test left leg motor drift": "Drift before 5 seconds",
+        "6B: Test right leg motor drift": "No effort against gravity",
+        "8: Test sensation": "Abnormal; sensory loss",
+        "9: Test language/aphasia": "Mute/global aphasia",
+        "11: Test extinction/inattention/neglect": "Severe"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [22, severe stroke]"
+    },
+    {
+      "tool_id": "4010",
+      "tool_name": "LENT Prognostic Score for Malignant Pleural Effusion",
+      "params": {
+        "Pleural fluid LDH, U/L": "<1,500",
+        "ECOG Score": "3-4 (symptomatic, in bed >50% of day or bedbound)",
+        "Serum neutrophil-to-lymphocyte ratio": ">=9",
+        "Tumor type": "Lung or any other cancer"
+      },
+      "tool_summary": "LENT Score: [6, High risk]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [0, totally dependent]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " No eye opening",
+        "Verbal response": "No verbal response",
+        " Motor response": "Withdrawal from pain",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [6, 24.97% mortality at 6 months post-injury; 46.26% unfavorable outcome (vegetative state or severe disability) at 6 months post-injury]"
+    },
+    {
+      "tool_id": "10045",
+      "tool_name": "Kidney Failure Risk Calculator",
+      "params": {
+        "eGFR, mL/min/1.73m²": "45-49",
+        "Sex": "Female",
+        "Urine albumin-to-creatinine ratio, mg/g": "30-300",
+        "Age, years": "70-79",
+        "Serum albumin, g/dL (g/L)": "3.1-3.5 (31-35)",
+        "Serum phosphorus, mg/dL (mmol/L)": "3.5-4.5 (1.13-1.45)",
+        "Serum bicarbonate, mEq/L (mmol/L)": "23-25 (23-25)",
+        "Serum calcium, mg/dL (mmol/L)": "8.6-9.5 (2.12-2.37)"
+      },
+      "tool_summary": "Kidney Failure Risk Calculator Result: [NaN, unable to assess risk]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "Completely limited: unresponsive to painful stimuli due to diminished consciousness or sedation, OR limited ability to feel pain over most of body",
+        "Moisture": "Very moist: skin is often but not always moist; linen must be changed at least once a shift",
+        "Activity": "Bedfast: confined to bed",
+        "Mobility": "Completely immobile: does not make even slight changes in body or extremity position without assistance ",
+        "Nutrition": "Very poor: never eats complete meal; rarely eats >⅓ of any food offered; eats <=2 servings protein (meat or dairy) daily; takes fluids poorly; does not take liquid dietary supplement; or is NPO and/or maintained on clear liquids or IV for >5 days",
+        "Friction and shear": "Problem: requires moderate to maximum assistance in moving; complete lifting without sliding against sheets is impossible; frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance; spasticity, contractures, or agita"
+      },
+      "tool_summary": "Braden Score: [7, high risk]"
+    },
+    {
+      "tool_id": "1096",
+      "tool_name": "SIRS, Sepsis, and Septic Shock Criteria",
+      "params": {
+        "Temp >38degC (100.4degF) or ": "Yes",
+        "Heart rate >90": "Yes",
+        "Respiratory rate >20 or PaCO₂ ": "Yes",
+        "WBC >12,000/mm³, 10% bands": "No",
+        "Suspected or present source of infection": "Yes",
+        "Lactic acidosis, SBP ": "No",
+        "Severe sepsis with hypotension, despite adequate fluid resuscitation": "No",
+        "Evidence of >=2 organs failing": "Yes"
+      },
+      "tool_summary": "SIRS & Sepsis Criteria (1096): [Not provided, high risk of severe sepsis or septic shock]"
+    },
+    {
+      "tool_id": "2654",
+      "tool_name": "qSOFA (Quick SOFA) Score for Sepsis",
+      "params": {
+        "Altered mental status": "Yes",
+        "Respiratory rate >=22": "Yes",
+        "Systolic BP <=100": "No"
+      },
+      "tool_summary": "qSOFA Score: [2, High risk]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Female",
+        "Renal function (GFR), mL/min/m2": "30-59",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "No",
+        "ICU/CCU": "Yes",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "No",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [5, no increased risk of bleeding]"
+    },
+    {
+      "tool_id": "4019",
+      "tool_name": "BAP-65 Score for Acute Exacerbation of COPD",
+      "params": {
+        "BUN >=25 mg/dL (8.9 mmol/L)": "No",
+        "Altered mental status": "Yes",
+        "Pulse >=109 beats/min": "No",
+        "Age, years": ">=65"
+      },
+      "tool_summary": "BAP-65 Score for Acute Exacerbation of COPD: [2.2, high risk of in-hospital mortality and possible need for early non-invasive ventilation or ICU care]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "2-5",
+        "Length of stay": ">=5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [5, intermediate risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "4011",
+      "tool_name": "Nutrition Risk in the Critically Ill (NUTRIC) Score",
+      "params": {
+        "Age, years": ">=75",
+        "APACHE II": ">=28",
+        "SOFA Score": ">=10",
+        "Number of comorbidities": ">=2",
+        "Days in hospital to ICU admit": "0",
+        "IL-6, µ/mL": "0-399"
+      },
+      "tool_summary": "NUTRIC Score: [8, high risk]"
+    },
+    {
+      "tool_id": "10090",
+      "tool_name": "AWOL Score for Delirium",
+      "params": {
+        "Age": ">=80 years",
+        "Correctly spells “world” backward": "No",
+        "Oriented to city, state, county, hospital name, and floor": "No",
+        "Nursing illness severity assessment": "Moderately ill"
+      },
+      "tool_summary": "Mini-Cog Score: [4 points, 64% risk of delirium]; AWOL Score: [4 points, monitor closely]; Risk of Delirium during Hospitalization: [64%, high risk]"
+    },
+    {
+      "tool_id": "10188",
+      "tool_name": "Ottawa COPD Risk Scale",
+      "params": {
+        "Coronary bypass graft": "No",
+        "Intervention for peripheral vascular disease": "No",
+        "Intubation for respiratory distress": "Yes",
+        "HR >=110/min ": "No",
+        "Too ill to do walk test after treatment in ED": "Yes",
+        "Acute ischemic changes on EKG": "No",
+        "Pulmonary congestion on chest x-ray": "No",
+        "Hemoglobin <10 g/dL (100 g/L)": "No",
+        "Urea >=12 mmol/L (BUN >=34 mg/dL)": "No",
+        "Serum CO2 >=35 mEq/L (35 mmol/L)": "No"
+      },
+      "tool_summary": "COPD Risk Scale: [4, High risk; 20.9% risk of adverse events like MI, intubation, etc.]"
+    },
+    {
+      "tool_id": "10161",
+      "tool_name": "COPD Assessment Test (CAT)",
+      "params": {
+        "Cough": "2",
+        "Phlegm": "2",
+        "Chest tightness": "2",
+        "Breathlessness": "4",
+        "Activities": "5 (“I am very limited doing any activities at home”)",
+        "Confidence": "5 (“I am not at all confident leaving my home because of my lung condition”)",
+        "Sleep": "3",
+        "Energy": "5 (“I have no energy at all”)"
+      },
+      "tool_summary": "COPD Assessment Test (CAT): [28, high health impact]"
+    },
+    {
+      "tool_id": "3828",
+      "tool_name": "Acute Decompensated Heart Failure National Registry (ADHERE) Algorithm",
+      "params": {
+        "BUN >=43 mg/dL (15.35 mmol/L)": "No",
+        "sBP ": "No",
+        "Creatinine >=2.75 mg/dl (243.1 mmol/L)": "No"
+      },
+      "tool_summary": "ADHERE Algorithm Result for Acute Decompensated Heart Failure (ADHF): [2.1-2.3%, Low Risk]"
+    },
+    {
+      "tool_id": "10016",
+      "tool_name": "Dual Antiplatelet Therapy (DAPT) Score",
+      "params": {
+        "Age, years": "65-74",
+        "Cigarette smoking": "No",
+        "Diabetes mellitus": "Yes",
+        "MI at presentation": "No",
+        "Prior PCI or prior MI": "Yes",
+        "Paclitaxel-eluting stent": "No",
+        "Stent diameter <3 mm": "No",
+        "CHF or LVEF <30%": "Yes",
+        "Vein graft stent": "No"
+      },
+      "tool_summary": "DAPT Score: [3, High risk]"
+    }
+  ]
+}

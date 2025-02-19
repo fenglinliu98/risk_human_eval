@@ -1,0 +1,271 @@
+{
+  "patient_id": "29712363",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs both tasks",
+        "2: Horizontal extraocular movements": "Normal",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Partial paralysis (lower face)",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "Drift, but doesn't hit bed",
+        "6A: Left leg motor drift": "No drift for 5 seconds",
+        "6B: Right leg motor drift": "No drift for 5 seconds",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mild-moderate aphasia: some obvious changes, without significant limitation",
+        "10: Dysarthria": "Mild-moderate dysarthria: slurring but can be understood",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [7, mild to moderate stroke]"
+    },
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "3883",
+      "tool_name": "Functional Outcome in Patients With Primary Intracerebral Hemorrhage (FUNC) Score",
+      "params": {
+        "ICH volume (cm³)": "<30",
+        "Age": ">=80",
+        "ICH location": "Deep",
+        "GCS score": ">=9",
+        "Pre-ICH cognitive impairment": "Yes"
+      },
+      "tool_summary": "3883_FUNC Score: [7, moderate risk of functional independence]"
+    },
+    {
+      "tool_id": "3941",
+      "tool_name": "Rapid Arterial oCclusion Evaluation (RACE) Scale for Stroke",
+      "params": {
+        "Facial palsy": "Moderate to severe",
+        "Arm motor impairment": "Moderate",
+        "Leg motor impairment": "Normal to mild",
+        "Head and gaze deviation": "Absent",
+        "Hemiparesis": "Right",
+        "Aphasia": "Performs neither task",
+        "Agnosia": "Patient recognizes his/her arm and the impairment"
+      },
+      "tool_summary": "RACE Scale/Score: [5, direct referral to stroke center with endovascular capabilities recommended]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "1 question correct",
+        "1C: Level of consciousness commands": "Both tasks correct",
+        "2: Test horizontal extra-ocular movements": "Normal",
+        "3: Test visual fields": "No visual loss",
+        "5A: Test left arm motor drift": "No drift",
+        "5B: Test right arm motor drift": "Drift before 10 seconds",
+        "6A: Test left leg motor drift": "No drift",
+        "6B: Test right leg motor drift": "No drift",
+        "8: Test sensation": "Normal; no sensory loss",
+        "9: Test language/aphasia": "Mild aphasia",
+        "11: Test extinction/inattention/neglect": "Normal"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [3, minor stroke]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria: [Negative, low risk of embolic stroke]"
+    },
+    {
+      "tool_id": "1894",
+      "tool_name": "Barnes Jewish Hospital Stroke Dysphagia Screen",
+      "params": {
+        "GCS < 13": "No",
+        "Facial asymmetry/weakness present": "Yes",
+        "Tongue asymmetry/weakness present": "Yes",
+        "Palatal asymmetry/weakness present": "No",
+        "Any signs of aspiration during 3 oz water test": "No"
+      },
+      "tool_summary": "1894_Barnes Jewish Hospital Stroke Dysphagia Screen_result: [>90% sensitivity, high risk for dysphagia and aspiration if screening questions are 'Yes']"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "4009",
+      "tool_name": "Cincinnati Prehospital Stroke Severity Scale (CP-SSS)",
+      "params": {
+        "Conjugate gaze deviation": "No",
+        "Ask patient age and current month": "Neither correct",
+        "Ask patient to close eyes and open/close hand": "Follows both commands",
+        "Instruct patient to hold arm (either or both) up for 10 seconds": "Cannot do"
+      },
+      "tool_summary": "4009 CP-SSS/Mini Score: [1, low risk of LVO and NIHSS ≥15]"
+    },
+    {
+      "tool_id": "3948",
+      "tool_name": "EGSYS (Evaluation of Guidelines in SYncope Study) Score for Syncope",
+      "params": {
+        "Abnormal EKG and/or heart disease": "Yes",
+        "Palpitations before syncope": "No",
+        "Syncope during effort ": "No",
+        "Syncope in supine position": "No",
+        "Autonomic prodromes": "No",
+        "Predisposing and/or precipitating factors": "Yes"
+      },
+      "tool_summary": "EGSYS Score for Cardiac Syncope: [2, low risk - 3% mortality at 21-24 months]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "No",
+        "Lumpy or hard stools ": "No",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "No",
+        "Loose stools rarely present without use of laxatives": "No",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Mini Result for Functional Constipation: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index: [0, totally dependent]"
+    },
+    {
+      "tool_id": "3311",
+      "tool_name": "Glasgow Prognostic Score (GPS) for Cancer Outcomes",
+      "params": {
+        "CRP": "CRP >10 mg/L",
+        "Albumin": "Albumin <3.5 g/dL (35 g/L)"
+      },
+      "tool_summary": "GPS for Cancer Outcomes (ID: 3311): [GPS 2, Poor Prognosis]"
+    },
+    {
+      "tool_id": "3982",
+      "tool_name": "4 A’s Test for Delirium Screening",
+      "params": {
+        "Alertness": "Clearly abnormal",
+        "AMT 4": ">=2 mistakes or untestable",
+        "Attention": "Untestable (cannot start because unwell, drowsy, inattentive)",
+        "Acute change or fluctuating course": "Yes"
+      },
+      "tool_summary": "4AT Delirium Assessment Tool: [12, high risk of delirium and/or cognitive impairment]"
+    },
+    {
+      "tool_id": "10203",
+      "tool_name": "ISTH Criteria for Disseminated Intravascular Coagulation (DIC)",
+      "params": {
+        "Platelet count, cells x 109/L": "<50",
+        "Elevated levels of a fibrin-related marker (e.g. D-dimer, fibrin degradation products)": "Severe increase",
+        "Prolonged PT, seconds": ">=6",
+        "Fibrinogen level, g/L": ">=1"
+      },
+      "tool_summary": "DIC Score: [7, compatible with overt DIC]"
+    },
+    {
+      "tool_id": "3313",
+      "tool_name": "Prognostic Index for Cancer Outcomes",
+      "params": {
+        "CRP": "CRP >10 mg/L",
+        "White blood cell count": "WBC >11 x 10⁹/L"
+      },
+      "tool_summary": "Prognostic Index for Cancer (ID: 3313): [2, poor prognosis]"
+    },
+    {
+      "tool_id": "10578",
+      "tool_name": "Genetically Inspired Prognostic Scoring System (GIPSS) for Primary Myelofibrosis (PMF)",
+      "params": {
+        "Karyotype classification": "Unfavorable2",
+        "Type 1/like CALR mutation": "No",
+        "ASXL1 mutation": "Yes",
+        "SRSF2 mutation": "Yes",
+        "U2AF1Q157 mutation": "No"
+      },
+      "tool_summary": "GIPSS for PMF (Genetic International Prognostic Scoring System for Primary Myelofibrosis): [4, high risk]"
+    },
+    {
+      "tool_id": "3981",
+      "tool_name": "Revised International Prognostic Scoring System (IPSS-R) for Myelodysplastic Syndrome (MDS)",
+      "params": {
+        "Cytogenetic group": "Very poor: complex >3 abnormalities",
+        "Medullary blasts, %": ">10",
+        "Hemoglobin, g/dL (g/L)": "<8 (<80)",
+        "Platelets, x10³/µL (10⁹/L)": "<50",
+        "ANC, x10³/µL (10⁹/L)": "<0.8"
+      },
+      "tool_summary": "IPSS-R Score: [10, Very high risk]"
+    },
+    {
+      "tool_id": "10040",
+      "tool_name": "Duval/CIBMTR Score for Acute Myelogenous Leukemia (AML) Survival",
+      "params": {
+        "Disease group": "Duration of first complete remission <6 months",
+        "Cytogenetics prior to HSCT": "Poor",
+        " HLA match group": "Related other than HLA identical sibling",
+        "Circulating blasts ": "Present",
+        "Karnofsky or Lanksy scale": "<90"
+      },
+      "tool_summary": "Duval Score: [6, 3-year overall survival after transplantation is 6%]"
+    },
+    {
+      "tool_id": "10369",
+      "tool_name": "PRIEST COVID-19 Clinical Severity Score",
+      "params": {
+        "Sex": "Male",
+        "Age, years": ">80",
+        "Respiratory rate, breaths per min": "21-24",
+        "Oxygen saturation": ">95%",
+        "Heart rate, beats per min": "111-130",
+        "Systolic BP, mmHg": "111-219",
+        "Temperature": "36.1-38.0degC (>96.8 - 100.4degF)",
+        "Alertness": "Alert",
+        "Inspired oxygen": "Supplemental oxygen",
+        "Performance status": "Bed/chair bound, no self-care"
+      },
+      "tool_summary": "PRIEST Score: [15, 49% 30-day probability of adverse outcome]"
+    }
+  ]
+}

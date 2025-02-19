@@ -1,0 +1,297 @@
+{
+  "patient_id": "24586209",
+  "tool_results": [
+    {
+      "tool_id": "715",
+      "tool_name": "NIH Stroke Scale/Score (NIHSS)",
+      "params": {
+        "1A: Level of consciousness": "Alert; keenly responsive",
+        "1B: Ask month and age": "0 questions right ",
+        "1C: 'Blink eyes' & 'squeeze hands'": "Performs 1 task",
+        "2: Horizontal extraocular movements": "Partial gaze palsy: can be overcome",
+        "3: Visual fields": "No visual loss",
+        "4: Facial palsy": "Minor paralysis (flat nasolabial fold, smile asymmetry)",
+        "5A: Left arm motor drift": "No drift for 10 seconds",
+        "5B: Right arm motor drift": "No effort against gravity",
+        "6A: Left leg motor drift": "Drift, hits bed",
+        "6B: Right leg motor drift": "Drift, hits bed",
+        "7: Limb Ataxia": "No ataxia",
+        "8: Sensation": "Normal; no sensory loss",
+        "9: Language/aphasia": "Mute/global aphasia: no usable speech/auditory comprehension",
+        "10: Dysarthria": "Severe dysarthria: unintelligible slurring or out of proportion to dysphasia",
+        "11: Extinction/inattention": "No abnormality"
+      },
+      "tool_summary": "NIH Stroke Scale/Score (NIHSS): [17, moderate to severe stroke]"
+    },
+    {
+      "tool_id": "357",
+      "tool_name": "ABCD<sup>2</sup> Score for TIA",
+      "params": {
+        "Age >= 60 years": "Yes",
+        "BP >= 140/90 mmHg": "Yes",
+        "Clinical features of the TIA": "Unilateral weakness",
+        "Duration of symptoms": ">= 60 minutes",
+        "History of diabetes": "No"
+      },
+      "tool_summary": "ABCD2 Score: [6, high risk]"
+    },
+    {
+      "tool_id": "801",
+      "tool_name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+      "params": {
+        "Age": ">=75",
+        "Sex": "Female",
+        "CHF history": "No",
+        "Hypertension history": "Yes",
+        "Stroke/TIA/thromboembolism history": "Yes",
+        "Vascular disease history (prior MI, peripheral artery disease, or aortic plaque)": "No",
+        "Diabetes history": "No"
+      },
+      "tool_summary": "CHA2DS2-VASc Score: [6, high risk of stroke or systemic embolism]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "Yes",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "No",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "No"
+      },
+      "tool_summary": "ESUS Criteria: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "3912",
+      "tool_name": "Barthel Index for Activities of Daily Living (ADL)",
+      "params": {
+        "Feeding": "Unable",
+        "Bathing": "Unable",
+        "Grooming": "Unable",
+        "Dressing": "Unable",
+        "Bowel control": "Incontinent (or needs to be given enemas)",
+        "Bladder control": "Incontinent (catheterized, unable to manage alone)",
+        "Toilet use": "Unable",
+        "Transfers (bed to chair and back)": "Unable",
+        "Mobility on level surfaces": "Immobile or <50 yards",
+        "Stairs": "Unable"
+      },
+      "tool_summary": "Barthel Index/Score: [0, totally dependent]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "Yes",
+        "Q2: Are you able to do the same work as before?": "No",
+        "Q3: Are you able to keep up with your hobbies?": "No",
+        "Q4: Have you maintained your ties to friends and family?": "No",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "Yes",
+        "Q6: Do you need help with shopping or traveling close to home?": "Yes",
+        "Q7: Do you need another person to help you walk?": "Yes",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "Yes",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "Yes"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [5, severe disability]"
+    },
+    {
+      "tool_id": "10551",
+      "tool_name": "Direct-Acting Oral Anticoagulants (DOAC) Score",
+      "params": {
+        "Age, years": ">=80",
+        "Creatinine clearance/estimated glomerular filtration rate (mL/min)": ">60",
+        "Underweight (body mass index 2)": "No",
+        "Stroke/transient ischemic attack/embolism history": "Yes",
+        "Diabetes": "No",
+        "Hypertension": "Yes",
+        "Antiplatelet use": "No",
+        "Nonsteroidal anti-inflammatory (NSAID) use": "No",
+        "Bleeding history": "No",
+        "Liver disease": "No"
+      },
+      "tool_summary": "Mini Score: [7, moderate 1-year major bleeding risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "Yes",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "No",
+        "Labile INR": "No",
+        "Age >65": "Yes",
+        "Medication usage predisposing to bleeding": "Yes",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [4, high risk of major bleeding]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Abnormal CRP or abnormal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis: [1, Unlikely RA]"
+    },
+    {
+      "tool_id": "10465",
+      "tool_name": "IMPROVE Bleeding Risk Score",
+      "params": {
+        "Age, years": "40-84",
+        "Gender": "Female",
+        "Renal function (GFR), mL/min/m2": ">=60",
+        "Current cancer": "No",
+        "Rheumatic disease": "No",
+        "Central venous catheter": "Yes",
+        "ICU/CCU": "Yes",
+        "Evidence of hepatic failure (INR >1.5)": "No",
+        "Platelet count, cells/L": ">=50 x 109",
+        "Bleeding in 3 months before admission": "No",
+        "Active gastroduodenal ulcer": "No"
+      },
+      "tool_summary": "IMPROVE Bleeding Risk Score: [6, no increased risk of bleeding]"
+    },
+    {
+      "tool_id": "10483",
+      "tool_name": "Revised Opioid Risk Tool (ORT-OUD)",
+      "params": {
+        "Age 16-45": "No",
+        "History of depression": "No",
+        "History of ADD, OCD, bipolar disorder, or schizophrenia": "No",
+        "Personal history of alcohol abuse": "No",
+        "Personal history of illegal drug abuse": "No",
+        "Personal history of prescription drug abuse": "No",
+        "Family history of alcohol abuse": "No",
+        "Family history of illegal drug abuse": "No",
+        "Family history of prescription drug abuse": "No"
+      },
+      "tool_summary": "ORT-OUD Score: [0, Low risk of opioid use disorder]"
+    },
+    {
+      "tool_id": "10098",
+      "tool_name": "Danger Assessment Tool for Domestic Abuse",
+      "params": {
+        "Has the physical violence increased in frequency or severity over the past 6 months?": "No",
+        "Have they ever used a weapon or threatened you with a weapon?": "No",
+        "Do you believe they are capable of killing you?": "No",
+        "Have you ever been beaten by them while you were pregnant?": "No",
+        "Are they violently and constantly jealous of you?": "No"
+      },
+      "tool_summary": "Danger Assessment Score: [0, Low risk of lethal or potentially lethal assault by IP]"
+    },
+    {
+      "tool_id": "10410",
+      "tool_name": "Utah COVID-19 Risk Score",
+      "params": {
+        "Age, years": "71-80",
+        "Diabetes mellitus": "No",
+        "Obesity (BMI >30 kg/m2)": "No",
+        "Active cancer": "No",
+        "Other immunosuppressive therapies and conditions": "No",
+        "Hypertension": "Yes",
+        "Coronary artery disease": "No",
+        "Cardiac arrhythmia": "No",
+        "Congestive heart failure": "No",
+        "Chronic kidney disease": "No",
+        "Chronic pulmonary disease": "No",
+        "Chronic liver disease": "No",
+        "Cerebrovascular disease": "Yes",
+        "Chronic neurologic disease": "Yes",
+        "New shortness of breath": "Yes"
+      },
+      "tool_summary": "Utah COVID-19 Risk Score: [8, high risk]"
+    },
+    {
+      "tool_id": "2654",
+      "tool_name": "qSOFA (Quick SOFA) Score for Sepsis",
+      "params": {
+        "Altered mental status": "Yes",
+        "Respiratory rate >=22": "No",
+        "Systolic BP <=100": "No"
+      },
+      "tool_summary": "qSOFA Score: [1, Not high risk]"
+    },
+    {
+      "tool_id": "10177",
+      "tool_name": "Recurrent Instability of the Patella (RIP) Score",
+      "params": {
+        "Age <25 years": "No",
+        "Skeletal immaturity": "No",
+        "Dejour A-D dysplasia": "No",
+        "TT-TG/PL >=0.5": "No"
+      },
+      "tool_summary": "Mini Points: [0, low risk], RIP Score: [0, points], Risk Group: [Low, risk], Risk of Recurrent Instability at 5 years: [0%, low risk]"
+    },
+    {
+      "tool_id": "1787",
+      "tool_name": "4Ts Score for Heparin-Induced Thrombocytopenia",
+      "params": {
+        "Thrombocytopenia": "Platelet count fall <30% OR platelet nadir <10",
+        "Timing of platelet count fall": "Platelet count fall <4 days without recent exposure",
+        "Thrombosis or other sequelae": "None",
+        "Other causes for thrombocytopenia": "Possible"
+      },
+      "tool_summary": "4Ts Score for Heparin-Induced Thrombocytopenia (HIT): [1, Low Probability of HIT (<5%)]"
+    },
+    {
+      "tool_id": "10190",
+      "tool_name": "Malnutrition Universal Screening Tool (MUST)",
+      "params": {
+        "BMI, kg/m2": ">20",
+        "Unplanned weight loss in past 3-6 months": "<5%",
+        "Patient is acutely ill and there has been or is likely to be no nutritional intake for >5 days": "Yes"
+      },
+      "tool_summary": "Malnutrition Universal Screening Tool (MUST) Score: [2, High risk]"
+    },
+    {
+      "tool_id": "3981",
+      "tool_name": "Revised International Prognostic Scoring System (IPSS-R) for Myelodysplastic Syndrome (MDS)",
+      "params": {
+        "Cytogenetic group": "Good: normal karyotype, del(20q), del(5q), del(12p), or double including del(5q)",
+        "Medullary blasts, %": "<=2",
+        "Hemoglobin, g/dL (g/L)": ">=10 (>=100)",
+        "Platelets, x10³/µL (10⁹/L)": ">=100",
+        "ANC, x10³/µL (10⁹/L)": ">=0.8"
+      },
+      "tool_summary": "IPSS-R Score: [1, very low risk]"
+    },
+    {
+      "tool_id": "10088",
+      "tool_name": "Cumulative Illness Rating Scale-Geriatric (CIRS-G)",
+      "params": {
+        "Heart": "CHF compensated with meds, daily antianginal meds, left ventricular hypertrophy, atrial fibrillation, bundle branch block, daily antiarrhythmic drugs ",
+        "Vascular": "Daily antihypertensive meds, one symptom of atherosclerotic disease (angina, claudication, bruit, amaurosis fugax, absent pedal pulses), aortic aneurysm <4 cm",
+        "Hematopoietic": "No problem ",
+        "Respiratory": "Requires supplemental oxygen, >=1 episode of respiratory failure requiring assisted ventilation, any lung cancer ",
+        "Eyes, ears, nose, throat, and larynx": "No problem",
+        "Upper GI  ": "Needs daily H₂ blocker or antacid, documented gastric or duodenal ulcer within 5 years",
+        "Lower GI": "No problem",
+        "Liver, pancreas, and biliary ": "History of hepatitis >5 years ago, cholecystectomy",
+        "Renal ": "No problem",
+        "Genitourinary": "Stress incontinence, hysterectomy,  BPH without urinary symptoms",
+        "Musculoskeletal and skin": "Daily antiarthritic meds or use of assistive devices or moderate limitation in ADLs, daily meds for chronic skin conditions, melanoma without metastasis",
+        "Neurologic": "Status post CVA with residual functional hemiparesis or aphasia, severe neurodegenerative disease",
+        "Endocrine and breast ": "No problem",
+        "Psychiatric illness": "No problem"
+      },
+      "tool_summary": "Mini score: [18, moderate severity]; Score: [18, moderate severity]"
+    },
+    {
+      "tool_id": "10439",
+      "tool_name": "American University of Beirut (AUB)-HAS2 Cardiovascular Risk Index",
+      "params": {
+        "Age, years": "<75",
+        "Hemoglobin, g/dL": ">=12 g/dL",
+        "History of heart disease": "Yes",
+        "Angina or dyspnea": "No",
+        "Vascular surgery": "No",
+        "Surgical urgency": "Elective"
+      },
+      "tool_summary": "Mini-Cog Score: [1, 1.6% risk of adverse event], CVRI (Cardiovascular Risk Index): [1, AUB-HAS2], 30-Day Postoperative Risk: [1.6%, Risk of"
+    }
+  ]
+}

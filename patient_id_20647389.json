@@ -1,0 +1,259 @@
+{
+  "patient_id": "20647389",
+  "tool_results": [
+    {
+      "tool_id": "402",
+      "tool_name": "Intracerebral Hemorrhage (ICH) Score",
+      "params": {
+        "Glasgow Coma Score": "13-15",
+        "Age >=80": "No",
+        "ICH volume >=30mL": "No",
+        "Intraventricular hemorrhage": "No",
+        "Infratentorial origin of hemorrhage": "No"
+      },
+      "tool_summary": "ICH Score: [0, 0% mortality]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Mild Headache, Alert and Oriented, Minimal (if any) Nuchal Rigidity"
+      },
+      "tool_summary": "Hunt & Hess Classification: [1, Grade I - 30% mortality]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Diffuse or vertical layer of subarachnoid blood < 1mm thick"
+      },
+      "tool_summary": "Fisher Grading Scale for Vasospasm/Score: [Grade II, low risk of vasospasm (range 0-25%)]"
+    },
+    {
+      "tool_id": "10459",
+      "tool_name": "PHASES Score",
+      "params": {
+        "Population": "North American, European (other than Finnish)",
+        "Hypertension": "No",
+        "Age": "<70 years",
+        "Size of aneurysm": "<7.0 mm",
+        "Earlier SAH from another aneurysm": "No",
+        "Site of aneurysm": "Anterior cerebral arteries (ACA), posterior communicating artery, posterior circulation"
+      },
+      "tool_summary": "PHASES Score: [4, 0.9% 5-year risk of aneurysm rupture]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "Yes",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk for ESUS]"
+    },
+    {
+      "tool_id": "1756",
+      "tool_name": "Modified NIH Stroke Scale/Score (mNIHSS)",
+      "params": {
+        "1B: Level of consciousness/orientation questions": "Both questions correct",
+        "1C: Level of consciousness commands": "Both tasks correct",
+        "2: Test horizontal extra-ocular movements": "Normal",
+        "3: Test visual fields": "No visual loss",
+        "5A: Test left arm motor drift": "No drift",
+        "5B: Test right arm motor drift": "No drift",
+        "6A: Test left leg motor drift": "No drift",
+        "6B: Test right leg motor drift": "No drift",
+        "8: Test sensation": "Normal; no sensory loss",
+        "9: Test language/aphasia": "Normal; no aphasia",
+        "11: Test extinction/inattention/neglect": "Normal"
+      },
+      "tool_summary": "Modified NIH Stroke Scale (mNIHSS): [0, no stroke symptoms]"
+    },
+    {
+      "tool_id": "3948",
+      "tool_name": "EGSYS (Evaluation of Guidelines in SYncope Study) Score for Syncope",
+      "params": {
+        "Abnormal EKG and/or heart disease": "No",
+        "Palpitations before syncope": "No",
+        "Syncope during effort ": "No",
+        "Syncope in supine position": "No",
+        "Autonomic prodromes": "No",
+        "Predisposing and/or precipitating factors": "No"
+      },
+      "tool_summary": "EGSYS Score: [0, low risk of cardiac syncope; 3% mortality at 21-24 months]"
+    },
+    {
+      "tool_id": "10347",
+      "tool_name": "RCVS<sub>2</sub> Score for Reversible Cerebral Vasoconstriction Syndrome",
+      "params": {
+        "Recurrent or single thunderclap headache": "Present",
+        "Intracranial carotid artery involvement": "Not affected",
+        "Vasoconstrictive trigger identified": "No",
+        "Sex": "Female",
+        "Subarachnoid hemorrhage present on imaging": "Present"
+      },
+      "tool_summary": "RCVS2 Score: [7, moderate to high risk of Reversible Cerebral Vasoconstriction Syndrome (RCVS)]"
+    },
+    {
+      "tool_id": "1718",
+      "tool_name": "ATRIA Bleeding Risk Score",
+      "params": {
+        "Anemia": "No",
+        "Severe Renal Disease": "No",
+        "Age >= 75 years": "No",
+        "Any Prior Hemorrhage Diagnosis": "Yes",
+        "Hypertension History": "No"
+      },
+      "tool_summary": "ATRIA Bleeding Risk Score (1718): [1, low risk]"
+    },
+    {
+      "tool_id": "807",
+      "tool_name": "HAS-BLED Score for Major Bleeding Risk",
+      "params": {
+        "Hypertension": "No",
+        "Renal disease": "No",
+        "Liver disease": "No",
+        "Stroke history": "Yes",
+        "Prior major bleeding or predisposition to bleeding": "Yes",
+        "Labile INR": "No",
+        "Age >65": "No",
+        "Medication usage predisposing to bleeding": "No",
+        "Alcohol use": "No"
+      },
+      "tool_summary": "HAS-BLED Score: [2, moderate risk of major bleeding]"
+    },
+    {
+      "tool_id": "3313",
+      "tool_name": "Prognostic Index for Cancer Outcomes",
+      "params": {
+        "CRP": "CRP <=10 mg/L",
+        "White blood cell count": "WBC <=11 x 10⁹/L"
+      },
+      "tool_summary": "Prognostic Index for Cancer (Tool ID: 3313): [0, good prognosis]"
+    },
+    {
+      "tool_id": "3311",
+      "tool_name": "Glasgow Prognostic Score (GPS) for Cancer Outcomes",
+      "params": {
+        "CRP": "CRP <=10 mg/L",
+        "Albumin": "Albumin >=3.5 g/dL (35 g/L)"
+      },
+      "tool_summary": "GPS for Cancer Outcomes: [0, Good Prognosis]"
+    },
+    {
+      "tool_id": "10003",
+      "tool_name": "Rome IV Diagnostic Criteria for Functional Constipation",
+      "params": {
+        "Straining": "No",
+        "Lumpy or hard stools ": "No",
+        "Sensation of incomplete evacuation": "No",
+        "Sensation of anorectal obstruction/blockage": "No",
+        "Manual maneuvers to facilitate defecation": "No",
+        "<3 spontaneous bowel movements per week": "No",
+        "Loose stools rarely present without use of laxatives": "Yes",
+        "Does NOT meet Rome IV Criteria for IBS": "Yes"
+      },
+      "tool_summary": "Functional Constipation Assessment Tool/Score: [Negative, low risk of functional constipation]"
+    },
+    {
+      "tool_id": "10092",
+      "tool_name": "ACR/EULAR 2010 Rheumatoid Arthritis Classification Criteria",
+      "params": {
+        "Joint involvement": "1 large joint",
+        "Serology (need at least one serology test result to use these criteria)": "Negative rheumatoid factor and negative anti-citrullinated protein antibody",
+        "Acute-phase reactants (need at least one acute-phase reactant test result to use these criteria)": "Normal CRP and normal ESR",
+        "Duration of symptoms": "<6 weeks"
+      },
+      "tool_summary": "ACR/EULAR Criteria for Rheumatoid Arthritis (10092): [0 points, Unlikely RA]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Able to stand without using hands, stabilizes independently",
+        "Standing unsupported": "Able to stand safely for 2 minutes",
+        "Sitting with back unsupported": "Able to sit safely and securely for 2 minutes",
+        "Standing to sitting": "Sits safely with minimal use of hands",
+        "Transfers": "Able to transfer safely with minor use of hands",
+        "Standing unsupported with eyes closed": "Able to stand 10 seconds safely",
+        "Standing unsupported with feet together": "Able to place feet together independently and stand 1 minute safely",
+        "Reaching forward with outstretched arm while standing": "Can reach forward confidently 25 cm (10 inches)",
+        "Pick up object from the floor from a standing position": "Able to pick up slipper safely and easily",
+        "Turning to look behind over left and right shoulders": "Looks behind from both sides and weight shifts well",
+        "Turn 360 degrees": "Able to turn 360 degrees safely in 4 seconds or less",
+        "Placing alternate foot on step or stool while standing unsupported": "Able to stand independently and safely, and complete 8 steps in 20 seconds",
+        "Standing unsupported one foot in front": "Able to place foot tandem independently and hold 30 seconds",
+        "Standing on one leg": "Able to lift leg independently and hold >10 seconds"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [56, Not increased fall risk]"
+    },
+    {
+      "tool_id": "3627",
+      "tool_name": "Abbey Pain Scale for Dementia Patients",
+      "params": {
+        "Vocalization": "Absent",
+        "Facial expression": "Absent",
+        "Body language": "Absent",
+        "Physiological changes": "Absent",
+        "Physical changes": "Absent",
+        "Type of pain": "Acute"
+      },
+      "tool_summary": "Abbey Pain Scale: [0, no pain]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "No limitation: makes major and frequent changes in position without assistance",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "No apparent problem: moves in bed/chair independently, has sufficient muscle strength to lift up completely during move, maintains good position in bed/chair "
+      },
+      "tool_summary": "Braden Score: [21, Average risk]"
+    },
+    {
+      "tool_id": "10430",
+      "tool_name": "Modified Rankin Score-9Q (mRS-9Q)",
+      "params": {
+        "Q1: Do you have any symptoms that are bothering you?": "No",
+        "Q2: Are you able to do the same work as before?": "Yes",
+        "Q3: Are you able to keep up with your hobbies?": "Yes",
+        "Q4: Have you maintained your ties to friends and family?": "Yes",
+        "Q5: Do you need help making a simple meal, doing household chores, or balancing a checkbook?": "No",
+        "Q6: Do you need help with shopping or traveling close to home?": "No",
+        "Q7: Do you need another person to help you walk?": "No",
+        "Q8: Do you need help with eating, going to the toilet, or bathing?": "No",
+        "Q9: Do you stay in bed most of the day and need constant nursing care?": "No"
+      },
+      "tool_summary": "Modified Rankin Scale (mRS): [0, no symptoms]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Score: [0, low risk for eating disorder]"
+    },
+    {
+      "tool_id": "10545",
+      "tool_name": "The Face, Legs, Activity, Cry, and Consolability (FLACC) Scale",
+      "params": {
+        "Face": "No particular expression or smile",
+        "Legs": "Normal position or relaxed",
+        "Activity": "Lying quietly, normal position, moves easily",
+        "Cry": "No cry (awake or asleep)",
+        "Consolability": "Content, relaxed"
+      },
+      "tool_summary": "FLACC Score: [0, no pain or discomfort]"
+    }
+  ]
+}

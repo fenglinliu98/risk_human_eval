@@ -1,0 +1,231 @@
+{
+  "patient_id": "25530034",
+  "tool_results": [
+    {
+      "tool_id": "1239",
+      "tool_name": "Injury Severity Score (ISS)",
+      "params": {
+        "Head and neck worst injury?": "Severe",
+        "Face worst injury?": "Moderate",
+        "Chest worst injury?": "Moderate",
+        "Abdomen worst injury?": "No injury",
+        "Extremity (including pelvis) worst injury?": "No injury",
+        "External worst injury?": "No injury"
+      },
+      "tool_summary": "Injury Severity Score (ISS): [24, moderate to severe injury]"
+    },
+    {
+      "tool_id": "3952",
+      "tool_name": "CHIP (CT in Head Injury Patients) Prediction Rule",
+      "params": {
+        "Age": ">=60 years",
+        "GCS <15": "No",
+        "GCS deterioration at 1 hr after presentation": "None",
+        "Skull injury": "Any injury suggesting skull fracture, e.g. palpable discontinuity of skull, CSF leakage, raccoon eyes, bleeding from ear",
+        "Post-traumatic amnesia": "None",
+        "Pedestrian or cyclist versus vehicle": "No",
+        "Ejected from vehicle": "No",
+        "Vomiting": "Yes",
+        "Use of anticoagulants": "No",
+        "Post-traumatic seizure": "No",
+        "Fall from any elevation": "Yes",
+        "Persistent anterograde amnesia": "No",
+        "Neurologic deficit": "No",
+        "Loss of consciousness": "Yes"
+      },
+      "tool_summary": "3952_CHIP Prediction Rule: [Not low, high risk]"
+    },
+    {
+      "tool_id": "10140",
+      "tool_name": "GCS-Pupils Score",
+      "params": {
+        "Eye response": " Eyes open spontaneously",
+        "Verbal response": "Oriented",
+        " Motor response": "Obeys commands",
+        " Pupil response": "Both pupils reactive to light (normal)"
+      },
+      "tool_summary": "GCS-Pupils Score: [15, 2.54% mortality, 11.75% unfavorable outcome at 6 months post-injury]"
+    },
+    {
+      "tool_id": "3836",
+      "tool_name": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+      "params": {
+        "Signs/symptoms": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH "
+      },
+      "tool_summary": "Fisher Grading Scale/Grade IV: [IV, low to moderate risk of vasospasm (range 0-35%)]"
+    },
+    {
+      "tool_id": "404",
+      "tool_name": "Hunt & Hess Classification of Subarachnoid Hemorrhage",
+      "params": {
+        "Signs/Symptoms": "Lethargy or Confusion, Mild Focal Neurological Deficits"
+      },
+      "tool_summary": "Hunt & Hess Classification/Score: [3, Grade III - 50% mortality]"
+    },
+    {
+      "tool_id": "10038",
+      "tool_name": "Braden Score for Pressure Ulcers",
+      "params": {
+        "Sensory perception": "No impairment: responds to verbal commands, able to feel and express pain/discomfort",
+        "Moisture": "Rarely moist: skin usually dry, linen only requires changing at routine intervals ",
+        "Activity": "Walks occasionally: during day but for very short distances with or without assistance; spends majority of shift in bed/chair ",
+        "Mobility": "Slightly limited: makes frequent though slight changes in body or extremity position independently ",
+        "Nutrition": "Adequate: eats over half of most meals; eats 4 servings protein (meat or dairy) daily; occasionally refuses meal but will usually take supplement when offered; or is on a tube feeding/TPN regimen which probably meets most of nutritional needs ",
+        "Friction and shear": "Potential problem: moves feebly or requires minimum assistance; during a move, skin probably slides to some extent against sheets, chair restraints, or other devices; maintains relatively good position in chair or bed most of the time but occasionally sli"
+      },
+      "tool_summary": "Braden Score: [19, average risk]"
+    },
+    {
+      "tool_id": "10330",
+      "tool_name": "Rome IV Diagnostic Criteria for Child Functional Abdominal Pain",
+      "params": {
+        "Episodic or continuous abdominal pain that does not occur solely during physiologic events (e.g. eating, menses)": "No",
+        "Insufficient criteria for irritable bowel syndrome, functional dyspepsia, or abdominal migraine": "No",
+        "After appropriate evaluation, the abdominal pain cannot be fully explained by another medical condition": "No"
+      },
+      "tool_summary": "Mini Diagnostic Tool for Child Abdominal Pain: [Negative, low risk for serious condition]"
+    },
+    {
+      "tool_id": "10423",
+      "tool_name": "NEXUS Head CT Instrument",
+      "params": {
+        "Evidence of significant skull fracture": "Yes",
+        "Scalp hematoma": "No",
+        "Neurologic deficit": "No",
+        "Altered level of alertness": "No",
+        "Abnormal behavior": "No",
+        "Coagulopathy": "No",
+        "Persistent vomiting": "No",
+        "Age >=65 years": "No"
+      },
+      "tool_summary": "Mini/Value: [High, risk of significant intracranial injuries]"
+    },
+    {
+      "tool_id": "10051",
+      "tool_name": "HOSPITAL Score for Readmissions",
+      "params": {
+        "Hemoglobin level at discharge, g/dL": ">=12 ",
+        "Discharged from oncology service": "No",
+        "Sodium level at discharge, mEq/L": ">=135 ",
+        "Any ICD-9 coded procedure performed during hospital stay": "No",
+        "Index admission type": "Urgent or emergent",
+        "Number of hospital admissions during the previous year": "0-1",
+        "Length of stay": "<5 days"
+      },
+      "tool_summary": "HOSPITAL Score: [1, low risk of potentially avoidable 30-day readmission]"
+    },
+    {
+      "tool_id": "10567",
+      "tool_name": "Berg Balance Scale (BBS)",
+      "params": {
+        "Sitting to standing": "Able to stand independently using hands",
+        "Standing unsupported": "Able to stand 30 seconds unsupported ",
+        "Sitting with back unsupported": "Able to sit safely and securely for 2 minutes",
+        "Standing to sitting": "Controls descent by using hands",
+        "Transfers": "Able to transfer with verbal cueing and/or supervision",
+        "Standing unsupported with eyes closed": "Able to stand 3 seconds ",
+        "Standing unsupported with feet together": "Able to place feet together independently but unable to hold for 30 seconds",
+        "Reaching forward with outstretched arm while standing": "Can reach forward 5 cm  (2 inches) safely",
+        "Pick up object from the floor from a standing position": "Unable to pick up and needs supervision while trying ",
+        "Turning to look behind over left and right shoulders": "Turns sideways only but maintains balance",
+        "Turn 360 degrees": "Needs close supervision or verbal cueing",
+        "Placing alternate foot on step or stool while standing unsupported": "Able to complete >2 steps, needs minimal assist ",
+        "Standing unsupported one foot in front": "Needs help to step but can hold 15 seconds",
+        "Standing on one leg": "Unable to try or needs assist to prevent fall"
+      },
+      "tool_summary": "Berg Balance Scale (BBS): [26, increased fall risk]"
+    },
+    {
+      "tool_id": "10524",
+      "tool_name": "The Sick, Control, One, Fat, Food (SCOFF) Questionnaire",
+      "params": {
+        "Do you make yourself Sick because you feel uncomfortably full?\n": "No",
+        "Do you worry you have lost Control over how much you eat?": "No",
+        "Have you recently lost more than One stone (14 pounds or 6.35 kg) in a 3 month period?": "No",
+        "Do you believe yourself to be Fat when others say you are too thin?": "No",
+        "Would you say that Food dominates your life?": "No"
+      },
+      "tool_summary": "SCOFF Score (Eating Disorder Screening): [0, Negative screen]"
+    },
+    {
+      "tool_id": "10104",
+      "tool_name": "Apfel Score for Postoperative Nausea and Vomiting",
+      "params": {
+        "Gender": "Male",
+        "Smoking status": "Nonsmoker",
+        "History of motion sickness or PONV": "No",
+        "Use of postoperative opioids": "Yes"
+      },
+      "tool_summary": "Mini Score: [2, 39% 24-hour risk of PONV]"
+    },
+    {
+      "tool_id": "10511",
+      "tool_name": "Ho Index",
+      "params": {
+        "Mean stool frequency, stools/24 hrs": "<=4",
+        "Colonic dilatation": "Absent",
+        "Hypoalbuminemia": "No"
+      },
+      "tool_summary": "Ho Index Result (Score): [0, Low risk of medical therapy failure]"
+    },
+    {
+      "tool_id": "10007",
+      "tool_name": "Embolic Stroke of Undetermined Source (ESUS) Criteria",
+      "params": {
+        "Non-lacunar ischemic stroke on CT or MRI": "No",
+        "Absence of atherosclerosis (extra- or intracranial) causing >=50% luminal stenosis in arteries supplying the ischemic area": "Yes",
+        "No major risk cardioembolic source": "No",
+        "No other specific cause of stroke identified": "Yes"
+      },
+      "tool_summary": "ESUS Criteria Result: [Negative, low risk of ESUS]"
+    },
+    {
+      "tool_id": "10327",
+      "tool_name": "Rome IV Diagnostic Criteria for Child Aerophagia",
+      "params": {
+        "Excessive air swallowing": "No",
+        "Abdominal distention due to intraluminal air which increases during the day": "No",
+        "Repetitive belching and/or increased flatus": "No",
+        "After appropriate evaluation, the symptoms cannot be fully explained by another medical condition": "Yes"
+      },
+      "tool_summary": "Mini Child Aerophagia Diagnostic Tool: [Negative, low risk for child aerophagia]; Rome IV Criteria for Child Aerophagia: [Negative, low risk for child aerophagia as per Rome IV criteria]"
+    },
+    {
+      "tool_id": "10145",
+      "tool_name": "Rapid Emergency Medicine Score (REMS)",
+      "params": {
+        "Age, years": "65-74",
+        "Mean arterial pressure, mmHg": "70-109",
+        "Heart rate, beats per minute": "70-109",
+        "Respiratory rate, breaths per minute": "12-24",
+        "Peripheral oxygen saturation": ">89%",
+        "Glasgow Coma Scale": ">13"
+      },
+      "tool_summary": "Mini Score: [5, 1% risk of in-hospital mortality], REMS Score: [5, unspecified risk level], Risk1: [1%, in-hospital mortality risk]"
+    },
+    {
+      "tool_id": "10025",
+      "tool_name": "Ocular Hypertension Treatment Study (OHTS) Calculator",
+      "params": {
+        "Age, years": "65-74",
+        "Mean intraocular pressure, mmHg": "<22",
+        "Mean central corneal thickness, µm": "551-575",
+        "Mean vertical cup-to-disc ratio by contour": "<0.3",
+        "Mean pattern standard deviation, dB": "<1.8"
+      },
+      "tool_summary": "OHTS Score: [5, ≤4.0% risk of developing primary open angle glaucoma]"
+    },
+    {
+      "tool_id": "3386",
+      "tool_name": "Risk Score for Asthma Exacerbation (RSE)",
+      "params": {
+        "BMI >=30 kg/m²": "No",
+        "Asthma Control Questionnaire-5 (ACQ-5) Score": "< 1.5",
+        "Postbronchodilator FEV1 (% Predicted normal value)": ">=90%",
+        "Rescue inhaler usage per day": "<2",
+        "Global Initiative for Asthma (GINA) treatment step 4 or higher": "No"
+      },
+      "tool_summary": "Risk Score for Asthma Exacerbation: [0 points, 5% likelihood of exacerbation within 6 months]"
+    }
+  ]
+}
